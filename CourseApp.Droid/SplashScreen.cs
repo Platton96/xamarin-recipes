@@ -16,6 +16,6 @@ namespace CourseApp.Droid
 	[Activity(MainLauncher = true)]
 	public class SplashScreen : MvxSplashScreenActivity
 	{
-		public SplashScreen() : base(Resource.Layout.activity_main) { }
+		public SplashScreen() : base(Resource.Layout.splash) { }
 	}
 }

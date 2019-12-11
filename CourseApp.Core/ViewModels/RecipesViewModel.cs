@@ -6,21 +6,21 @@ using System.Text;
 
 namespace CourseApp.Core.ViewModels
 {
-	public class RecipesViewModel : MvxViewModel<Dishes>
+	public class RecipesViewModel : MvxViewModel<DishesCategory>
 	{
-		Dishes _dishes;
-		public Dishes Dishes
-		{
-			get => _dishes;
+        private DishesCategory _dishesCategory;
+		public DishesCategory DishesCategory
+        {
+			get => _dishesCategory;
 			set
 			{
-				_dishes = value;
-				RaisePropertyChanged(() => Dishes);
+				_dishesCategory = value;
+				RaisePropertyChanged(() => DishesCategory);
 			}
 		}
-		public override void Prepare(Dishes parameter)
+		public override void Prepare(DishesCategory parameter)
 		{
-			_dishes = parameter;
+			_dishesCategory = parameter;
 		}
 	}
 }

@@ -6,14 +6,14 @@ using System.Text;
 
 namespace CourseApp.Core.Service
 {
-	public class RecipesLocalService
+	public class RecipesService
 	{
 
-		private RecipesLocalRepository _newsLocalRepository;
+		private RecipesRepository _newsLocalRepository;
 
-		public RecipesLocalService()
+		public RecipesService()
 		{
-			_newsLocalRepository = new RecipesLocalRepository(GetDbPath());
+			_newsLocalRepository = new RecipesRepository(GetDbPath());
 		}
 
 		public void Save(Dishes recipes)

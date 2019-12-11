@@ -54,11 +54,22 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Animation.abc_slide_in_top = global::CourseApp.Droid.Resource.Animation.abc_slide_in_top;
 			global::MvvmCross.Droid.Support.Design.Resource.Animation.abc_slide_out_bottom = global::CourseApp.Droid.Resource.Animation.abc_slide_out_bottom;
 			global::MvvmCross.Droid.Support.Design.Resource.Animation.abc_slide_out_top = global::CourseApp.Droid.Resource.Animation.abc_slide_out_top;
+			global::MvvmCross.Droid.Support.Design.Resource.Animation.abc_tooltip_enter = global::CourseApp.Droid.Resource.Animation.abc_tooltip_enter;
+			global::MvvmCross.Droid.Support.Design.Resource.Animation.abc_tooltip_exit = global::CourseApp.Droid.Resource.Animation.abc_tooltip_exit;
 			global::MvvmCross.Droid.Support.Design.Resource.Animation.design_bottom_sheet_slide_in = global::CourseApp.Droid.Resource.Animation.design_bottom_sheet_slide_in;
 			global::MvvmCross.Droid.Support.Design.Resource.Animation.design_bottom_sheet_slide_out = global::CourseApp.Droid.Resource.Animation.design_bottom_sheet_slide_out;
 			global::MvvmCross.Droid.Support.Design.Resource.Animation.design_snackbar_in = global::CourseApp.Droid.Resource.Animation.design_snackbar_in;
 			global::MvvmCross.Droid.Support.Design.Resource.Animation.design_snackbar_out = global::CourseApp.Droid.Resource.Animation.design_snackbar_out;
 			global::MvvmCross.Droid.Support.Design.Resource.Animator.design_appbar_state_list_animator = global::CourseApp.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::MvvmCross.Droid.Support.Design.Resource.Animator.design_fab_hide_motion_spec = global::CourseApp.Droid.Resource.Animator.design_fab_hide_motion_spec;
+			global::MvvmCross.Droid.Support.Design.Resource.Animator.design_fab_show_motion_spec = global::CourseApp.Droid.Resource.Animator.design_fab_show_motion_spec;
+			global::MvvmCross.Droid.Support.Design.Resource.Animator.mtrl_btn_state_list_anim = global::CourseApp.Droid.Resource.Animator.mtrl_btn_state_list_anim;
+			global::MvvmCross.Droid.Support.Design.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::CourseApp.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::MvvmCross.Droid.Support.Design.Resource.Animator.mtrl_chip_state_list_anim = global::CourseApp.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::MvvmCross.Droid.Support.Design.Resource.Animator.mtrl_fab_hide_motion_spec = global::CourseApp.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::MvvmCross.Droid.Support.Design.Resource.Animator.mtrl_fab_show_motion_spec = global::CourseApp.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::MvvmCross.Droid.Support.Design.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::CourseApp.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::MvvmCross.Droid.Support.Design.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::CourseApp.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.MvxBind = global::CourseApp.Droid.Resource.Attribute.MvxBind;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.MvxDropDownItemTemplate = global::CourseApp.Droid.Resource.Attribute.MvxDropDownItemTemplate;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.MvxGroupItemTemplate = global::CourseApp.Droid.Resource.Attribute.MvxGroupItemTemplate;
@@ -121,28 +132,76 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.backgroundTintMode = global::CourseApp.Droid.Resource.Attribute.backgroundTintMode;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.barLength = global::CourseApp.Droid.Resource.Attribute.barLength;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.behavior_autoHide = global::CourseApp.Droid.Resource.Attribute.behavior_autoHide;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.behavior_fitToContents = global::CourseApp.Droid.Resource.Attribute.behavior_fitToContents;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.behavior_hideable = global::CourseApp.Droid.Resource.Attribute.behavior_hideable;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.behavior_overlapTop = global::CourseApp.Droid.Resource.Attribute.behavior_overlapTop;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.behavior_peekHeight = global::CourseApp.Droid.Resource.Attribute.behavior_peekHeight;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.behavior_skipCollapsed = global::CourseApp.Droid.Resource.Attribute.behavior_skipCollapsed;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.borderWidth = global::CourseApp.Droid.Resource.Attribute.borderWidth;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.borderlessButtonStyle = global::CourseApp.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.bottomAppBarStyle = global::CourseApp.Droid.Resource.Attribute.bottomAppBarStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.bottomNavigationStyle = global::CourseApp.Droid.Resource.Attribute.bottomNavigationStyle;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.bottomSheetDialogTheme = global::CourseApp.Droid.Resource.Attribute.bottomSheetDialogTheme;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.bottomSheetStyle = global::CourseApp.Droid.Resource.Attribute.bottomSheetStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.boxBackgroundColor = global::CourseApp.Droid.Resource.Attribute.boxBackgroundColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.boxBackgroundMode = global::CourseApp.Droid.Resource.Attribute.boxBackgroundMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.boxCollapsedPaddingTop = global::CourseApp.Droid.Resource.Attribute.boxCollapsedPaddingTop;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.boxCornerRadiusBottomEnd = global::CourseApp.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.boxCornerRadiusBottomStart = global::CourseApp.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.boxCornerRadiusTopEnd = global::CourseApp.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.boxCornerRadiusTopStart = global::CourseApp.Droid.Resource.Attribute.boxCornerRadiusTopStart;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.boxStrokeColor = global::CourseApp.Droid.Resource.Attribute.boxStrokeColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.boxStrokeWidth = global::CourseApp.Droid.Resource.Attribute.boxStrokeWidth;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.buttonBarButtonStyle = global::CourseApp.Droid.Resource.Attribute.buttonBarButtonStyle;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.buttonBarNegativeButtonStyle = global::CourseApp.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.buttonBarNeutralButtonStyle = global::CourseApp.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.buttonBarPositiveButtonStyle = global::CourseApp.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.buttonBarStyle = global::CourseApp.Droid.Resource.Attribute.buttonBarStyle;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.buttonGravity = global::CourseApp.Droid.Resource.Attribute.buttonGravity;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.buttonIconDimen = global::CourseApp.Droid.Resource.Attribute.buttonIconDimen;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.buttonPanelSideLayout = global::CourseApp.Droid.Resource.Attribute.buttonPanelSideLayout;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.buttonStyle = global::CourseApp.Droid.Resource.Attribute.buttonStyle;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.buttonStyleSmall = global::CourseApp.Droid.Resource.Attribute.buttonStyleSmall;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.buttonTint = global::CourseApp.Droid.Resource.Attribute.buttonTint;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.buttonTintMode = global::CourseApp.Droid.Resource.Attribute.buttonTintMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.cardBackgroundColor = global::CourseApp.Droid.Resource.Attribute.cardBackgroundColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.cardCornerRadius = global::CourseApp.Droid.Resource.Attribute.cardCornerRadius;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.cardElevation = global::CourseApp.Droid.Resource.Attribute.cardElevation;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.cardMaxElevation = global::CourseApp.Droid.Resource.Attribute.cardMaxElevation;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.cardPreventCornerOverlap = global::CourseApp.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.cardUseCompatPadding = global::CourseApp.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.cardViewStyle = global::CourseApp.Droid.Resource.Attribute.cardViewStyle;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.checkboxStyle = global::CourseApp.Droid.Resource.Attribute.checkboxStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.checkedChip = global::CourseApp.Droid.Resource.Attribute.checkedChip;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.checkedIcon = global::CourseApp.Droid.Resource.Attribute.checkedIcon;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.checkedIconEnabled = global::CourseApp.Droid.Resource.Attribute.checkedIconEnabled;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.checkedIconVisible = global::CourseApp.Droid.Resource.Attribute.checkedIconVisible;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.checkedTextViewStyle = global::CourseApp.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.chipBackgroundColor = global::CourseApp.Droid.Resource.Attribute.chipBackgroundColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.chipCornerRadius = global::CourseApp.Droid.Resource.Attribute.chipCornerRadius;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.chipEndPadding = global::CourseApp.Droid.Resource.Attribute.chipEndPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.chipGroupStyle = global::CourseApp.Droid.Resource.Attribute.chipGroupStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.chipIcon = global::CourseApp.Droid.Resource.Attribute.chipIcon;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.chipIconEnabled = global::CourseApp.Droid.Resource.Attribute.chipIconEnabled;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.chipIconSize = global::CourseApp.Droid.Resource.Attribute.chipIconSize;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.chipIconTint = global::CourseApp.Droid.Resource.Attribute.chipIconTint;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.chipIconVisible = global::CourseApp.Droid.Resource.Attribute.chipIconVisible;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.chipMinHeight = global::CourseApp.Droid.Resource.Attribute.chipMinHeight;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.chipSpacing = global::CourseApp.Droid.Resource.Attribute.chipSpacing;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.chipSpacingHorizontal = global::CourseApp.Droid.Resource.Attribute.chipSpacingHorizontal;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.chipSpacingVertical = global::CourseApp.Droid.Resource.Attribute.chipSpacingVertical;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.chipStandaloneStyle = global::CourseApp.Droid.Resource.Attribute.chipStandaloneStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.chipStartPadding = global::CourseApp.Droid.Resource.Attribute.chipStartPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.chipStrokeColor = global::CourseApp.Droid.Resource.Attribute.chipStrokeColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.chipStrokeWidth = global::CourseApp.Droid.Resource.Attribute.chipStrokeWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.chipStyle = global::CourseApp.Droid.Resource.Attribute.chipStyle;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.closeIcon = global::CourseApp.Droid.Resource.Attribute.closeIcon;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.closeIconEnabled = global::CourseApp.Droid.Resource.Attribute.closeIconEnabled;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.closeIconEndPadding = global::CourseApp.Droid.Resource.Attribute.closeIconEndPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.closeIconSize = global::CourseApp.Droid.Resource.Attribute.closeIconSize;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.closeIconStartPadding = global::CourseApp.Droid.Resource.Attribute.closeIconStartPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.closeIconTint = global::CourseApp.Droid.Resource.Attribute.closeIconTint;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.closeIconVisible = global::CourseApp.Droid.Resource.Attribute.closeIconVisible;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.closeItemLayout = global::CourseApp.Droid.Resource.Attribute.closeItemLayout;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.collapseContentDescription = global::CourseApp.Droid.Resource.Attribute.collapseContentDescription;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.collapseIcon = global::CourseApp.Droid.Resource.Attribute.collapseIcon;
@@ -158,6 +217,7 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.colorError = global::CourseApp.Droid.Resource.Attribute.colorError;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.colorPrimary = global::CourseApp.Droid.Resource.Attribute.colorPrimary;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.colorPrimaryDark = global::CourseApp.Droid.Resource.Attribute.colorPrimaryDark;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.colorSecondary = global::CourseApp.Droid.Resource.Attribute.colorSecondary;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.colorSwitchThumbNormal = global::CourseApp.Droid.Resource.Attribute.colorSwitchThumbNormal;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.commitIcon = global::CourseApp.Droid.Resource.Attribute.commitIcon;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.contentDescription = global::CourseApp.Droid.Resource.Attribute.contentDescription;
@@ -167,14 +227,22 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.contentInsetRight = global::CourseApp.Droid.Resource.Attribute.contentInsetRight;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.contentInsetStart = global::CourseApp.Droid.Resource.Attribute.contentInsetStart;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.contentInsetStartWithNavigation = global::CourseApp.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.contentPadding = global::CourseApp.Droid.Resource.Attribute.contentPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.contentPaddingBottom = global::CourseApp.Droid.Resource.Attribute.contentPaddingBottom;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.contentPaddingLeft = global::CourseApp.Droid.Resource.Attribute.contentPaddingLeft;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.contentPaddingRight = global::CourseApp.Droid.Resource.Attribute.contentPaddingRight;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.contentPaddingTop = global::CourseApp.Droid.Resource.Attribute.contentPaddingTop;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.contentScrim = global::CourseApp.Droid.Resource.Attribute.contentScrim;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.controlBackground = global::CourseApp.Droid.Resource.Attribute.controlBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.coordinatorLayoutStyle = global::CourseApp.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.cornerRadius = global::CourseApp.Droid.Resource.Attribute.cornerRadius;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.counterEnabled = global::CourseApp.Droid.Resource.Attribute.counterEnabled;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.counterMaxLength = global::CourseApp.Droid.Resource.Attribute.counterMaxLength;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.counterOverflowTextAppearance = global::CourseApp.Droid.Resource.Attribute.counterOverflowTextAppearance;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.counterTextAppearance = global::CourseApp.Droid.Resource.Attribute.counterTextAppearance;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.customNavigationLayout = global::CourseApp.Droid.Resource.Attribute.customNavigationLayout;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.defaultQueryHint = global::CourseApp.Droid.Resource.Attribute.defaultQueryHint;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.dialogCornerRadius = global::CourseApp.Droid.Resource.Attribute.dialogCornerRadius;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.dialogPreferredPadding = global::CourseApp.Droid.Resource.Attribute.dialogPreferredPadding;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.dialogTheme = global::CourseApp.Droid.Resource.Attribute.dialogTheme;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.displayOptions = global::CourseApp.Droid.Resource.Attribute.displayOptions;
@@ -190,6 +258,8 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.editTextColor = global::CourseApp.Droid.Resource.Attribute.editTextColor;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.editTextStyle = global::CourseApp.Droid.Resource.Attribute.editTextStyle;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.elevation = global::CourseApp.Droid.Resource.Attribute.elevation;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.enforceMaterialTheme = global::CourseApp.Droid.Resource.Attribute.enforceMaterialTheme;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.enforceTextAppearance = global::CourseApp.Droid.Resource.Attribute.enforceTextAppearance;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.errorEnabled = global::CourseApp.Droid.Resource.Attribute.errorEnabled;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.errorTextAppearance = global::CourseApp.Droid.Resource.Attribute.errorTextAppearance;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.expandActivityOverflowButtonDrawable = global::CourseApp.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
@@ -201,12 +271,19 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.expandedTitleMarginStart = global::CourseApp.Droid.Resource.Attribute.expandedTitleMarginStart;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.expandedTitleMarginTop = global::CourseApp.Droid.Resource.Attribute.expandedTitleMarginTop;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.expandedTitleTextAppearance = global::CourseApp.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.fabAlignmentMode = global::CourseApp.Droid.Resource.Attribute.fabAlignmentMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.fabCradleMargin = global::CourseApp.Droid.Resource.Attribute.fabCradleMargin;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.fabCradleRoundedCornerRadius = global::CourseApp.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.fabCradleVerticalOffset = global::CourseApp.Droid.Resource.Attribute.fabCradleVerticalOffset;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.fabCustomSize = global::CourseApp.Droid.Resource.Attribute.fabCustomSize;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.fabSize = global::CourseApp.Droid.Resource.Attribute.fabSize;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.fastScrollEnabled = global::CourseApp.Droid.Resource.Attribute.fastScrollEnabled;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::CourseApp.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::CourseApp.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.fastScrollVerticalThumbDrawable = global::CourseApp.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.fastScrollVerticalTrackDrawable = global::CourseApp.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.firstBaselineToTopHeight = global::CourseApp.Droid.Resource.Attribute.firstBaselineToTopHeight;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.floatingActionButtonStyle = global::CourseApp.Droid.Resource.Attribute.floatingActionButtonStyle;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.font = global::CourseApp.Droid.Resource.Attribute.font;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.fontFamily = global::CourseApp.Droid.Resource.Attribute.fontFamily;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.fontProviderAuthority = global::CourseApp.Droid.Resource.Attribute.fontProviderAuthority;
@@ -216,19 +293,31 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.fontProviderPackage = global::CourseApp.Droid.Resource.Attribute.fontProviderPackage;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.fontProviderQuery = global::CourseApp.Droid.Resource.Attribute.fontProviderQuery;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.fontStyle = global::CourseApp.Droid.Resource.Attribute.fontStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.fontVariationSettings = global::CourseApp.Droid.Resource.Attribute.fontVariationSettings;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.fontWeight = global::CourseApp.Droid.Resource.Attribute.fontWeight;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.foregroundInsidePadding = global::CourseApp.Droid.Resource.Attribute.foregroundInsidePadding;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.gapBetweenBars = global::CourseApp.Droid.Resource.Attribute.gapBetweenBars;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.goIcon = global::CourseApp.Droid.Resource.Attribute.goIcon;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.headerLayout = global::CourseApp.Droid.Resource.Attribute.headerLayout;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.height = global::CourseApp.Droid.Resource.Attribute.height;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.helperText = global::CourseApp.Droid.Resource.Attribute.helperText;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.helperTextEnabled = global::CourseApp.Droid.Resource.Attribute.helperTextEnabled;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.helperTextTextAppearance = global::CourseApp.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.hideMotionSpec = global::CourseApp.Droid.Resource.Attribute.hideMotionSpec;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.hideOnContentScroll = global::CourseApp.Droid.Resource.Attribute.hideOnContentScroll;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.hideOnScroll = global::CourseApp.Droid.Resource.Attribute.hideOnScroll;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.hintAnimationEnabled = global::CourseApp.Droid.Resource.Attribute.hintAnimationEnabled;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.hintEnabled = global::CourseApp.Droid.Resource.Attribute.hintEnabled;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.hintTextAppearance = global::CourseApp.Droid.Resource.Attribute.hintTextAppearance;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.homeAsUpIndicator = global::CourseApp.Droid.Resource.Attribute.homeAsUpIndicator;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.homeLayout = global::CourseApp.Droid.Resource.Attribute.homeLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.hoveredFocusedTranslationZ = global::CourseApp.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.icon = global::CourseApp.Droid.Resource.Attribute.icon;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.iconEndPadding = global::CourseApp.Droid.Resource.Attribute.iconEndPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.iconGravity = global::CourseApp.Droid.Resource.Attribute.iconGravity;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.iconPadding = global::CourseApp.Droid.Resource.Attribute.iconPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.iconSize = global::CourseApp.Droid.Resource.Attribute.iconSize;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.iconStartPadding = global::CourseApp.Droid.Resource.Attribute.iconStartPadding;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.iconTint = global::CourseApp.Droid.Resource.Attribute.iconTint;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.iconTintMode = global::CourseApp.Droid.Resource.Attribute.iconTintMode;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.iconifiedByDefault = global::CourseApp.Droid.Resource.Attribute.iconifiedByDefault;
@@ -238,11 +327,20 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.insetForeground = global::CourseApp.Droid.Resource.Attribute.insetForeground;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.isLightTheme = global::CourseApp.Droid.Resource.Attribute.isLightTheme;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.itemBackground = global::CourseApp.Droid.Resource.Attribute.itemBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.itemHorizontalPadding = global::CourseApp.Droid.Resource.Attribute.itemHorizontalPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.itemHorizontalTranslationEnabled = global::CourseApp.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.itemIconPadding = global::CourseApp.Droid.Resource.Attribute.itemIconPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.itemIconSize = global::CourseApp.Droid.Resource.Attribute.itemIconSize;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.itemIconTint = global::CourseApp.Droid.Resource.Attribute.itemIconTint;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.itemPadding = global::CourseApp.Droid.Resource.Attribute.itemPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.itemSpacing = global::CourseApp.Droid.Resource.Attribute.itemSpacing;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.itemTextAppearance = global::CourseApp.Droid.Resource.Attribute.itemTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.itemTextAppearanceActive = global::CourseApp.Droid.Resource.Attribute.itemTextAppearanceActive;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.itemTextAppearanceInactive = global::CourseApp.Droid.Resource.Attribute.itemTextAppearanceInactive;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.itemTextColor = global::CourseApp.Droid.Resource.Attribute.itemTextColor;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.keylines = global::CourseApp.Droid.Resource.Attribute.keylines;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.labelVisibilityMode = global::CourseApp.Droid.Resource.Attribute.labelVisibilityMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.lastBaselineToBottomHeight = global::CourseApp.Droid.Resource.Attribute.lastBaselineToBottomHeight;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.layout = global::CourseApp.Droid.Resource.Attribute.layout;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.layoutManager = global::CourseApp.Droid.Resource.Attribute.layoutManager;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.layout_anchor = global::CourseApp.Droid.Resource.Attribute.layout_anchor;
@@ -255,6 +353,9 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.layout_keyline = global::CourseApp.Droid.Resource.Attribute.layout_keyline;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.layout_scrollFlags = global::CourseApp.Droid.Resource.Attribute.layout_scrollFlags;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.layout_scrollInterpolator = global::CourseApp.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.liftOnScroll = global::CourseApp.Droid.Resource.Attribute.liftOnScroll;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.lineHeight = global::CourseApp.Droid.Resource.Attribute.lineHeight;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.lineSpacing = global::CourseApp.Droid.Resource.Attribute.lineSpacing;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.listChoiceBackgroundIndicator = global::CourseApp.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.listDividerAlertDialog = global::CourseApp.Droid.Resource.Attribute.listDividerAlertDialog;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.listItemLayout = global::CourseApp.Droid.Resource.Attribute.listItemLayout;
@@ -268,14 +369,18 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.listPreferredItemPaddingRight = global::CourseApp.Droid.Resource.Attribute.listPreferredItemPaddingRight;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.logo = global::CourseApp.Droid.Resource.Attribute.logo;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.logoDescription = global::CourseApp.Droid.Resource.Attribute.logoDescription;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.materialButtonStyle = global::CourseApp.Droid.Resource.Attribute.materialButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.materialCardViewStyle = global::CourseApp.Droid.Resource.Attribute.materialCardViewStyle;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.maxActionInlineWidth = global::CourseApp.Droid.Resource.Attribute.maxActionInlineWidth;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.maxButtonHeight = global::CourseApp.Droid.Resource.Attribute.maxButtonHeight;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.maxImageSize = global::CourseApp.Droid.Resource.Attribute.maxImageSize;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.measureWithLargestChild = global::CourseApp.Droid.Resource.Attribute.measureWithLargestChild;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.menu = global::CourseApp.Droid.Resource.Attribute.menu;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.multiChoiceItemLayout = global::CourseApp.Droid.Resource.Attribute.multiChoiceItemLayout;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.navigationContentDescription = global::CourseApp.Droid.Resource.Attribute.navigationContentDescription;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.navigationIcon = global::CourseApp.Droid.Resource.Attribute.navigationIcon;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.navigationMode = global::CourseApp.Droid.Resource.Attribute.navigationMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.navigationViewStyle = global::CourseApp.Droid.Resource.Attribute.navigationViewStyle;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.numericModifiers = global::CourseApp.Droid.Resource.Attribute.numericModifiers;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.overlapAnchor = global::CourseApp.Droid.Resource.Attribute.overlapAnchor;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.paddingBottomNoButtons = global::CourseApp.Droid.Resource.Attribute.paddingBottomNoButtons;
@@ -306,6 +411,7 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.reverseLayout = global::CourseApp.Droid.Resource.Attribute.reverseLayout;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.rippleColor = global::CourseApp.Droid.Resource.Attribute.rippleColor;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.scrimAnimationDuration = global::CourseApp.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.scrimBackground = global::CourseApp.Droid.Resource.Attribute.scrimBackground;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.scrimVisibleHeightTrigger = global::CourseApp.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.searchHintIcon = global::CourseApp.Droid.Resource.Attribute.searchHintIcon;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.searchIcon = global::CourseApp.Droid.Resource.Attribute.searchIcon;
@@ -315,9 +421,14 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.selectableItemBackgroundBorderless = global::CourseApp.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.showAsAction = global::CourseApp.Droid.Resource.Attribute.showAsAction;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.showDividers = global::CourseApp.Droid.Resource.Attribute.showDividers;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.showMotionSpec = global::CourseApp.Droid.Resource.Attribute.showMotionSpec;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.showText = global::CourseApp.Droid.Resource.Attribute.showText;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.showTitle = global::CourseApp.Droid.Resource.Attribute.showTitle;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.singleChoiceItemLayout = global::CourseApp.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.singleLine = global::CourseApp.Droid.Resource.Attribute.singleLine;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.singleSelection = global::CourseApp.Droid.Resource.Attribute.singleSelection;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.snackbarButtonStyle = global::CourseApp.Droid.Resource.Attribute.snackbarButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.snackbarStyle = global::CourseApp.Droid.Resource.Attribute.snackbarStyle;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.spanCount = global::CourseApp.Droid.Resource.Attribute.spanCount;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.spinBars = global::CourseApp.Droid.Resource.Attribute.spinBars;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.spinnerDropDownItemStyle = global::CourseApp.Droid.Resource.Attribute.spinnerDropDownItemStyle;
@@ -328,8 +439,12 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.state_above_anchor = global::CourseApp.Droid.Resource.Attribute.state_above_anchor;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.state_collapsed = global::CourseApp.Droid.Resource.Attribute.state_collapsed;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.state_collapsible = global::CourseApp.Droid.Resource.Attribute.state_collapsible;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.state_liftable = global::CourseApp.Droid.Resource.Attribute.state_liftable;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.state_lifted = global::CourseApp.Droid.Resource.Attribute.state_lifted;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.statusBarBackground = global::CourseApp.Droid.Resource.Attribute.statusBarBackground;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.statusBarScrim = global::CourseApp.Droid.Resource.Attribute.statusBarScrim;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.strokeColor = global::CourseApp.Droid.Resource.Attribute.strokeColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.strokeWidth = global::CourseApp.Droid.Resource.Attribute.strokeWidth;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.subMenuArrow = global::CourseApp.Droid.Resource.Attribute.subMenuArrow;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.submitBackground = global::CourseApp.Droid.Resource.Attribute.submitBackground;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.subtitle = global::CourseApp.Droid.Resource.Attribute.subtitle;
@@ -344,8 +459,15 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabBackground = global::CourseApp.Droid.Resource.Attribute.tabBackground;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabContentStart = global::CourseApp.Droid.Resource.Attribute.tabContentStart;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabGravity = global::CourseApp.Droid.Resource.Attribute.tabGravity;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabIconTint = global::CourseApp.Droid.Resource.Attribute.tabIconTint;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabIconTintMode = global::CourseApp.Droid.Resource.Attribute.tabIconTintMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabIndicator = global::CourseApp.Droid.Resource.Attribute.tabIndicator;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabIndicatorAnimationDuration = global::CourseApp.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabIndicatorColor = global::CourseApp.Droid.Resource.Attribute.tabIndicatorColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabIndicatorFullWidth = global::CourseApp.Droid.Resource.Attribute.tabIndicatorFullWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabIndicatorGravity = global::CourseApp.Droid.Resource.Attribute.tabIndicatorGravity;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabIndicatorHeight = global::CourseApp.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabInlineLabel = global::CourseApp.Droid.Resource.Attribute.tabInlineLabel;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabMaxWidth = global::CourseApp.Droid.Resource.Attribute.tabMaxWidth;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabMinWidth = global::CourseApp.Droid.Resource.Attribute.tabMinWidth;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabMode = global::CourseApp.Droid.Resource.Attribute.tabMode;
@@ -354,20 +476,39 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabPaddingEnd = global::CourseApp.Droid.Resource.Attribute.tabPaddingEnd;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabPaddingStart = global::CourseApp.Droid.Resource.Attribute.tabPaddingStart;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabPaddingTop = global::CourseApp.Droid.Resource.Attribute.tabPaddingTop;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabRippleColor = global::CourseApp.Droid.Resource.Attribute.tabRippleColor;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabSelectedTextColor = global::CourseApp.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabStyle = global::CourseApp.Droid.Resource.Attribute.tabStyle;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabTextAppearance = global::CourseApp.Droid.Resource.Attribute.tabTextAppearance;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabTextColor = global::CourseApp.Droid.Resource.Attribute.tabTextColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabUnboundedRipple = global::CourseApp.Droid.Resource.Attribute.tabUnboundedRipple;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textAllCaps = global::CourseApp.Droid.Resource.Attribute.textAllCaps;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textAppearanceBody1 = global::CourseApp.Droid.Resource.Attribute.textAppearanceBody1;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textAppearanceBody2 = global::CourseApp.Droid.Resource.Attribute.textAppearanceBody2;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textAppearanceButton = global::CourseApp.Droid.Resource.Attribute.textAppearanceButton;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textAppearanceCaption = global::CourseApp.Droid.Resource.Attribute.textAppearanceCaption;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textAppearanceHeadline1 = global::CourseApp.Droid.Resource.Attribute.textAppearanceHeadline1;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textAppearanceHeadline2 = global::CourseApp.Droid.Resource.Attribute.textAppearanceHeadline2;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textAppearanceHeadline3 = global::CourseApp.Droid.Resource.Attribute.textAppearanceHeadline3;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textAppearanceHeadline4 = global::CourseApp.Droid.Resource.Attribute.textAppearanceHeadline4;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textAppearanceHeadline5 = global::CourseApp.Droid.Resource.Attribute.textAppearanceHeadline5;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textAppearanceHeadline6 = global::CourseApp.Droid.Resource.Attribute.textAppearanceHeadline6;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textAppearanceLargePopupMenu = global::CourseApp.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textAppearanceListItem = global::CourseApp.Droid.Resource.Attribute.textAppearanceListItem;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textAppearanceListItemSecondary = global::CourseApp.Droid.Resource.Attribute.textAppearanceListItemSecondary;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textAppearanceListItemSmall = global::CourseApp.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textAppearanceOverline = global::CourseApp.Droid.Resource.Attribute.textAppearanceOverline;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textAppearancePopupMenuHeader = global::CourseApp.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textAppearanceSearchResultSubtitle = global::CourseApp.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textAppearanceSearchResultTitle = global::CourseApp.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textAppearanceSmallPopupMenu = global::CourseApp.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textAppearanceSubtitle1 = global::CourseApp.Droid.Resource.Attribute.textAppearanceSubtitle1;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textAppearanceSubtitle2 = global::CourseApp.Droid.Resource.Attribute.textAppearanceSubtitle2;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textColorAlertDialogListItem = global::CourseApp.Droid.Resource.Attribute.textColorAlertDialogListItem;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textColorSearchUrl = global::CourseApp.Droid.Resource.Attribute.textColorSearchUrl;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textEndPadding = global::CourseApp.Droid.Resource.Attribute.textEndPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textInputStyle = global::CourseApp.Droid.Resource.Attribute.textInputStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textStartPadding = global::CourseApp.Droid.Resource.Attribute.textStartPadding;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.theme = global::CourseApp.Droid.Resource.Attribute.theme;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.thickness = global::CourseApp.Droid.Resource.Attribute.thickness;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.thumbTextPadding = global::CourseApp.Droid.Resource.Attribute.thumbTextPadding;
@@ -398,7 +539,9 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.track = global::CourseApp.Droid.Resource.Attribute.track;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.trackTint = global::CourseApp.Droid.Resource.Attribute.trackTint;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.trackTintMode = global::CourseApp.Droid.Resource.Attribute.trackTintMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.ttcIndex = global::CourseApp.Droid.Resource.Attribute.ttcIndex;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.useCompatPadding = global::CourseApp.Droid.Resource.Attribute.useCompatPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.viewInflaterClass = global::CourseApp.Droid.Resource.Attribute.viewInflaterClass;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.voiceIcon = global::CourseApp.Droid.Resource.Attribute.voiceIcon;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.windowActionBar = global::CourseApp.Droid.Resource.Attribute.windowActionBar;
 			global::MvvmCross.Droid.Support.Design.Resource.Attribute.windowActionBarOverlay = global::CourseApp.Droid.Resource.Attribute.windowActionBarOverlay;
@@ -413,6 +556,7 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Boolean.abc_action_bar_embed_tabs = global::CourseApp.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
 			global::MvvmCross.Droid.Support.Design.Resource.Boolean.abc_allow_stacked_button_bar = global::CourseApp.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
 			global::MvvmCross.Droid.Support.Design.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::CourseApp.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::MvvmCross.Droid.Support.Design.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::CourseApp.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
 			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_background_cache_hint_selector_material_dark = global::CourseApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
 			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_background_cache_hint_selector_material_light = global::CourseApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
 			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_btn_colored_borderless_text_material = global::CourseApp.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
@@ -451,7 +595,13 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Color.bright_foreground_material_light = global::CourseApp.Droid.Resource.Color.bright_foreground_material_light;
 			global::MvvmCross.Droid.Support.Design.Resource.Color.button_material_dark = global::CourseApp.Droid.Resource.Color.button_material_dark;
 			global::MvvmCross.Droid.Support.Design.Resource.Color.button_material_light = global::CourseApp.Droid.Resource.Color.button_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.cardview_dark_background = global::CourseApp.Droid.Resource.Color.cardview_dark_background;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.cardview_light_background = global::CourseApp.Droid.Resource.Color.cardview_light_background;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.cardview_shadow_end_color = global::CourseApp.Droid.Resource.Color.cardview_shadow_end_color;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.cardview_shadow_start_color = global::CourseApp.Droid.Resource.Color.cardview_shadow_start_color;
 			global::MvvmCross.Droid.Support.Design.Resource.Color.design_bottom_navigation_shadow_color = global::CourseApp.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.design_default_color_primary = global::CourseApp.Droid.Resource.Color.design_default_color_primary;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.design_default_color_primary_dark = global::CourseApp.Droid.Resource.Color.design_default_color_primary_dark;
 			global::MvvmCross.Droid.Support.Design.Resource.Color.design_error = global::CourseApp.Droid.Resource.Color.design_error;
 			global::MvvmCross.Droid.Support.Design.Resource.Color.design_fab_shadow_end_color = global::CourseApp.Droid.Resource.Color.design_fab_shadow_end_color;
 			global::MvvmCross.Droid.Support.Design.Resource.Color.design_fab_shadow_mid_color = global::CourseApp.Droid.Resource.Color.design_fab_shadow_mid_color;
@@ -466,6 +616,8 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Color.dim_foreground_disabled_material_light = global::CourseApp.Droid.Resource.Color.dim_foreground_disabled_material_light;
 			global::MvvmCross.Droid.Support.Design.Resource.Color.dim_foreground_material_dark = global::CourseApp.Droid.Resource.Color.dim_foreground_material_dark;
 			global::MvvmCross.Droid.Support.Design.Resource.Color.dim_foreground_material_light = global::CourseApp.Droid.Resource.Color.dim_foreground_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.error_color_material_dark = global::CourseApp.Droid.Resource.Color.error_color_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.error_color_material_light = global::CourseApp.Droid.Resource.Color.error_color_material_light;
 			global::MvvmCross.Droid.Support.Design.Resource.Color.foreground_material_dark = global::CourseApp.Droid.Resource.Color.foreground_material_dark;
 			global::MvvmCross.Droid.Support.Design.Resource.Color.foreground_material_light = global::CourseApp.Droid.Resource.Color.foreground_material_light;
 			global::MvvmCross.Droid.Support.Design.Resource.Color.highlighted_text_material_dark = global::CourseApp.Droid.Resource.Color.highlighted_text_material_dark;
@@ -482,6 +634,32 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Color.material_grey_800 = global::CourseApp.Droid.Resource.Color.material_grey_800;
 			global::MvvmCross.Droid.Support.Design.Resource.Color.material_grey_850 = global::CourseApp.Droid.Resource.Color.material_grey_850;
 			global::MvvmCross.Droid.Support.Design.Resource.Color.material_grey_900 = global::CourseApp.Droid.Resource.Color.material_grey_900;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::CourseApp.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.mtrl_bottom_nav_item_tint = global::CourseApp.Droid.Resource.Color.mtrl_bottom_nav_item_tint;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.mtrl_btn_bg_color_disabled = global::CourseApp.Droid.Resource.Color.mtrl_btn_bg_color_disabled;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.mtrl_btn_bg_color_selector = global::CourseApp.Droid.Resource.Color.mtrl_btn_bg_color_selector;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.mtrl_btn_ripple_color = global::CourseApp.Droid.Resource.Color.mtrl_btn_ripple_color;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.mtrl_btn_stroke_color_selector = global::CourseApp.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.mtrl_btn_text_btn_ripple_color = global::CourseApp.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.mtrl_btn_text_color_disabled = global::CourseApp.Droid.Resource.Color.mtrl_btn_text_color_disabled;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.mtrl_btn_text_color_selector = global::CourseApp.Droid.Resource.Color.mtrl_btn_text_color_selector;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.mtrl_btn_transparent_bg_color = global::CourseApp.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.mtrl_chip_background_color = global::CourseApp.Droid.Resource.Color.mtrl_chip_background_color;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.mtrl_chip_close_icon_tint = global::CourseApp.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.mtrl_chip_ripple_color = global::CourseApp.Droid.Resource.Color.mtrl_chip_ripple_color;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.mtrl_chip_text_color = global::CourseApp.Droid.Resource.Color.mtrl_chip_text_color;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.mtrl_fab_ripple_color = global::CourseApp.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.mtrl_scrim_color = global::CourseApp.Droid.Resource.Color.mtrl_scrim_color;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.mtrl_tabs_colored_ripple_color = global::CourseApp.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.mtrl_tabs_icon_color_selector = global::CourseApp.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::CourseApp.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::CourseApp.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.mtrl_tabs_ripple_color = global::CourseApp.Droid.Resource.Color.mtrl_tabs_ripple_color;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.mtrl_text_btn_text_color_selector = global::CourseApp.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.mtrl_textinput_default_box_stroke_color = global::CourseApp.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.mtrl_textinput_disabled_color = global::CourseApp.Droid.Resource.Color.mtrl_textinput_disabled_color;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::CourseApp.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::CourseApp.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
 			global::MvvmCross.Droid.Support.Design.Resource.Color.notification_action_color_filter = global::CourseApp.Droid.Resource.Color.notification_action_color_filter;
 			global::MvvmCross.Droid.Support.Design.Resource.Color.notification_icon_bg_color = global::CourseApp.Droid.Resource.Color.notification_icon_bg_color;
 			global::MvvmCross.Droid.Support.Design.Resource.Color.primary_dark_material_dark = global::CourseApp.Droid.Resource.Color.primary_dark_material_dark;
@@ -523,6 +701,7 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_action_button_min_width_material = global::CourseApp.Droid.Resource.Dimension.abc_action_button_min_width_material;
 			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_action_button_min_width_overflow_material = global::CourseApp.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
 			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_alert_dialog_button_bar_height = global::CourseApp.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_alert_dialog_button_dimen = global::CourseApp.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
 			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_button_inset_horizontal_material = global::CourseApp.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
 			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_button_inset_vertical_material = global::CourseApp.Droid.Resource.Dimension.abc_button_inset_vertical_material;
 			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_button_padding_horizontal_material = global::CourseApp.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
@@ -532,6 +711,7 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_control_corner_material = global::CourseApp.Droid.Resource.Dimension.abc_control_corner_material;
 			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_control_inset_material = global::CourseApp.Droid.Resource.Dimension.abc_control_inset_material;
 			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_control_padding_material = global::CourseApp.Droid.Resource.Dimension.abc_control_padding_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_dialog_corner_radius_material = global::CourseApp.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
 			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_dialog_fixed_height_major = global::CourseApp.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
 			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_dialog_fixed_height_minor = global::CourseApp.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
 			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_dialog_fixed_width_major = global::CourseApp.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
@@ -579,16 +759,23 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::CourseApp.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
 			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_title_material = global::CourseApp.Droid.Resource.Dimension.abc_text_size_title_material;
 			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_title_material_toolbar = global::CourseApp.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.cardview_compat_inset_shadow = global::CourseApp.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.cardview_default_elevation = global::CourseApp.Droid.Resource.Dimension.cardview_default_elevation;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.cardview_default_radius = global::CourseApp.Droid.Resource.Dimension.cardview_default_radius;
 			global::MvvmCross.Droid.Support.Design.Resource.Dimension.compat_button_inset_horizontal_material = global::CourseApp.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
 			global::MvvmCross.Droid.Support.Design.Resource.Dimension.compat_button_inset_vertical_material = global::CourseApp.Droid.Resource.Dimension.compat_button_inset_vertical_material;
 			global::MvvmCross.Droid.Support.Design.Resource.Dimension.compat_button_padding_horizontal_material = global::CourseApp.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
 			global::MvvmCross.Droid.Support.Design.Resource.Dimension.compat_button_padding_vertical_material = global::CourseApp.Droid.Resource.Dimension.compat_button_padding_vertical_material;
 			global::MvvmCross.Droid.Support.Design.Resource.Dimension.compat_control_corner_material = global::CourseApp.Droid.Resource.Dimension.compat_control_corner_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.compat_notification_large_icon_max_height = global::CourseApp.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.compat_notification_large_icon_max_width = global::CourseApp.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
 			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_appbar_elevation = global::CourseApp.Droid.Resource.Dimension.design_appbar_elevation;
 			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::CourseApp.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::CourseApp.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
 			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_bottom_navigation_active_text_size = global::CourseApp.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
 			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_bottom_navigation_elevation = global::CourseApp.Droid.Resource.Dimension.design_bottom_navigation_elevation;
 			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_bottom_navigation_height = global::CourseApp.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_bottom_navigation_icon_size = global::CourseApp.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
 			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_bottom_navigation_item_max_width = global::CourseApp.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
 			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_bottom_navigation_item_min_width = global::CourseApp.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
 			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_bottom_navigation_margin = global::CourseApp.Droid.Resource.Dimension.design_bottom_navigation_margin;
@@ -601,10 +788,13 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_fab_image_size = global::CourseApp.Droid.Resource.Dimension.design_fab_image_size;
 			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_fab_size_mini = global::CourseApp.Droid.Resource.Dimension.design_fab_size_mini;
 			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_fab_size_normal = global::CourseApp.Droid.Resource.Dimension.design_fab_size_normal;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_fab_translation_z_hovered_focused = global::CourseApp.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
 			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_fab_translation_z_pressed = global::CourseApp.Droid.Resource.Dimension.design_fab_translation_z_pressed;
 			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_navigation_elevation = global::CourseApp.Droid.Resource.Dimension.design_navigation_elevation;
 			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_navigation_icon_padding = global::CourseApp.Droid.Resource.Dimension.design_navigation_icon_padding;
 			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_navigation_icon_size = global::CourseApp.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_navigation_item_horizontal_padding = global::CourseApp.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_navigation_item_icon_padding = global::CourseApp.Droid.Resource.Dimension.design_navigation_item_icon_padding;
 			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_navigation_max_width = global::CourseApp.Droid.Resource.Dimension.design_navigation_max_width;
 			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_navigation_padding_bottom = global::CourseApp.Droid.Resource.Dimension.design_navigation_padding_bottom;
 			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_navigation_separator_vertical_padding = global::CourseApp.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
@@ -622,6 +812,7 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_tab_scrollable_min_width = global::CourseApp.Droid.Resource.Dimension.design_tab_scrollable_min_width;
 			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_tab_text_size = global::CourseApp.Droid.Resource.Dimension.design_tab_text_size;
 			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_tab_text_size_2line = global::CourseApp.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_textinput_caption_translate_y = global::CourseApp.Droid.Resource.Dimension.design_textinput_caption_translate_y;
 			global::MvvmCross.Droid.Support.Design.Resource.Dimension.disabled_alpha_material_dark = global::CourseApp.Droid.Resource.Dimension.disabled_alpha_material_dark;
 			global::MvvmCross.Droid.Support.Design.Resource.Dimension.disabled_alpha_material_light = global::CourseApp.Droid.Resource.Dimension.disabled_alpha_material_light;
 			global::MvvmCross.Droid.Support.Design.Resource.Dimension.fastscroll_default_thickness = global::CourseApp.Droid.Resource.Dimension.fastscroll_default_thickness;
@@ -637,6 +828,54 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::CourseApp.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
 			global::MvvmCross.Droid.Support.Design.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::CourseApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
 			global::MvvmCross.Droid.Support.Design.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::CourseApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::CourseApp.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::CourseApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::CourseApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::CourseApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.mtrl_bottomappbar_height = global::CourseApp.Droid.Resource.Dimension.mtrl_bottomappbar_height;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.mtrl_btn_corner_radius = global::CourseApp.Droid.Resource.Dimension.mtrl_btn_corner_radius;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::CourseApp.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.mtrl_btn_disabled_elevation = global::CourseApp.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.mtrl_btn_disabled_z = global::CourseApp.Droid.Resource.Dimension.mtrl_btn_disabled_z;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.mtrl_btn_elevation = global::CourseApp.Droid.Resource.Dimension.mtrl_btn_elevation;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.mtrl_btn_focused_z = global::CourseApp.Droid.Resource.Dimension.mtrl_btn_focused_z;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.mtrl_btn_hovered_z = global::CourseApp.Droid.Resource.Dimension.mtrl_btn_hovered_z;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::CourseApp.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.mtrl_btn_icon_padding = global::CourseApp.Droid.Resource.Dimension.mtrl_btn_icon_padding;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.mtrl_btn_inset = global::CourseApp.Droid.Resource.Dimension.mtrl_btn_inset;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.mtrl_btn_letter_spacing = global::CourseApp.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.mtrl_btn_padding_bottom = global::CourseApp.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.mtrl_btn_padding_left = global::CourseApp.Droid.Resource.Dimension.mtrl_btn_padding_left;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.mtrl_btn_padding_right = global::CourseApp.Droid.Resource.Dimension.mtrl_btn_padding_right;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.mtrl_btn_padding_top = global::CourseApp.Droid.Resource.Dimension.mtrl_btn_padding_top;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.mtrl_btn_pressed_z = global::CourseApp.Droid.Resource.Dimension.mtrl_btn_pressed_z;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.mtrl_btn_stroke_size = global::CourseApp.Droid.Resource.Dimension.mtrl_btn_stroke_size;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::CourseApp.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::CourseApp.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::CourseApp.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.mtrl_btn_text_size = global::CourseApp.Droid.Resource.Dimension.mtrl_btn_text_size;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.mtrl_btn_z = global::CourseApp.Droid.Resource.Dimension.mtrl_btn_z;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.mtrl_card_elevation = global::CourseApp.Droid.Resource.Dimension.mtrl_card_elevation;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.mtrl_card_spacing = global::CourseApp.Droid.Resource.Dimension.mtrl_card_spacing;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.mtrl_chip_pressed_translation_z = global::CourseApp.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.mtrl_chip_text_size = global::CourseApp.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.mtrl_fab_elevation = global::CourseApp.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::CourseApp.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.mtrl_fab_translation_z_pressed = global::CourseApp.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.mtrl_navigation_elevation = global::CourseApp.Droid.Resource.Dimension.mtrl_navigation_elevation;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::CourseApp.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.mtrl_navigation_item_icon_padding = global::CourseApp.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::CourseApp.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.mtrl_snackbar_margin = global::CourseApp.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.mtrl_textinput_box_bottom_offset = global::CourseApp.Droid.Resource.Dimension.mtrl_textinput_box_bottom_offset;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::CourseApp.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::CourseApp.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::CourseApp.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.mtrl_textinput_box_padding_end = global::CourseApp.Droid.Resource.Dimension.mtrl_textinput_box_padding_end;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::CourseApp.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::CourseApp.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::CourseApp.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.mtrl_toolbar_default_height = global::CourseApp.Droid.Resource.Dimension.mtrl_toolbar_default_height;
 			global::MvvmCross.Droid.Support.Design.Resource.Dimension.notification_action_icon_size = global::CourseApp.Droid.Resource.Dimension.notification_action_icon_size;
 			global::MvvmCross.Droid.Support.Design.Resource.Dimension.notification_action_text_size = global::CourseApp.Droid.Resource.Dimension.notification_action_text_size;
 			global::MvvmCross.Droid.Support.Design.Resource.Dimension.notification_big_circle_margin = global::CourseApp.Droid.Resource.Dimension.notification_big_circle_margin;
@@ -700,6 +939,7 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_voice_search_api_material = global::CourseApp.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
 			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_item_background_holo_dark = global::CourseApp.Droid.Resource.Drawable.abc_item_background_holo_dark;
 			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_item_background_holo_light = global::CourseApp.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_list_divider_material = global::CourseApp.Droid.Resource.Drawable.abc_list_divider_material;
 			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_list_divider_mtrl_alpha = global::CourseApp.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
 			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_list_focused_holo = global::CourseApp.Droid.Resource.Drawable.abc_list_focused_holo;
 			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_list_longpressed_holo = global::CourseApp.Droid.Resource.Drawable.abc_list_longpressed_holo;
@@ -751,6 +991,11 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Drawable.design_ic_visibility_off = global::CourseApp.Droid.Resource.Drawable.design_ic_visibility_off;
 			global::MvvmCross.Droid.Support.Design.Resource.Drawable.design_password_eye = global::CourseApp.Droid.Resource.Drawable.design_password_eye;
 			global::MvvmCross.Droid.Support.Design.Resource.Drawable.design_snackbar_background = global::CourseApp.Droid.Resource.Drawable.design_snackbar_background;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.ic_mtrl_chip_checked_black = global::CourseApp.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.ic_mtrl_chip_checked_circle = global::CourseApp.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.ic_mtrl_chip_close_circle = global::CourseApp.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.mtrl_snackbar_background = global::CourseApp.Droid.Resource.Drawable.mtrl_snackbar_background;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.mtrl_tabs_default_indicator = global::CourseApp.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
 			global::MvvmCross.Droid.Support.Design.Resource.Drawable.navigation_empty_icon = global::CourseApp.Droid.Resource.Drawable.navigation_empty_icon;
 			global::MvvmCross.Droid.Support.Design.Resource.Drawable.notification_action_background = global::CourseApp.Droid.Resource.Drawable.notification_action_background;
 			global::MvvmCross.Droid.Support.Design.Resource.Drawable.notification_bg = global::CourseApp.Droid.Resource.Drawable.notification_bg;
@@ -812,6 +1057,7 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Id.clip_vertical = global::CourseApp.Droid.Resource.Id.clip_vertical;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.collapseActionView = global::CourseApp.Droid.Resource.Id.collapseActionView;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.container = global::CourseApp.Droid.Resource.Id.container;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.content = global::CourseApp.Droid.Resource.Id.content;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.contentPanel = global::CourseApp.Droid.Resource.Id.contentPanel;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.coordinator = global::CourseApp.Droid.Resource.Id.coordinator;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.custom = global::CourseApp.Droid.Resource.Id.custom;
@@ -834,9 +1080,11 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Id.fill = global::CourseApp.Droid.Resource.Id.fill;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.fill_horizontal = global::CourseApp.Droid.Resource.Id.fill_horizontal;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.fill_vertical = global::CourseApp.Droid.Resource.Id.fill_vertical;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.filled = global::CourseApp.Droid.Resource.Id.filled;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.@fixed = global::CourseApp.Droid.Resource.Id.@fixed;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.forever = global::CourseApp.Droid.Resource.Id.forever;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.ghost_view = global::CourseApp.Droid.Resource.Id.ghost_view;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.group_divider = global::CourseApp.Droid.Resource.Id.group_divider;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.home = global::CourseApp.Droid.Resource.Id.home;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.homeAsUp = global::CourseApp.Droid.Resource.Id.homeAsUp;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.icon = global::CourseApp.Droid.Resource.Id.icon;
@@ -846,6 +1094,7 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Id.info = global::CourseApp.Droid.Resource.Id.info;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.italic = global::CourseApp.Droid.Resource.Id.italic;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.item_touch_helper_previous_elevation = global::CourseApp.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.labeled = global::CourseApp.Droid.Resource.Id.labeled;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.largeLabel = global::CourseApp.Droid.Resource.Id.largeLabel;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.left = global::CourseApp.Droid.Resource.Id.left;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.line1 = global::CourseApp.Droid.Resource.Id.line1;
@@ -856,6 +1105,8 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Id.message = global::CourseApp.Droid.Resource.Id.message;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.middle = global::CourseApp.Droid.Resource.Id.middle;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.mini = global::CourseApp.Droid.Resource.Id.mini;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.mtrl_child_content_container = global::CourseApp.Droid.Resource.Id.mtrl_child_content_container;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.mtrl_internal_children_alpha_tag = global::CourseApp.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.multiply = global::CourseApp.Droid.Resource.Id.multiply;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.navigation_header_container = global::CourseApp.Droid.Resource.Id.navigation_header_container;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.never = global::CourseApp.Droid.Resource.Id.never;
@@ -864,6 +1115,7 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Id.notification_background = global::CourseApp.Droid.Resource.Id.notification_background;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.notification_main_column = global::CourseApp.Droid.Resource.Id.notification_main_column;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.notification_main_column_container = global::CourseApp.Droid.Resource.Id.notification_main_column_container;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.outline = global::CourseApp.Droid.Resource.Id.outline;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.parallax = global::CourseApp.Droid.Resource.Id.parallax;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.parentPanel = global::CourseApp.Droid.Resource.Id.parentPanel;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.parent_matrix = global::CourseApp.Droid.Resource.Id.parent_matrix;
@@ -894,6 +1146,7 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Id.search_src_text = global::CourseApp.Droid.Resource.Id.search_src_text;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.search_voice_btn = global::CourseApp.Droid.Resource.Id.search_voice_btn;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.select_dialog_listview = global::CourseApp.Droid.Resource.Id.select_dialog_listview;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.selected = global::CourseApp.Droid.Resource.Id.selected;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.shortcut = global::CourseApp.Droid.Resource.Id.shortcut;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.showCustom = global::CourseApp.Droid.Resource.Id.showCustom;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.showHome = global::CourseApp.Droid.Resource.Id.showHome;
@@ -902,23 +1155,29 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Id.snackbar_action = global::CourseApp.Droid.Resource.Id.snackbar_action;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.snackbar_text = global::CourseApp.Droid.Resource.Id.snackbar_text;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.snap = global::CourseApp.Droid.Resource.Id.snap;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.snapMargins = global::CourseApp.Droid.Resource.Id.snapMargins;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.spacer = global::CourseApp.Droid.Resource.Id.spacer;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.split_action_bar = global::CourseApp.Droid.Resource.Id.split_action_bar;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.src_atop = global::CourseApp.Droid.Resource.Id.src_atop;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.src_in = global::CourseApp.Droid.Resource.Id.src_in;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.src_over = global::CourseApp.Droid.Resource.Id.src_over;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.start = global::CourseApp.Droid.Resource.Id.start;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.stretch = global::CourseApp.Droid.Resource.Id.stretch;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.submenuarrow = global::CourseApp.Droid.Resource.Id.submenuarrow;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.submit_area = global::CourseApp.Droid.Resource.Id.submit_area;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.tabMode = global::CourseApp.Droid.Resource.Id.tabMode;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.tag_transition_group = global::CourseApp.Droid.Resource.Id.tag_transition_group;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.tag_unhandled_key_event_manager = global::CourseApp.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.tag_unhandled_key_listeners = global::CourseApp.Droid.Resource.Id.tag_unhandled_key_listeners;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.text = global::CourseApp.Droid.Resource.Id.text;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.text2 = global::CourseApp.Droid.Resource.Id.text2;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.textSpacerNoButtons = global::CourseApp.Droid.Resource.Id.textSpacerNoButtons;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.textSpacerNoTitle = global::CourseApp.Droid.Resource.Id.textSpacerNoTitle;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.textStart = global::CourseApp.Droid.Resource.Id.textStart;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.text_input_password_toggle = global::CourseApp.Droid.Resource.Id.text_input_password_toggle;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.textinput_counter = global::CourseApp.Droid.Resource.Id.textinput_counter;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.textinput_error = global::CourseApp.Droid.Resource.Id.textinput_error;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.textinput_helper_text = global::CourseApp.Droid.Resource.Id.textinput_helper_text;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.time = global::CourseApp.Droid.Resource.Id.time;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.title = global::CourseApp.Droid.Resource.Id.title;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.titleDividerNoCustom = global::CourseApp.Droid.Resource.Id.titleDividerNoCustom;
@@ -932,6 +1191,7 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Id.transition_scene_layoutid_cache = global::CourseApp.Droid.Resource.Id.transition_scene_layoutid_cache;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.transition_transform = global::CourseApp.Droid.Resource.Id.transition_transform;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.uniform = global::CourseApp.Droid.Resource.Id.uniform;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.unlabeled = global::CourseApp.Droid.Resource.Id.unlabeled;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.up = global::CourseApp.Droid.Resource.Id.up;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.useLogo = global::CourseApp.Droid.Resource.Id.useLogo;
 			global::MvvmCross.Droid.Support.Design.Resource.Id.view_offset_helper = global::CourseApp.Droid.Resource.Id.view_offset_helper;
@@ -945,9 +1205,18 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Integer.cancel_button_image_alpha = global::CourseApp.Droid.Resource.Integer.cancel_button_image_alpha;
 			global::MvvmCross.Droid.Support.Design.Resource.Integer.config_tooltipAnimTime = global::CourseApp.Droid.Resource.Integer.config_tooltipAnimTime;
 			global::MvvmCross.Droid.Support.Design.Resource.Integer.design_snackbar_text_max_lines = global::CourseApp.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::MvvmCross.Droid.Support.Design.Resource.Integer.design_tab_indicator_anim_duration_ms = global::CourseApp.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
 			global::MvvmCross.Droid.Support.Design.Resource.Integer.hide_password_duration = global::CourseApp.Droid.Resource.Integer.hide_password_duration;
+			global::MvvmCross.Droid.Support.Design.Resource.Integer.mtrl_btn_anim_delay_ms = global::CourseApp.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::MvvmCross.Droid.Support.Design.Resource.Integer.mtrl_btn_anim_duration_ms = global::CourseApp.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::MvvmCross.Droid.Support.Design.Resource.Integer.mtrl_chip_anim_duration = global::CourseApp.Droid.Resource.Integer.mtrl_chip_anim_duration;
+			global::MvvmCross.Droid.Support.Design.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::CourseApp.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
 			global::MvvmCross.Droid.Support.Design.Resource.Integer.show_password_duration = global::CourseApp.Droid.Resource.Integer.show_password_duration;
 			global::MvvmCross.Droid.Support.Design.Resource.Integer.status_bar_notification_info_maxnum = global::CourseApp.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::MvvmCross.Droid.Support.Design.Resource.Interpolator.mtrl_fast_out_linear_in = global::CourseApp.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::MvvmCross.Droid.Support.Design.Resource.Interpolator.mtrl_fast_out_slow_in = global::CourseApp.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::MvvmCross.Droid.Support.Design.Resource.Interpolator.mtrl_linear = global::CourseApp.Droid.Resource.Interpolator.mtrl_linear;
+			global::MvvmCross.Droid.Support.Design.Resource.Interpolator.mtrl_linear_out_slow_in = global::CourseApp.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
 			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_action_bar_title_item = global::CourseApp.Droid.Resource.Layout.abc_action_bar_title_item;
 			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_action_bar_up_container = global::CourseApp.Droid.Resource.Layout.abc_action_bar_up_container;
 			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_action_menu_item_layout = global::CourseApp.Droid.Resource.Layout.abc_action_menu_item_layout;
@@ -959,6 +1228,7 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_alert_dialog_button_bar_material = global::CourseApp.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
 			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_alert_dialog_material = global::CourseApp.Droid.Resource.Layout.abc_alert_dialog_material;
 			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_alert_dialog_title_material = global::CourseApp.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_cascading_menu_item_layout = global::CourseApp.Droid.Resource.Layout.abc_cascading_menu_item_layout;
 			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_dialog_title_material = global::CourseApp.Droid.Resource.Layout.abc_dialog_title_material;
 			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_expanded_menu_layout = global::CourseApp.Droid.Resource.Layout.abc_expanded_menu_layout;
 			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_list_menu_item_checkbox = global::CourseApp.Droid.Resource.Layout.abc_list_menu_item_checkbox;
@@ -974,6 +1244,7 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_search_dropdown_item_icons_2line = global::CourseApp.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
 			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_search_view = global::CourseApp.Droid.Resource.Layout.abc_search_view;
 			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_select_dialog_material = global::CourseApp.Droid.Resource.Layout.abc_select_dialog_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_tooltip = global::CourseApp.Droid.Resource.Layout.abc_tooltip;
 			global::MvvmCross.Droid.Support.Design.Resource.Layout.design_bottom_navigation_item = global::CourseApp.Droid.Resource.Layout.design_bottom_navigation_item;
 			global::MvvmCross.Droid.Support.Design.Resource.Layout.design_bottom_sheet_dialog = global::CourseApp.Droid.Resource.Layout.design_bottom_sheet_dialog;
 			global::MvvmCross.Droid.Support.Design.Resource.Layout.design_layout_snackbar = global::CourseApp.Droid.Resource.Layout.design_layout_snackbar;
@@ -988,6 +1259,8 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Layout.design_navigation_menu = global::CourseApp.Droid.Resource.Layout.design_navigation_menu;
 			global::MvvmCross.Droid.Support.Design.Resource.Layout.design_navigation_menu_item = global::CourseApp.Droid.Resource.Layout.design_navigation_menu_item;
 			global::MvvmCross.Droid.Support.Design.Resource.Layout.design_text_input_password_icon = global::CourseApp.Droid.Resource.Layout.design_text_input_password_icon;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.mtrl_layout_snackbar = global::CourseApp.Droid.Resource.Layout.mtrl_layout_snackbar;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.mtrl_layout_snackbar_include = global::CourseApp.Droid.Resource.Layout.mtrl_layout_snackbar_include;
 			global::MvvmCross.Droid.Support.Design.Resource.Layout.notification_action = global::CourseApp.Droid.Resource.Layout.notification_action;
 			global::MvvmCross.Droid.Support.Design.Resource.Layout.notification_action_tombstone = global::CourseApp.Droid.Resource.Layout.notification_action_tombstone;
 			global::MvvmCross.Droid.Support.Design.Resource.Layout.notification_template_custom_big = global::CourseApp.Droid.Resource.Layout.notification_template_custom_big;
@@ -1018,6 +1291,16 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.String.abc_font_family_menu_material = global::CourseApp.Droid.Resource.String.abc_font_family_menu_material;
 			global::MvvmCross.Droid.Support.Design.Resource.String.abc_font_family_subhead_material = global::CourseApp.Droid.Resource.String.abc_font_family_subhead_material;
 			global::MvvmCross.Droid.Support.Design.Resource.String.abc_font_family_title_material = global::CourseApp.Droid.Resource.String.abc_font_family_title_material;
+			global::MvvmCross.Droid.Support.Design.Resource.String.abc_menu_alt_shortcut_label = global::CourseApp.Droid.Resource.String.abc_menu_alt_shortcut_label;
+			global::MvvmCross.Droid.Support.Design.Resource.String.abc_menu_ctrl_shortcut_label = global::CourseApp.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::MvvmCross.Droid.Support.Design.Resource.String.abc_menu_delete_shortcut_label = global::CourseApp.Droid.Resource.String.abc_menu_delete_shortcut_label;
+			global::MvvmCross.Droid.Support.Design.Resource.String.abc_menu_enter_shortcut_label = global::CourseApp.Droid.Resource.String.abc_menu_enter_shortcut_label;
+			global::MvvmCross.Droid.Support.Design.Resource.String.abc_menu_function_shortcut_label = global::CourseApp.Droid.Resource.String.abc_menu_function_shortcut_label;
+			global::MvvmCross.Droid.Support.Design.Resource.String.abc_menu_meta_shortcut_label = global::CourseApp.Droid.Resource.String.abc_menu_meta_shortcut_label;
+			global::MvvmCross.Droid.Support.Design.Resource.String.abc_menu_shift_shortcut_label = global::CourseApp.Droid.Resource.String.abc_menu_shift_shortcut_label;
+			global::MvvmCross.Droid.Support.Design.Resource.String.abc_menu_space_shortcut_label = global::CourseApp.Droid.Resource.String.abc_menu_space_shortcut_label;
+			global::MvvmCross.Droid.Support.Design.Resource.String.abc_menu_sym_shortcut_label = global::CourseApp.Droid.Resource.String.abc_menu_sym_shortcut_label;
+			global::MvvmCross.Droid.Support.Design.Resource.String.abc_prepend_shortcut_label = global::CourseApp.Droid.Resource.String.abc_prepend_shortcut_label;
 			global::MvvmCross.Droid.Support.Design.Resource.String.abc_search_hint = global::CourseApp.Droid.Resource.String.abc_search_hint;
 			global::MvvmCross.Droid.Support.Design.Resource.String.abc_searchview_description_clear = global::CourseApp.Droid.Resource.String.abc_searchview_description_clear;
 			global::MvvmCross.Droid.Support.Design.Resource.String.abc_searchview_description_query = global::CourseApp.Droid.Resource.String.abc_searchview_description_query;
@@ -1029,8 +1312,13 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.String.abc_toolbar_collapse_description = global::CourseApp.Droid.Resource.String.abc_toolbar_collapse_description;
 			global::MvvmCross.Droid.Support.Design.Resource.String.appbar_scrolling_view_behavior = global::CourseApp.Droid.Resource.String.appbar_scrolling_view_behavior;
 			global::MvvmCross.Droid.Support.Design.Resource.String.bottom_sheet_behavior = global::CourseApp.Droid.Resource.String.bottom_sheet_behavior;
+			global::MvvmCross.Droid.Support.Design.Resource.String.character_counter_content_description = global::CourseApp.Droid.Resource.String.character_counter_content_description;
 			global::MvvmCross.Droid.Support.Design.Resource.String.character_counter_pattern = global::CourseApp.Droid.Resource.String.character_counter_pattern;
 			global::MvvmCross.Droid.Support.Design.Resource.String.fab_scroll_shrink_grow_autohide_behavior = global::CourseApp.Droid.Resource.String.fab_scroll_shrink_grow_autohide_behavior;
+			global::MvvmCross.Droid.Support.Design.Resource.String.fab_transformation_scrim_behavior = global::CourseApp.Droid.Resource.String.fab_transformation_scrim_behavior;
+			global::MvvmCross.Droid.Support.Design.Resource.String.fab_transformation_sheet_behavior = global::CourseApp.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::MvvmCross.Droid.Support.Design.Resource.String.hide_bottom_view_on_scroll_behavior = global::CourseApp.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::MvvmCross.Droid.Support.Design.Resource.String.mtrl_chip_close_icon_content_description = global::CourseApp.Droid.Resource.String.mtrl_chip_close_icon_content_description;
 			global::MvvmCross.Droid.Support.Design.Resource.String.password_toggle_content_description = global::CourseApp.Droid.Resource.String.password_toggle_content_description;
 			global::MvvmCross.Droid.Support.Design.Resource.String.path_password_eye = global::CourseApp.Droid.Resource.String.path_password_eye;
 			global::MvvmCross.Droid.Support.Design.Resource.String.path_password_eye_mask_strike_through = global::CourseApp.Droid.Resource.String.path_password_eye_mask_strike_through;
@@ -1050,6 +1338,7 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Animation_AppCompat_Dialog = global::CourseApp.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::CourseApp.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Animation_AppCompat_Tooltip = global::CourseApp.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_CardView = global::CourseApp.Droid.Resource.Style.Base_CardView;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_DialogWindowTitle_AppCompat = global::CourseApp.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::CourseApp.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat = global::CourseApp.Droid.Resource.Style.Base_TextAppearance_AppCompat;
@@ -1114,6 +1403,23 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::CourseApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::CourseApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::CourseApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_MaterialComponents = global::CourseApp.Droid.Resource.Style.Base_Theme_MaterialComponents;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::CourseApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::CourseApp.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::CourseApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::CourseApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::CourseApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::CourseApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::CourseApp.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_MaterialComponents_Light = global::CourseApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::CourseApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::CourseApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::CourseApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::CourseApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::CourseApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::CourseApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::CourseApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::CourseApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_ThemeOverlay_AppCompat = global::CourseApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::CourseApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::CourseApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
@@ -1121,6 +1427,17 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::CourseApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::CourseApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::CourseApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::CourseApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::CourseApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V14_Theme_MaterialComponents = global::CourseApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::CourseApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::CourseApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::CourseApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::CourseApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::CourseApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::CourseApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::CourseApp.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::CourseApp.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V21_Theme_AppCompat = global::CourseApp.Droid.Resource.Style.Base_V21_Theme_AppCompat;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::CourseApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V21_Theme_AppCompat_Light = global::CourseApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
@@ -1133,6 +1450,8 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V26_Theme_AppCompat = global::CourseApp.Droid.Resource.Style.Base_V26_Theme_AppCompat;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V26_Theme_AppCompat_Light = global::CourseApp.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::CourseApp.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V28_Theme_AppCompat = global::CourseApp.Droid.Resource.Style.Base_V28_Theme_AppCompat;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V28_Theme_AppCompat_Light = global::CourseApp.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V7_Theme_AppCompat = global::CourseApp.Droid.Resource.Style.Base_V7_Theme_AppCompat;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::CourseApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V7_Theme_AppCompat_Light = global::CourseApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
@@ -1199,8 +1518,18 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Toolbar = global::CourseApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::CourseApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_Design_TabLayout = global::CourseApp.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_MaterialComponents_Chip = global::CourseApp.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::CourseApp.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::CourseApp.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.CardView = global::CourseApp.Droid.Resource.Style.CardView;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.CardView_Dark = global::CourseApp.Droid.Resource.Style.CardView_Dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.CardView_Light = global::CourseApp.Droid.Resource.Style.CardView_Light;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.Platform_AppCompat = global::CourseApp.Droid.Resource.Style.Platform_AppCompat;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.Platform_AppCompat_Light = global::CourseApp.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Platform_MaterialComponents = global::CourseApp.Droid.Resource.Style.Platform_MaterialComponents;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Platform_MaterialComponents_Dialog = global::CourseApp.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Platform_MaterialComponents_Light = global::CourseApp.Droid.Resource.Style.Platform_MaterialComponents_Light;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::CourseApp.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.Platform_ThemeOverlay_AppCompat = global::CourseApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::CourseApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::CourseApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
@@ -1214,7 +1543,10 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::CourseApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::CourseApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::CourseApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::CourseApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::CourseApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::CourseApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::CourseApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::CourseApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::CourseApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::CourseApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
@@ -1280,9 +1612,25 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_Design_Counter = global::CourseApp.Droid.Resource.Style.TextAppearance_Design_Counter;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_Design_Counter_Overflow = global::CourseApp.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_Design_Error = global::CourseApp.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_Design_HelperText = global::CourseApp.Droid.Resource.Style.TextAppearance_Design_HelperText;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_Design_Hint = global::CourseApp.Droid.Resource.Style.TextAppearance_Design_Hint;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_Design_Snackbar_Message = global::CourseApp.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_Design_Tab = global::CourseApp.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::CourseApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::CourseApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_MaterialComponents_Button = global::CourseApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_MaterialComponents_Caption = global::CourseApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_MaterialComponents_Chip = global::CourseApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::CourseApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::CourseApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::CourseApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::CourseApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::CourseApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::CourseApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_MaterialComponents_Overline = global::CourseApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::CourseApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::CourseApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_MaterialComponents_Tab = global::CourseApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Tab;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::CourseApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::CourseApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::CourseApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
@@ -1313,6 +1661,27 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::CourseApp.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_Design_Light_NoActionBar = global::CourseApp.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_Design_NoActionBar = global::CourseApp.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_MaterialComponents = global::CourseApp.Droid.Resource.Style.Theme_MaterialComponents;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::CourseApp.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_MaterialComponents_Bridge = global::CourseApp.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_MaterialComponents_CompactMenu = global::CourseApp.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_MaterialComponents_Dialog = global::CourseApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::CourseApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::CourseApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::CourseApp.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_MaterialComponents_Light = global::CourseApp.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::CourseApp.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::CourseApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::CourseApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::CourseApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::CourseApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::CourseApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::CourseApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::CourseApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::CourseApp.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::CourseApp.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_MaterialComponents_NoActionBar = global::CourseApp.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::CourseApp.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.ThemeOverlay_AppCompat = global::CourseApp.Droid.Resource.Style.ThemeOverlay_AppCompat;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::CourseApp.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.ThemeOverlay_AppCompat_Dark = global::CourseApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
@@ -1320,6 +1689,18 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::CourseApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::CourseApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.ThemeOverlay_AppCompat_Light = global::CourseApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.ThemeOverlay_MaterialComponents = global::CourseApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::CourseApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::CourseApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::CourseApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::CourseApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::CourseApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::CourseApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::CourseApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::CourseApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::CourseApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::CourseApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::CourseApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ActionBar = global::CourseApp.Droid.Resource.Style.Widget_AppCompat_ActionBar;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::CourseApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::CourseApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
@@ -1404,6 +1785,43 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_Design_Snackbar = global::CourseApp.Droid.Resource.Style.Widget_Design_Snackbar;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_Design_TabLayout = global::CourseApp.Droid.Resource.Style.Widget_Design_TabLayout;
 			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_Design_TextInputLayout = global::CourseApp.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_MaterialComponents_Button = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_Button;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_MaterialComponents_Button_Icon = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_MaterialComponents_CardView = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_MaterialComponents_Chip_Action = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_MaterialComponents_ChipGroup = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_MaterialComponents_NavigationView = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_MaterialComponents_Snackbar = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_MaterialComponents_TabLayout = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_MaterialComponents_Toolbar = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_Support_CoordinatorLayout = global::CourseApp.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar = global::CourseApp.Droid.Resource.Styleable.ActionBar;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_background = global::CourseApp.Droid.Resource.Styleable.ActionBar_background;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_backgroundSplit = global::CourseApp.Droid.Resource.Styleable.ActionBar_backgroundSplit;
@@ -1451,21 +1869,40 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActivityChooserView_initialActivityCount = global::CourseApp.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AlertDialog = global::CourseApp.Droid.Resource.Styleable.AlertDialog;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AlertDialog_android_layout = global::CourseApp.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AlertDialog_buttonIconDimen = global::CourseApp.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::CourseApp.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AlertDialog_listItemLayout = global::CourseApp.Droid.Resource.Styleable.AlertDialog_listItemLayout;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AlertDialog_listLayout = global::CourseApp.Droid.Resource.Styleable.AlertDialog_listLayout;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::CourseApp.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AlertDialog_showTitle = global::CourseApp.Droid.Resource.Styleable.AlertDialog_showTitle;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::CourseApp.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AnimatedStateListDrawableCompat = global::CourseApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::CourseApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::CourseApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::CourseApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::CourseApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::CourseApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::CourseApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AnimatedStateListDrawableItem = global::CourseApp.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::CourseApp.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::CourseApp.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AnimatedStateListDrawableTransition = global::CourseApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::CourseApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::CourseApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::CourseApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::CourseApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppBarLayout = global::CourseApp.Droid.Resource.Styleable.AppBarLayout;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppBarLayout_android_background = global::CourseApp.Droid.Resource.Styleable.AppBarLayout_android_background;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::CourseApp.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::CourseApp.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppBarLayout_elevation = global::CourseApp.Droid.Resource.Styleable.AppBarLayout_elevation;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppBarLayout_expanded = global::CourseApp.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppBarLayout_liftOnScroll = global::CourseApp.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppBarLayoutStates = global::CourseApp.Droid.Resource.Styleable.AppBarLayoutStates;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::CourseApp.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::CourseApp.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppBarLayoutStates_state_liftable = global::CourseApp.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppBarLayoutStates_state_lifted = global::CourseApp.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppBarLayout_Layout = global::CourseApp.Droid.Resource.Styleable.AppBarLayout_Layout;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::CourseApp.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::CourseApp.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
@@ -1494,7 +1931,10 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::CourseApp.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::CourseApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::CourseApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::CourseApp.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTextView_fontFamily = global::CourseApp.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::CourseApp.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTextView_lineHeight = global::CourseApp.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTextView_textAllCaps = global::CourseApp.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme = global::CourseApp.Droid.Resource.Styleable.AppCompatTheme;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionBarDivider = global::CourseApp.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
@@ -1556,6 +1996,7 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::CourseApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::CourseApp.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_controlBackground = global::CourseApp.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::CourseApp.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::CourseApp.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_dialogTheme = global::CourseApp.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::CourseApp.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
@@ -1606,6 +2047,7 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_toolbarStyle = global::CourseApp.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::CourseApp.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::CourseApp.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::CourseApp.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_windowActionBar = global::CourseApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::CourseApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::CourseApp.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
@@ -1616,18 +2058,87 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::CourseApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::CourseApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_windowNoTitle = global::CourseApp.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.BottomAppBar = global::CourseApp.Droid.Resource.Styleable.BottomAppBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.BottomAppBar_backgroundTint = global::CourseApp.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::CourseApp.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.BottomAppBar_fabCradleMargin = global::CourseApp.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::CourseApp.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::CourseApp.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.BottomAppBar_hideOnScroll = global::CourseApp.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.BottomNavigationView = global::CourseApp.Droid.Resource.Styleable.BottomNavigationView;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.BottomNavigationView_elevation = global::CourseApp.Droid.Resource.Styleable.BottomNavigationView_elevation;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.BottomNavigationView_itemBackground = global::CourseApp.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::CourseApp.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.BottomNavigationView_itemIconSize = global::CourseApp.Droid.Resource.Styleable.BottomNavigationView_itemIconSize;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.BottomNavigationView_itemIconTint = global::CourseApp.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive = global::CourseApp.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive = global::CourseApp.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.BottomNavigationView_itemTextColor = global::CourseApp.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.BottomNavigationView_labelVisibilityMode = global::CourseApp.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.BottomNavigationView_menu = global::CourseApp.Droid.Resource.Styleable.BottomNavigationView_menu;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.BottomSheetBehavior_Layout = global::CourseApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::CourseApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::CourseApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::CourseApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::CourseApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ButtonBarLayout = global::CourseApp.Droid.Resource.Styleable.ButtonBarLayout;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ButtonBarLayout_allowStacking = global::CourseApp.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CardView = global::CourseApp.Droid.Resource.Styleable.CardView;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CardView_android_minHeight = global::CourseApp.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CardView_android_minWidth = global::CourseApp.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CardView_cardBackgroundColor = global::CourseApp.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CardView_cardCornerRadius = global::CourseApp.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CardView_cardElevation = global::CourseApp.Droid.Resource.Styleable.CardView_cardElevation;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CardView_cardMaxElevation = global::CourseApp.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CardView_cardPreventCornerOverlap = global::CourseApp.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CardView_cardUseCompatPadding = global::CourseApp.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CardView_contentPadding = global::CourseApp.Droid.Resource.Styleable.CardView_contentPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CardView_contentPaddingBottom = global::CourseApp.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CardView_contentPaddingLeft = global::CourseApp.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CardView_contentPaddingRight = global::CourseApp.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CardView_contentPaddingTop = global::CourseApp.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Chip = global::CourseApp.Droid.Resource.Styleable.Chip;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Chip_android_checkable = global::CourseApp.Droid.Resource.Styleable.Chip_android_checkable;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Chip_android_ellipsize = global::CourseApp.Droid.Resource.Styleable.Chip_android_ellipsize;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Chip_android_maxWidth = global::CourseApp.Droid.Resource.Styleable.Chip_android_maxWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Chip_android_text = global::CourseApp.Droid.Resource.Styleable.Chip_android_text;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Chip_android_textAppearance = global::CourseApp.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Chip_checkedIcon = global::CourseApp.Droid.Resource.Styleable.Chip_checkedIcon;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Chip_checkedIconEnabled = global::CourseApp.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Chip_checkedIconVisible = global::CourseApp.Droid.Resource.Styleable.Chip_checkedIconVisible;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Chip_chipBackgroundColor = global::CourseApp.Droid.Resource.Styleable.Chip_chipBackgroundColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Chip_chipCornerRadius = global::CourseApp.Droid.Resource.Styleable.Chip_chipCornerRadius;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Chip_chipEndPadding = global::CourseApp.Droid.Resource.Styleable.Chip_chipEndPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Chip_chipIcon = global::CourseApp.Droid.Resource.Styleable.Chip_chipIcon;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Chip_chipIconEnabled = global::CourseApp.Droid.Resource.Styleable.Chip_chipIconEnabled;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Chip_chipIconSize = global::CourseApp.Droid.Resource.Styleable.Chip_chipIconSize;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Chip_chipIconTint = global::CourseApp.Droid.Resource.Styleable.Chip_chipIconTint;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Chip_chipIconVisible = global::CourseApp.Droid.Resource.Styleable.Chip_chipIconVisible;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Chip_chipMinHeight = global::CourseApp.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Chip_chipStartPadding = global::CourseApp.Droid.Resource.Styleable.Chip_chipStartPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Chip_chipStrokeColor = global::CourseApp.Droid.Resource.Styleable.Chip_chipStrokeColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Chip_chipStrokeWidth = global::CourseApp.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Chip_closeIcon = global::CourseApp.Droid.Resource.Styleable.Chip_closeIcon;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Chip_closeIconEnabled = global::CourseApp.Droid.Resource.Styleable.Chip_closeIconEnabled;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Chip_closeIconEndPadding = global::CourseApp.Droid.Resource.Styleable.Chip_closeIconEndPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Chip_closeIconSize = global::CourseApp.Droid.Resource.Styleable.Chip_closeIconSize;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Chip_closeIconStartPadding = global::CourseApp.Droid.Resource.Styleable.Chip_closeIconStartPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Chip_closeIconTint = global::CourseApp.Droid.Resource.Styleable.Chip_closeIconTint;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Chip_closeIconVisible = global::CourseApp.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Chip_hideMotionSpec = global::CourseApp.Droid.Resource.Styleable.Chip_hideMotionSpec;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Chip_iconEndPadding = global::CourseApp.Droid.Resource.Styleable.Chip_iconEndPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Chip_iconStartPadding = global::CourseApp.Droid.Resource.Styleable.Chip_iconStartPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Chip_rippleColor = global::CourseApp.Droid.Resource.Styleable.Chip_rippleColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Chip_showMotionSpec = global::CourseApp.Droid.Resource.Styleable.Chip_showMotionSpec;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Chip_textEndPadding = global::CourseApp.Droid.Resource.Styleable.Chip_textEndPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Chip_textStartPadding = global::CourseApp.Droid.Resource.Styleable.Chip_textStartPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ChipGroup = global::CourseApp.Droid.Resource.Styleable.ChipGroup;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ChipGroup_checkedChip = global::CourseApp.Droid.Resource.Styleable.ChipGroup_checkedChip;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ChipGroup_chipSpacing = global::CourseApp.Droid.Resource.Styleable.ChipGroup_chipSpacing;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::CourseApp.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ChipGroup_chipSpacingVertical = global::CourseApp.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ChipGroup_singleLine = global::CourseApp.Droid.Resource.Styleable.ChipGroup_singleLine;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ChipGroup_singleSelection = global::CourseApp.Droid.Resource.Styleable.ChipGroup_singleSelection;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout = global::CourseApp.Droid.Resource.Styleable.CollapsingToolbarLayout;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::CourseApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::CourseApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
@@ -1684,12 +2195,20 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::CourseApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FloatingActionButton_borderWidth = global::CourseApp.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FloatingActionButton_elevation = global::CourseApp.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FloatingActionButton_fabCustomSize = global::CourseApp.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FloatingActionButton_fabSize = global::CourseApp.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::CourseApp.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::CourseApp.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FloatingActionButton_maxImageSize = global::CourseApp.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::CourseApp.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FloatingActionButton_rippleColor = global::CourseApp.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FloatingActionButton_showMotionSpec = global::CourseApp.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FloatingActionButton_useCompatPadding = global::CourseApp.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::CourseApp.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::CourseApp.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FlowLayout = global::CourseApp.Droid.Resource.Styleable.FlowLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FlowLayout_itemSpacing = global::CourseApp.Droid.Resource.Styleable.FlowLayout_itemSpacing;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FlowLayout_lineSpacing = global::CourseApp.Droid.Resource.Styleable.FlowLayout_lineSpacing;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FontFamily = global::CourseApp.Droid.Resource.Styleable.FontFamily;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FontFamily_fontProviderAuthority = global::CourseApp.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FontFamily_fontProviderCerts = global::CourseApp.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
@@ -1700,14 +2219,34 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FontFamilyFont = global::CourseApp.Droid.Resource.Styleable.FontFamilyFont;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FontFamilyFont_android_font = global::CourseApp.Droid.Resource.Styleable.FontFamilyFont_android_font;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FontFamilyFont_android_fontStyle = global::CourseApp.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::CourseApp.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FontFamilyFont_android_fontWeight = global::CourseApp.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::CourseApp.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FontFamilyFont_font = global::CourseApp.Droid.Resource.Styleable.FontFamilyFont_font;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FontFamilyFont_fontStyle = global::CourseApp.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::CourseApp.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FontFamilyFont_fontWeight = global::CourseApp.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FontFamilyFont_ttcIndex = global::CourseApp.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ForegroundLinearLayout = global::CourseApp.Droid.Resource.Styleable.ForegroundLinearLayout;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::CourseApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::CourseApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::CourseApp.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.GradientColor = global::CourseApp.Droid.Resource.Styleable.GradientColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.GradientColor_android_centerColor = global::CourseApp.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.GradientColor_android_centerX = global::CourseApp.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.GradientColor_android_centerY = global::CourseApp.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.GradientColor_android_endColor = global::CourseApp.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.GradientColor_android_endX = global::CourseApp.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.GradientColor_android_endY = global::CourseApp.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.GradientColor_android_gradientRadius = global::CourseApp.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.GradientColor_android_startColor = global::CourseApp.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.GradientColor_android_startX = global::CourseApp.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.GradientColor_android_startY = global::CourseApp.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.GradientColor_android_tileMode = global::CourseApp.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.GradientColor_android_type = global::CourseApp.Droid.Resource.Styleable.GradientColor_android_type;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.GradientColorItem = global::CourseApp.Droid.Resource.Styleable.GradientColorItem;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.GradientColorItem_android_color = global::CourseApp.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.GradientColorItem_android_offset = global::CourseApp.Droid.Resource.Styleable.GradientColorItem_android_offset;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.LinearLayoutCompat = global::CourseApp.Droid.Resource.Styleable.LinearLayoutCompat;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::CourseApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::CourseApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
@@ -1726,6 +2265,59 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ListPopupWindow = global::CourseApp.Droid.Resource.Styleable.ListPopupWindow;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::CourseApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::CourseApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialButton = global::CourseApp.Droid.Resource.Styleable.MaterialButton;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialButton_android_insetBottom = global::CourseApp.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialButton_android_insetLeft = global::CourseApp.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialButton_android_insetRight = global::CourseApp.Droid.Resource.Styleable.MaterialButton_android_insetRight;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialButton_android_insetTop = global::CourseApp.Droid.Resource.Styleable.MaterialButton_android_insetTop;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialButton_backgroundTint = global::CourseApp.Droid.Resource.Styleable.MaterialButton_backgroundTint;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialButton_backgroundTintMode = global::CourseApp.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialButton_cornerRadius = global::CourseApp.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialButton_icon = global::CourseApp.Droid.Resource.Styleable.MaterialButton_icon;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialButton_iconGravity = global::CourseApp.Droid.Resource.Styleable.MaterialButton_iconGravity;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialButton_iconPadding = global::CourseApp.Droid.Resource.Styleable.MaterialButton_iconPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialButton_iconSize = global::CourseApp.Droid.Resource.Styleable.MaterialButton_iconSize;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialButton_iconTint = global::CourseApp.Droid.Resource.Styleable.MaterialButton_iconTint;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialButton_iconTintMode = global::CourseApp.Droid.Resource.Styleable.MaterialButton_iconTintMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialButton_rippleColor = global::CourseApp.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialButton_strokeColor = global::CourseApp.Droid.Resource.Styleable.MaterialButton_strokeColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialButton_strokeWidth = global::CourseApp.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialCardView = global::CourseApp.Droid.Resource.Styleable.MaterialCardView;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialCardView_strokeColor = global::CourseApp.Droid.Resource.Styleable.MaterialCardView_strokeColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialCardView_strokeWidth = global::CourseApp.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialComponentsTheme = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialComponentsTheme_chipStyle = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_chipStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialComponentsTheme_colorAccent = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_colorAccent;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialComponentsTheme_colorPrimary = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimary;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialComponentsTheme_colorSecondary = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_colorSecondary;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialComponentsTheme_editTextStyle = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_editTextStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialComponentsTheme_scrimBackground = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_scrimBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialComponentsTheme_tabStyle = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_tabStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1 = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2 = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1 = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2 = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3 = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4 = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5 = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6 = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1 = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2 = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MaterialComponentsTheme_textInputStyle = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_textInputStyle;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuGroup = global::CourseApp.Droid.Resource.Styleable.MenuGroup;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuGroup_android_checkableBehavior = global::CourseApp.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuGroup_android_enabled = global::CourseApp.Droid.Resource.Styleable.MenuGroup_android_enabled;
@@ -1784,6 +2376,8 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.NavigationView_elevation = global::CourseApp.Droid.Resource.Styleable.NavigationView_elevation;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.NavigationView_headerLayout = global::CourseApp.Droid.Resource.Styleable.NavigationView_headerLayout;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.NavigationView_itemBackground = global::CourseApp.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.NavigationView_itemHorizontalPadding = global::CourseApp.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.NavigationView_itemIconPadding = global::CourseApp.Droid.Resource.Styleable.NavigationView_itemIconPadding;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.NavigationView_itemIconTint = global::CourseApp.Droid.Resource.Styleable.NavigationView_itemIconTint;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.NavigationView_itemTextAppearance = global::CourseApp.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.NavigationView_itemTextColor = global::CourseApp.Droid.Resource.Styleable.NavigationView_itemTextColor;
@@ -1831,6 +2425,9 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_submitBackground = global::CourseApp.Droid.Resource.Styleable.SearchView_submitBackground;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_suggestionRowLayout = global::CourseApp.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_voiceIcon = global::CourseApp.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Snackbar = global::CourseApp.Droid.Resource.Styleable.Snackbar;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Snackbar_snackbarButtonStyle = global::CourseApp.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Snackbar_snackbarStyle = global::CourseApp.Droid.Resource.Styleable.Snackbar_snackbarStyle;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SnackbarLayout = global::CourseApp.Droid.Resource.Styleable.SnackbarLayout;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SnackbarLayout_android_maxWidth = global::CourseApp.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SnackbarLayout_elevation = global::CourseApp.Droid.Resource.Styleable.SnackbarLayout_elevation;
@@ -1841,6 +2438,15 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Spinner_android_popupBackground = global::CourseApp.Droid.Resource.Styleable.Spinner_android_popupBackground;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Spinner_android_prompt = global::CourseApp.Droid.Resource.Styleable.Spinner_android_prompt;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Spinner_popupTheme = global::CourseApp.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.StateListDrawable = global::CourseApp.Droid.Resource.Styleable.StateListDrawable;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.StateListDrawable_android_constantSize = global::CourseApp.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.StateListDrawable_android_dither = global::CourseApp.Droid.Resource.Styleable.StateListDrawable_android_dither;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::CourseApp.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::CourseApp.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.StateListDrawable_android_variablePadding = global::CourseApp.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.StateListDrawable_android_visible = global::CourseApp.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.StateListDrawableItem = global::CourseApp.Droid.Resource.Styleable.StateListDrawableItem;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.StateListDrawableItem_android_drawable = global::CourseApp.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SwitchCompat = global::CourseApp.Droid.Resource.Styleable.SwitchCompat;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SwitchCompat_android_textOff = global::CourseApp.Droid.Resource.Styleable.SwitchCompat_android_textOff;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SwitchCompat_android_textOn = global::CourseApp.Droid.Resource.Styleable.SwitchCompat_android_textOn;
@@ -1864,8 +2470,15 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabBackground = global::CourseApp.Droid.Resource.Styleable.TabLayout_tabBackground;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabContentStart = global::CourseApp.Droid.Resource.Styleable.TabLayout_tabContentStart;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabGravity = global::CourseApp.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabIconTint = global::CourseApp.Droid.Resource.Styleable.TabLayout_tabIconTint;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabIconTintMode = global::CourseApp.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabIndicator = global::CourseApp.Droid.Resource.Styleable.TabLayout_tabIndicator;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::CourseApp.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabIndicatorColor = global::CourseApp.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::CourseApp.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabIndicatorGravity = global::CourseApp.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabIndicatorHeight = global::CourseApp.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabInlineLabel = global::CourseApp.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabMaxWidth = global::CourseApp.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabMinWidth = global::CourseApp.Droid.Resource.Styleable.TabLayout_tabMinWidth;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabMode = global::CourseApp.Droid.Resource.Styleable.TabLayout_tabMode;
@@ -1874,9 +2487,11 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabPaddingEnd = global::CourseApp.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabPaddingStart = global::CourseApp.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabPaddingTop = global::CourseApp.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabRippleColor = global::CourseApp.Droid.Resource.Styleable.TabLayout_tabRippleColor;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabSelectedTextColor = global::CourseApp.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabTextAppearance = global::CourseApp.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabTextColor = global::CourseApp.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabUnboundedRipple = global::CourseApp.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextAppearance = global::CourseApp.Droid.Resource.Styleable.TextAppearance;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextAppearance_android_fontFamily = global::CourseApp.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextAppearance_android_shadowColor = global::CourseApp.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
@@ -1894,12 +2509,24 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout = global::CourseApp.Droid.Resource.Styleable.TextInputLayout;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_android_hint = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_android_hint;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_android_textColorHint = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_boxStrokeColor = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_counterEnabled = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_counterMaxLength = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_counterTextAppearance = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_errorEnabled = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_errorTextAppearance = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_helperText = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_helperText;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_helperTextEnabled = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_hintEnabled = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_hintTextAppearance = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
@@ -1908,6 +2535,10 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_passwordToggleTint = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ThemeEnforcement = global::CourseApp.Droid.Resource.Styleable.ThemeEnforcement;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::CourseApp.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::CourseApp.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::CourseApp.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar = global::CourseApp.Droid.Resource.Styleable.Toolbar;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_android_gravity = global::CourseApp.Droid.Resource.Styleable.Toolbar_android_gravity;
 			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_android_minHeight = global::CourseApp.Droid.Resource.Styleable.Toolbar_android_minHeight;
@@ -1962,11 +2593,22 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Animation.abc_slide_in_top = global::CourseApp.Droid.Resource.Animation.abc_slide_in_top;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Animation.abc_slide_out_bottom = global::CourseApp.Droid.Resource.Animation.abc_slide_out_bottom;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Animation.abc_slide_out_top = global::CourseApp.Droid.Resource.Animation.abc_slide_out_top;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Animation.abc_tooltip_enter = global::CourseApp.Droid.Resource.Animation.abc_tooltip_enter;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Animation.abc_tooltip_exit = global::CourseApp.Droid.Resource.Animation.abc_tooltip_exit;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Animation.design_bottom_sheet_slide_in = global::CourseApp.Droid.Resource.Animation.design_bottom_sheet_slide_in;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Animation.design_bottom_sheet_slide_out = global::CourseApp.Droid.Resource.Animation.design_bottom_sheet_slide_out;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Animation.design_snackbar_in = global::CourseApp.Droid.Resource.Animation.design_snackbar_in;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Animation.design_snackbar_out = global::CourseApp.Droid.Resource.Animation.design_snackbar_out;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Animator.design_appbar_state_list_animator = global::CourseApp.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Animator.design_fab_hide_motion_spec = global::CourseApp.Droid.Resource.Animator.design_fab_hide_motion_spec;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Animator.design_fab_show_motion_spec = global::CourseApp.Droid.Resource.Animator.design_fab_show_motion_spec;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Animator.mtrl_btn_state_list_anim = global::CourseApp.Droid.Resource.Animator.mtrl_btn_state_list_anim;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::CourseApp.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Animator.mtrl_chip_state_list_anim = global::CourseApp.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Animator.mtrl_fab_hide_motion_spec = global::CourseApp.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Animator.mtrl_fab_show_motion_spec = global::CourseApp.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::CourseApp.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::CourseApp.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.MvxBind = global::CourseApp.Droid.Resource.Attribute.MvxBind;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.MvxDropDownItemTemplate = global::CourseApp.Droid.Resource.Attribute.MvxDropDownItemTemplate;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.MvxGroupItemTemplate = global::CourseApp.Droid.Resource.Attribute.MvxGroupItemTemplate;
@@ -2029,28 +2671,76 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.backgroundTintMode = global::CourseApp.Droid.Resource.Attribute.backgroundTintMode;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.barLength = global::CourseApp.Droid.Resource.Attribute.barLength;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.behavior_autoHide = global::CourseApp.Droid.Resource.Attribute.behavior_autoHide;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.behavior_fitToContents = global::CourseApp.Droid.Resource.Attribute.behavior_fitToContents;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.behavior_hideable = global::CourseApp.Droid.Resource.Attribute.behavior_hideable;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.behavior_overlapTop = global::CourseApp.Droid.Resource.Attribute.behavior_overlapTop;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.behavior_peekHeight = global::CourseApp.Droid.Resource.Attribute.behavior_peekHeight;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.behavior_skipCollapsed = global::CourseApp.Droid.Resource.Attribute.behavior_skipCollapsed;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.borderWidth = global::CourseApp.Droid.Resource.Attribute.borderWidth;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.borderlessButtonStyle = global::CourseApp.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.bottomAppBarStyle = global::CourseApp.Droid.Resource.Attribute.bottomAppBarStyle;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.bottomNavigationStyle = global::CourseApp.Droid.Resource.Attribute.bottomNavigationStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.bottomSheetDialogTheme = global::CourseApp.Droid.Resource.Attribute.bottomSheetDialogTheme;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.bottomSheetStyle = global::CourseApp.Droid.Resource.Attribute.bottomSheetStyle;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.boxBackgroundColor = global::CourseApp.Droid.Resource.Attribute.boxBackgroundColor;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.boxBackgroundMode = global::CourseApp.Droid.Resource.Attribute.boxBackgroundMode;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.boxCollapsedPaddingTop = global::CourseApp.Droid.Resource.Attribute.boxCollapsedPaddingTop;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.boxCornerRadiusBottomEnd = global::CourseApp.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.boxCornerRadiusBottomStart = global::CourseApp.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.boxCornerRadiusTopEnd = global::CourseApp.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.boxCornerRadiusTopStart = global::CourseApp.Droid.Resource.Attribute.boxCornerRadiusTopStart;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.boxStrokeColor = global::CourseApp.Droid.Resource.Attribute.boxStrokeColor;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.boxStrokeWidth = global::CourseApp.Droid.Resource.Attribute.boxStrokeWidth;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.buttonBarButtonStyle = global::CourseApp.Droid.Resource.Attribute.buttonBarButtonStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.buttonBarNegativeButtonStyle = global::CourseApp.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.buttonBarNeutralButtonStyle = global::CourseApp.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.buttonBarPositiveButtonStyle = global::CourseApp.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.buttonBarStyle = global::CourseApp.Droid.Resource.Attribute.buttonBarStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.buttonGravity = global::CourseApp.Droid.Resource.Attribute.buttonGravity;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.buttonIconDimen = global::CourseApp.Droid.Resource.Attribute.buttonIconDimen;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.buttonPanelSideLayout = global::CourseApp.Droid.Resource.Attribute.buttonPanelSideLayout;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.buttonStyle = global::CourseApp.Droid.Resource.Attribute.buttonStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.buttonStyleSmall = global::CourseApp.Droid.Resource.Attribute.buttonStyleSmall;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.buttonTint = global::CourseApp.Droid.Resource.Attribute.buttonTint;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.buttonTintMode = global::CourseApp.Droid.Resource.Attribute.buttonTintMode;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.cardBackgroundColor = global::CourseApp.Droid.Resource.Attribute.cardBackgroundColor;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.cardCornerRadius = global::CourseApp.Droid.Resource.Attribute.cardCornerRadius;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.cardElevation = global::CourseApp.Droid.Resource.Attribute.cardElevation;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.cardMaxElevation = global::CourseApp.Droid.Resource.Attribute.cardMaxElevation;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.cardPreventCornerOverlap = global::CourseApp.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.cardUseCompatPadding = global::CourseApp.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.cardViewStyle = global::CourseApp.Droid.Resource.Attribute.cardViewStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.checkboxStyle = global::CourseApp.Droid.Resource.Attribute.checkboxStyle;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.checkedChip = global::CourseApp.Droid.Resource.Attribute.checkedChip;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.checkedIcon = global::CourseApp.Droid.Resource.Attribute.checkedIcon;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.checkedIconEnabled = global::CourseApp.Droid.Resource.Attribute.checkedIconEnabled;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.checkedIconVisible = global::CourseApp.Droid.Resource.Attribute.checkedIconVisible;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.checkedTextViewStyle = global::CourseApp.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.chipBackgroundColor = global::CourseApp.Droid.Resource.Attribute.chipBackgroundColor;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.chipCornerRadius = global::CourseApp.Droid.Resource.Attribute.chipCornerRadius;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.chipEndPadding = global::CourseApp.Droid.Resource.Attribute.chipEndPadding;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.chipGroupStyle = global::CourseApp.Droid.Resource.Attribute.chipGroupStyle;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.chipIcon = global::CourseApp.Droid.Resource.Attribute.chipIcon;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.chipIconEnabled = global::CourseApp.Droid.Resource.Attribute.chipIconEnabled;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.chipIconSize = global::CourseApp.Droid.Resource.Attribute.chipIconSize;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.chipIconTint = global::CourseApp.Droid.Resource.Attribute.chipIconTint;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.chipIconVisible = global::CourseApp.Droid.Resource.Attribute.chipIconVisible;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.chipMinHeight = global::CourseApp.Droid.Resource.Attribute.chipMinHeight;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.chipSpacing = global::CourseApp.Droid.Resource.Attribute.chipSpacing;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.chipSpacingHorizontal = global::CourseApp.Droid.Resource.Attribute.chipSpacingHorizontal;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.chipSpacingVertical = global::CourseApp.Droid.Resource.Attribute.chipSpacingVertical;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.chipStandaloneStyle = global::CourseApp.Droid.Resource.Attribute.chipStandaloneStyle;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.chipStartPadding = global::CourseApp.Droid.Resource.Attribute.chipStartPadding;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.chipStrokeColor = global::CourseApp.Droid.Resource.Attribute.chipStrokeColor;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.chipStrokeWidth = global::CourseApp.Droid.Resource.Attribute.chipStrokeWidth;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.chipStyle = global::CourseApp.Droid.Resource.Attribute.chipStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.closeIcon = global::CourseApp.Droid.Resource.Attribute.closeIcon;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.closeIconEnabled = global::CourseApp.Droid.Resource.Attribute.closeIconEnabled;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.closeIconEndPadding = global::CourseApp.Droid.Resource.Attribute.closeIconEndPadding;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.closeIconSize = global::CourseApp.Droid.Resource.Attribute.closeIconSize;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.closeIconStartPadding = global::CourseApp.Droid.Resource.Attribute.closeIconStartPadding;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.closeIconTint = global::CourseApp.Droid.Resource.Attribute.closeIconTint;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.closeIconVisible = global::CourseApp.Droid.Resource.Attribute.closeIconVisible;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.closeItemLayout = global::CourseApp.Droid.Resource.Attribute.closeItemLayout;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.collapseContentDescription = global::CourseApp.Droid.Resource.Attribute.collapseContentDescription;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.collapseIcon = global::CourseApp.Droid.Resource.Attribute.collapseIcon;
@@ -2066,6 +2756,7 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.colorError = global::CourseApp.Droid.Resource.Attribute.colorError;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.colorPrimary = global::CourseApp.Droid.Resource.Attribute.colorPrimary;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.colorPrimaryDark = global::CourseApp.Droid.Resource.Attribute.colorPrimaryDark;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.colorSecondary = global::CourseApp.Droid.Resource.Attribute.colorSecondary;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.colorSwitchThumbNormal = global::CourseApp.Droid.Resource.Attribute.colorSwitchThumbNormal;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.commitIcon = global::CourseApp.Droid.Resource.Attribute.commitIcon;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.contentDescription = global::CourseApp.Droid.Resource.Attribute.contentDescription;
@@ -2075,14 +2766,22 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.contentInsetRight = global::CourseApp.Droid.Resource.Attribute.contentInsetRight;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.contentInsetStart = global::CourseApp.Droid.Resource.Attribute.contentInsetStart;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.contentInsetStartWithNavigation = global::CourseApp.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.contentPadding = global::CourseApp.Droid.Resource.Attribute.contentPadding;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.contentPaddingBottom = global::CourseApp.Droid.Resource.Attribute.contentPaddingBottom;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.contentPaddingLeft = global::CourseApp.Droid.Resource.Attribute.contentPaddingLeft;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.contentPaddingRight = global::CourseApp.Droid.Resource.Attribute.contentPaddingRight;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.contentPaddingTop = global::CourseApp.Droid.Resource.Attribute.contentPaddingTop;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.contentScrim = global::CourseApp.Droid.Resource.Attribute.contentScrim;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.controlBackground = global::CourseApp.Droid.Resource.Attribute.controlBackground;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.coordinatorLayoutStyle = global::CourseApp.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.cornerRadius = global::CourseApp.Droid.Resource.Attribute.cornerRadius;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.counterEnabled = global::CourseApp.Droid.Resource.Attribute.counterEnabled;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.counterMaxLength = global::CourseApp.Droid.Resource.Attribute.counterMaxLength;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.counterOverflowTextAppearance = global::CourseApp.Droid.Resource.Attribute.counterOverflowTextAppearance;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.counterTextAppearance = global::CourseApp.Droid.Resource.Attribute.counterTextAppearance;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.customNavigationLayout = global::CourseApp.Droid.Resource.Attribute.customNavigationLayout;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.defaultQueryHint = global::CourseApp.Droid.Resource.Attribute.defaultQueryHint;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.dialogCornerRadius = global::CourseApp.Droid.Resource.Attribute.dialogCornerRadius;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.dialogPreferredPadding = global::CourseApp.Droid.Resource.Attribute.dialogPreferredPadding;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.dialogTheme = global::CourseApp.Droid.Resource.Attribute.dialogTheme;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.displayOptions = global::CourseApp.Droid.Resource.Attribute.displayOptions;
@@ -2098,6 +2797,8 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.editTextColor = global::CourseApp.Droid.Resource.Attribute.editTextColor;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.editTextStyle = global::CourseApp.Droid.Resource.Attribute.editTextStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.elevation = global::CourseApp.Droid.Resource.Attribute.elevation;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.enforceMaterialTheme = global::CourseApp.Droid.Resource.Attribute.enforceMaterialTheme;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.enforceTextAppearance = global::CourseApp.Droid.Resource.Attribute.enforceTextAppearance;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.errorEnabled = global::CourseApp.Droid.Resource.Attribute.errorEnabled;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.errorTextAppearance = global::CourseApp.Droid.Resource.Attribute.errorTextAppearance;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.expandActivityOverflowButtonDrawable = global::CourseApp.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
@@ -2109,12 +2810,19 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.expandedTitleMarginStart = global::CourseApp.Droid.Resource.Attribute.expandedTitleMarginStart;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.expandedTitleMarginTop = global::CourseApp.Droid.Resource.Attribute.expandedTitleMarginTop;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.expandedTitleTextAppearance = global::CourseApp.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.fabAlignmentMode = global::CourseApp.Droid.Resource.Attribute.fabAlignmentMode;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.fabCradleMargin = global::CourseApp.Droid.Resource.Attribute.fabCradleMargin;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.fabCradleRoundedCornerRadius = global::CourseApp.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.fabCradleVerticalOffset = global::CourseApp.Droid.Resource.Attribute.fabCradleVerticalOffset;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.fabCustomSize = global::CourseApp.Droid.Resource.Attribute.fabCustomSize;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.fabSize = global::CourseApp.Droid.Resource.Attribute.fabSize;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.fastScrollEnabled = global::CourseApp.Droid.Resource.Attribute.fastScrollEnabled;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::CourseApp.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::CourseApp.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.fastScrollVerticalThumbDrawable = global::CourseApp.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.fastScrollVerticalTrackDrawable = global::CourseApp.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.firstBaselineToTopHeight = global::CourseApp.Droid.Resource.Attribute.firstBaselineToTopHeight;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.floatingActionButtonStyle = global::CourseApp.Droid.Resource.Attribute.floatingActionButtonStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.font = global::CourseApp.Droid.Resource.Attribute.font;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.fontFamily = global::CourseApp.Droid.Resource.Attribute.fontFamily;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.fontProviderAuthority = global::CourseApp.Droid.Resource.Attribute.fontProviderAuthority;
@@ -2124,19 +2832,31 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.fontProviderPackage = global::CourseApp.Droid.Resource.Attribute.fontProviderPackage;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.fontProviderQuery = global::CourseApp.Droid.Resource.Attribute.fontProviderQuery;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.fontStyle = global::CourseApp.Droid.Resource.Attribute.fontStyle;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.fontVariationSettings = global::CourseApp.Droid.Resource.Attribute.fontVariationSettings;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.fontWeight = global::CourseApp.Droid.Resource.Attribute.fontWeight;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.foregroundInsidePadding = global::CourseApp.Droid.Resource.Attribute.foregroundInsidePadding;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.gapBetweenBars = global::CourseApp.Droid.Resource.Attribute.gapBetweenBars;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.goIcon = global::CourseApp.Droid.Resource.Attribute.goIcon;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.headerLayout = global::CourseApp.Droid.Resource.Attribute.headerLayout;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.height = global::CourseApp.Droid.Resource.Attribute.height;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.helperText = global::CourseApp.Droid.Resource.Attribute.helperText;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.helperTextEnabled = global::CourseApp.Droid.Resource.Attribute.helperTextEnabled;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.helperTextTextAppearance = global::CourseApp.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.hideMotionSpec = global::CourseApp.Droid.Resource.Attribute.hideMotionSpec;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.hideOnContentScroll = global::CourseApp.Droid.Resource.Attribute.hideOnContentScroll;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.hideOnScroll = global::CourseApp.Droid.Resource.Attribute.hideOnScroll;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.hintAnimationEnabled = global::CourseApp.Droid.Resource.Attribute.hintAnimationEnabled;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.hintEnabled = global::CourseApp.Droid.Resource.Attribute.hintEnabled;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.hintTextAppearance = global::CourseApp.Droid.Resource.Attribute.hintTextAppearance;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.homeAsUpIndicator = global::CourseApp.Droid.Resource.Attribute.homeAsUpIndicator;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.homeLayout = global::CourseApp.Droid.Resource.Attribute.homeLayout;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.hoveredFocusedTranslationZ = global::CourseApp.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.icon = global::CourseApp.Droid.Resource.Attribute.icon;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.iconEndPadding = global::CourseApp.Droid.Resource.Attribute.iconEndPadding;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.iconGravity = global::CourseApp.Droid.Resource.Attribute.iconGravity;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.iconPadding = global::CourseApp.Droid.Resource.Attribute.iconPadding;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.iconSize = global::CourseApp.Droid.Resource.Attribute.iconSize;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.iconStartPadding = global::CourseApp.Droid.Resource.Attribute.iconStartPadding;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.iconTint = global::CourseApp.Droid.Resource.Attribute.iconTint;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.iconTintMode = global::CourseApp.Droid.Resource.Attribute.iconTintMode;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.iconifiedByDefault = global::CourseApp.Droid.Resource.Attribute.iconifiedByDefault;
@@ -2146,11 +2866,20 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.insetForeground = global::CourseApp.Droid.Resource.Attribute.insetForeground;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.isLightTheme = global::CourseApp.Droid.Resource.Attribute.isLightTheme;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.itemBackground = global::CourseApp.Droid.Resource.Attribute.itemBackground;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.itemHorizontalPadding = global::CourseApp.Droid.Resource.Attribute.itemHorizontalPadding;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.itemHorizontalTranslationEnabled = global::CourseApp.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.itemIconPadding = global::CourseApp.Droid.Resource.Attribute.itemIconPadding;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.itemIconSize = global::CourseApp.Droid.Resource.Attribute.itemIconSize;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.itemIconTint = global::CourseApp.Droid.Resource.Attribute.itemIconTint;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.itemPadding = global::CourseApp.Droid.Resource.Attribute.itemPadding;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.itemSpacing = global::CourseApp.Droid.Resource.Attribute.itemSpacing;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.itemTextAppearance = global::CourseApp.Droid.Resource.Attribute.itemTextAppearance;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.itemTextAppearanceActive = global::CourseApp.Droid.Resource.Attribute.itemTextAppearanceActive;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.itemTextAppearanceInactive = global::CourseApp.Droid.Resource.Attribute.itemTextAppearanceInactive;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.itemTextColor = global::CourseApp.Droid.Resource.Attribute.itemTextColor;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.keylines = global::CourseApp.Droid.Resource.Attribute.keylines;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.labelVisibilityMode = global::CourseApp.Droid.Resource.Attribute.labelVisibilityMode;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.lastBaselineToBottomHeight = global::CourseApp.Droid.Resource.Attribute.lastBaselineToBottomHeight;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.layout = global::CourseApp.Droid.Resource.Attribute.layout;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.layoutManager = global::CourseApp.Droid.Resource.Attribute.layoutManager;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.layout_anchor = global::CourseApp.Droid.Resource.Attribute.layout_anchor;
@@ -2163,6 +2892,9 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.layout_keyline = global::CourseApp.Droid.Resource.Attribute.layout_keyline;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.layout_scrollFlags = global::CourseApp.Droid.Resource.Attribute.layout_scrollFlags;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.layout_scrollInterpolator = global::CourseApp.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.liftOnScroll = global::CourseApp.Droid.Resource.Attribute.liftOnScroll;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.lineHeight = global::CourseApp.Droid.Resource.Attribute.lineHeight;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.lineSpacing = global::CourseApp.Droid.Resource.Attribute.lineSpacing;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.listChoiceBackgroundIndicator = global::CourseApp.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.listDividerAlertDialog = global::CourseApp.Droid.Resource.Attribute.listDividerAlertDialog;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.listItemLayout = global::CourseApp.Droid.Resource.Attribute.listItemLayout;
@@ -2176,14 +2908,18 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.listPreferredItemPaddingRight = global::CourseApp.Droid.Resource.Attribute.listPreferredItemPaddingRight;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.logo = global::CourseApp.Droid.Resource.Attribute.logo;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.logoDescription = global::CourseApp.Droid.Resource.Attribute.logoDescription;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.materialButtonStyle = global::CourseApp.Droid.Resource.Attribute.materialButtonStyle;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.materialCardViewStyle = global::CourseApp.Droid.Resource.Attribute.materialCardViewStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.maxActionInlineWidth = global::CourseApp.Droid.Resource.Attribute.maxActionInlineWidth;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.maxButtonHeight = global::CourseApp.Droid.Resource.Attribute.maxButtonHeight;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.maxImageSize = global::CourseApp.Droid.Resource.Attribute.maxImageSize;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.measureWithLargestChild = global::CourseApp.Droid.Resource.Attribute.measureWithLargestChild;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.menu = global::CourseApp.Droid.Resource.Attribute.menu;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.multiChoiceItemLayout = global::CourseApp.Droid.Resource.Attribute.multiChoiceItemLayout;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.navigationContentDescription = global::CourseApp.Droid.Resource.Attribute.navigationContentDescription;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.navigationIcon = global::CourseApp.Droid.Resource.Attribute.navigationIcon;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.navigationMode = global::CourseApp.Droid.Resource.Attribute.navigationMode;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.navigationViewStyle = global::CourseApp.Droid.Resource.Attribute.navigationViewStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.numericModifiers = global::CourseApp.Droid.Resource.Attribute.numericModifiers;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.overlapAnchor = global::CourseApp.Droid.Resource.Attribute.overlapAnchor;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.paddingBottomNoButtons = global::CourseApp.Droid.Resource.Attribute.paddingBottomNoButtons;
@@ -2214,6 +2950,7 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.reverseLayout = global::CourseApp.Droid.Resource.Attribute.reverseLayout;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.rippleColor = global::CourseApp.Droid.Resource.Attribute.rippleColor;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.scrimAnimationDuration = global::CourseApp.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.scrimBackground = global::CourseApp.Droid.Resource.Attribute.scrimBackground;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.scrimVisibleHeightTrigger = global::CourseApp.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.searchHintIcon = global::CourseApp.Droid.Resource.Attribute.searchHintIcon;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.searchIcon = global::CourseApp.Droid.Resource.Attribute.searchIcon;
@@ -2223,9 +2960,14 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.selectableItemBackgroundBorderless = global::CourseApp.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.showAsAction = global::CourseApp.Droid.Resource.Attribute.showAsAction;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.showDividers = global::CourseApp.Droid.Resource.Attribute.showDividers;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.showMotionSpec = global::CourseApp.Droid.Resource.Attribute.showMotionSpec;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.showText = global::CourseApp.Droid.Resource.Attribute.showText;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.showTitle = global::CourseApp.Droid.Resource.Attribute.showTitle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.singleChoiceItemLayout = global::CourseApp.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.singleLine = global::CourseApp.Droid.Resource.Attribute.singleLine;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.singleSelection = global::CourseApp.Droid.Resource.Attribute.singleSelection;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.snackbarButtonStyle = global::CourseApp.Droid.Resource.Attribute.snackbarButtonStyle;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.snackbarStyle = global::CourseApp.Droid.Resource.Attribute.snackbarStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.spanCount = global::CourseApp.Droid.Resource.Attribute.spanCount;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.spinBars = global::CourseApp.Droid.Resource.Attribute.spinBars;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.spinnerDropDownItemStyle = global::CourseApp.Droid.Resource.Attribute.spinnerDropDownItemStyle;
@@ -2236,8 +2978,12 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.state_above_anchor = global::CourseApp.Droid.Resource.Attribute.state_above_anchor;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.state_collapsed = global::CourseApp.Droid.Resource.Attribute.state_collapsed;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.state_collapsible = global::CourseApp.Droid.Resource.Attribute.state_collapsible;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.state_liftable = global::CourseApp.Droid.Resource.Attribute.state_liftable;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.state_lifted = global::CourseApp.Droid.Resource.Attribute.state_lifted;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.statusBarBackground = global::CourseApp.Droid.Resource.Attribute.statusBarBackground;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.statusBarScrim = global::CourseApp.Droid.Resource.Attribute.statusBarScrim;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.strokeColor = global::CourseApp.Droid.Resource.Attribute.strokeColor;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.strokeWidth = global::CourseApp.Droid.Resource.Attribute.strokeWidth;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.subMenuArrow = global::CourseApp.Droid.Resource.Attribute.subMenuArrow;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.submitBackground = global::CourseApp.Droid.Resource.Attribute.submitBackground;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.subtitle = global::CourseApp.Droid.Resource.Attribute.subtitle;
@@ -2252,8 +2998,15 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabBackground = global::CourseApp.Droid.Resource.Attribute.tabBackground;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabContentStart = global::CourseApp.Droid.Resource.Attribute.tabContentStart;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabGravity = global::CourseApp.Droid.Resource.Attribute.tabGravity;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabIconTint = global::CourseApp.Droid.Resource.Attribute.tabIconTint;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabIconTintMode = global::CourseApp.Droid.Resource.Attribute.tabIconTintMode;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabIndicator = global::CourseApp.Droid.Resource.Attribute.tabIndicator;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabIndicatorAnimationDuration = global::CourseApp.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabIndicatorColor = global::CourseApp.Droid.Resource.Attribute.tabIndicatorColor;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabIndicatorFullWidth = global::CourseApp.Droid.Resource.Attribute.tabIndicatorFullWidth;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabIndicatorGravity = global::CourseApp.Droid.Resource.Attribute.tabIndicatorGravity;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabIndicatorHeight = global::CourseApp.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabInlineLabel = global::CourseApp.Droid.Resource.Attribute.tabInlineLabel;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabMaxWidth = global::CourseApp.Droid.Resource.Attribute.tabMaxWidth;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabMinWidth = global::CourseApp.Droid.Resource.Attribute.tabMinWidth;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabMode = global::CourseApp.Droid.Resource.Attribute.tabMode;
@@ -2262,20 +3015,39 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabPaddingEnd = global::CourseApp.Droid.Resource.Attribute.tabPaddingEnd;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabPaddingStart = global::CourseApp.Droid.Resource.Attribute.tabPaddingStart;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabPaddingTop = global::CourseApp.Droid.Resource.Attribute.tabPaddingTop;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabRippleColor = global::CourseApp.Droid.Resource.Attribute.tabRippleColor;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabSelectedTextColor = global::CourseApp.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabStyle = global::CourseApp.Droid.Resource.Attribute.tabStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabTextAppearance = global::CourseApp.Droid.Resource.Attribute.tabTextAppearance;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabTextColor = global::CourseApp.Droid.Resource.Attribute.tabTextColor;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabUnboundedRipple = global::CourseApp.Droid.Resource.Attribute.tabUnboundedRipple;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.textAllCaps = global::CourseApp.Droid.Resource.Attribute.textAllCaps;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.textAppearanceBody1 = global::CourseApp.Droid.Resource.Attribute.textAppearanceBody1;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.textAppearanceBody2 = global::CourseApp.Droid.Resource.Attribute.textAppearanceBody2;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.textAppearanceButton = global::CourseApp.Droid.Resource.Attribute.textAppearanceButton;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.textAppearanceCaption = global::CourseApp.Droid.Resource.Attribute.textAppearanceCaption;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.textAppearanceHeadline1 = global::CourseApp.Droid.Resource.Attribute.textAppearanceHeadline1;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.textAppearanceHeadline2 = global::CourseApp.Droid.Resource.Attribute.textAppearanceHeadline2;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.textAppearanceHeadline3 = global::CourseApp.Droid.Resource.Attribute.textAppearanceHeadline3;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.textAppearanceHeadline4 = global::CourseApp.Droid.Resource.Attribute.textAppearanceHeadline4;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.textAppearanceHeadline5 = global::CourseApp.Droid.Resource.Attribute.textAppearanceHeadline5;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.textAppearanceHeadline6 = global::CourseApp.Droid.Resource.Attribute.textAppearanceHeadline6;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.textAppearanceLargePopupMenu = global::CourseApp.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.textAppearanceListItem = global::CourseApp.Droid.Resource.Attribute.textAppearanceListItem;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.textAppearanceListItemSecondary = global::CourseApp.Droid.Resource.Attribute.textAppearanceListItemSecondary;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.textAppearanceListItemSmall = global::CourseApp.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.textAppearanceOverline = global::CourseApp.Droid.Resource.Attribute.textAppearanceOverline;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.textAppearancePopupMenuHeader = global::CourseApp.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.textAppearanceSearchResultSubtitle = global::CourseApp.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.textAppearanceSearchResultTitle = global::CourseApp.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.textAppearanceSmallPopupMenu = global::CourseApp.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.textAppearanceSubtitle1 = global::CourseApp.Droid.Resource.Attribute.textAppearanceSubtitle1;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.textAppearanceSubtitle2 = global::CourseApp.Droid.Resource.Attribute.textAppearanceSubtitle2;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.textColorAlertDialogListItem = global::CourseApp.Droid.Resource.Attribute.textColorAlertDialogListItem;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.textColorSearchUrl = global::CourseApp.Droid.Resource.Attribute.textColorSearchUrl;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.textEndPadding = global::CourseApp.Droid.Resource.Attribute.textEndPadding;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.textInputStyle = global::CourseApp.Droid.Resource.Attribute.textInputStyle;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.textStartPadding = global::CourseApp.Droid.Resource.Attribute.textStartPadding;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.theme = global::CourseApp.Droid.Resource.Attribute.theme;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.thickness = global::CourseApp.Droid.Resource.Attribute.thickness;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.thumbTextPadding = global::CourseApp.Droid.Resource.Attribute.thumbTextPadding;
@@ -2306,7 +3078,9 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.track = global::CourseApp.Droid.Resource.Attribute.track;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.trackTint = global::CourseApp.Droid.Resource.Attribute.trackTint;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.trackTintMode = global::CourseApp.Droid.Resource.Attribute.trackTintMode;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.ttcIndex = global::CourseApp.Droid.Resource.Attribute.ttcIndex;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.useCompatPadding = global::CourseApp.Droid.Resource.Attribute.useCompatPadding;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.viewInflaterClass = global::CourseApp.Droid.Resource.Attribute.viewInflaterClass;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.voiceIcon = global::CourseApp.Droid.Resource.Attribute.voiceIcon;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.windowActionBar = global::CourseApp.Droid.Resource.Attribute.windowActionBar;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.windowActionBarOverlay = global::CourseApp.Droid.Resource.Attribute.windowActionBarOverlay;
@@ -2321,6 +3095,7 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Boolean.abc_action_bar_embed_tabs = global::CourseApp.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Boolean.abc_allow_stacked_button_bar = global::CourseApp.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::CourseApp.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::CourseApp.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.abc_background_cache_hint_selector_material_dark = global::CourseApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.abc_background_cache_hint_selector_material_light = global::CourseApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.abc_btn_colored_borderless_text_material = global::CourseApp.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
@@ -2359,7 +3134,13 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.bright_foreground_material_light = global::CourseApp.Droid.Resource.Color.bright_foreground_material_light;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.button_material_dark = global::CourseApp.Droid.Resource.Color.button_material_dark;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.button_material_light = global::CourseApp.Droid.Resource.Color.button_material_light;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.cardview_dark_background = global::CourseApp.Droid.Resource.Color.cardview_dark_background;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.cardview_light_background = global::CourseApp.Droid.Resource.Color.cardview_light_background;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.cardview_shadow_end_color = global::CourseApp.Droid.Resource.Color.cardview_shadow_end_color;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.cardview_shadow_start_color = global::CourseApp.Droid.Resource.Color.cardview_shadow_start_color;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.design_bottom_navigation_shadow_color = global::CourseApp.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.design_default_color_primary = global::CourseApp.Droid.Resource.Color.design_default_color_primary;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.design_default_color_primary_dark = global::CourseApp.Droid.Resource.Color.design_default_color_primary_dark;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.design_error = global::CourseApp.Droid.Resource.Color.design_error;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.design_fab_shadow_end_color = global::CourseApp.Droid.Resource.Color.design_fab_shadow_end_color;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.design_fab_shadow_mid_color = global::CourseApp.Droid.Resource.Color.design_fab_shadow_mid_color;
@@ -2374,6 +3155,8 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.dim_foreground_disabled_material_light = global::CourseApp.Droid.Resource.Color.dim_foreground_disabled_material_light;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.dim_foreground_material_dark = global::CourseApp.Droid.Resource.Color.dim_foreground_material_dark;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.dim_foreground_material_light = global::CourseApp.Droid.Resource.Color.dim_foreground_material_light;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.error_color_material_dark = global::CourseApp.Droid.Resource.Color.error_color_material_dark;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.error_color_material_light = global::CourseApp.Droid.Resource.Color.error_color_material_light;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.foreground_material_dark = global::CourseApp.Droid.Resource.Color.foreground_material_dark;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.foreground_material_light = global::CourseApp.Droid.Resource.Color.foreground_material_light;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.highlighted_text_material_dark = global::CourseApp.Droid.Resource.Color.highlighted_text_material_dark;
@@ -2390,6 +3173,32 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.material_grey_800 = global::CourseApp.Droid.Resource.Color.material_grey_800;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.material_grey_850 = global::CourseApp.Droid.Resource.Color.material_grey_850;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.material_grey_900 = global::CourseApp.Droid.Resource.Color.material_grey_900;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::CourseApp.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.mtrl_bottom_nav_item_tint = global::CourseApp.Droid.Resource.Color.mtrl_bottom_nav_item_tint;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.mtrl_btn_bg_color_disabled = global::CourseApp.Droid.Resource.Color.mtrl_btn_bg_color_disabled;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.mtrl_btn_bg_color_selector = global::CourseApp.Droid.Resource.Color.mtrl_btn_bg_color_selector;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.mtrl_btn_ripple_color = global::CourseApp.Droid.Resource.Color.mtrl_btn_ripple_color;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.mtrl_btn_stroke_color_selector = global::CourseApp.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.mtrl_btn_text_btn_ripple_color = global::CourseApp.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.mtrl_btn_text_color_disabled = global::CourseApp.Droid.Resource.Color.mtrl_btn_text_color_disabled;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.mtrl_btn_text_color_selector = global::CourseApp.Droid.Resource.Color.mtrl_btn_text_color_selector;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.mtrl_btn_transparent_bg_color = global::CourseApp.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.mtrl_chip_background_color = global::CourseApp.Droid.Resource.Color.mtrl_chip_background_color;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.mtrl_chip_close_icon_tint = global::CourseApp.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.mtrl_chip_ripple_color = global::CourseApp.Droid.Resource.Color.mtrl_chip_ripple_color;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.mtrl_chip_text_color = global::CourseApp.Droid.Resource.Color.mtrl_chip_text_color;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.mtrl_fab_ripple_color = global::CourseApp.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.mtrl_scrim_color = global::CourseApp.Droid.Resource.Color.mtrl_scrim_color;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.mtrl_tabs_colored_ripple_color = global::CourseApp.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.mtrl_tabs_icon_color_selector = global::CourseApp.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::CourseApp.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::CourseApp.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.mtrl_tabs_ripple_color = global::CourseApp.Droid.Resource.Color.mtrl_tabs_ripple_color;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.mtrl_text_btn_text_color_selector = global::CourseApp.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.mtrl_textinput_default_box_stroke_color = global::CourseApp.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.mtrl_textinput_disabled_color = global::CourseApp.Droid.Resource.Color.mtrl_textinput_disabled_color;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::CourseApp.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::CourseApp.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.notification_action_color_filter = global::CourseApp.Droid.Resource.Color.notification_action_color_filter;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.notification_icon_bg_color = global::CourseApp.Droid.Resource.Color.notification_icon_bg_color;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.primary_dark_material_dark = global::CourseApp.Droid.Resource.Color.primary_dark_material_dark;
@@ -2431,6 +3240,7 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.abc_action_button_min_width_material = global::CourseApp.Droid.Resource.Dimension.abc_action_button_min_width_material;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.abc_action_button_min_width_overflow_material = global::CourseApp.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.abc_alert_dialog_button_bar_height = global::CourseApp.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.abc_alert_dialog_button_dimen = global::CourseApp.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.abc_button_inset_horizontal_material = global::CourseApp.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.abc_button_inset_vertical_material = global::CourseApp.Droid.Resource.Dimension.abc_button_inset_vertical_material;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.abc_button_padding_horizontal_material = global::CourseApp.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
@@ -2440,6 +3250,7 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.abc_control_corner_material = global::CourseApp.Droid.Resource.Dimension.abc_control_corner_material;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.abc_control_inset_material = global::CourseApp.Droid.Resource.Dimension.abc_control_inset_material;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.abc_control_padding_material = global::CourseApp.Droid.Resource.Dimension.abc_control_padding_material;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.abc_dialog_corner_radius_material = global::CourseApp.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.abc_dialog_fixed_height_major = global::CourseApp.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.abc_dialog_fixed_height_minor = global::CourseApp.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.abc_dialog_fixed_width_major = global::CourseApp.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
@@ -2487,16 +3298,23 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::CourseApp.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.abc_text_size_title_material = global::CourseApp.Droid.Resource.Dimension.abc_text_size_title_material;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.abc_text_size_title_material_toolbar = global::CourseApp.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.cardview_compat_inset_shadow = global::CourseApp.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.cardview_default_elevation = global::CourseApp.Droid.Resource.Dimension.cardview_default_elevation;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.cardview_default_radius = global::CourseApp.Droid.Resource.Dimension.cardview_default_radius;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.compat_button_inset_horizontal_material = global::CourseApp.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.compat_button_inset_vertical_material = global::CourseApp.Droid.Resource.Dimension.compat_button_inset_vertical_material;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.compat_button_padding_horizontal_material = global::CourseApp.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.compat_button_padding_vertical_material = global::CourseApp.Droid.Resource.Dimension.compat_button_padding_vertical_material;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.compat_control_corner_material = global::CourseApp.Droid.Resource.Dimension.compat_control_corner_material;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.compat_notification_large_icon_max_height = global::CourseApp.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.compat_notification_large_icon_max_width = global::CourseApp.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_appbar_elevation = global::CourseApp.Droid.Resource.Dimension.design_appbar_elevation;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::CourseApp.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::CourseApp.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_bottom_navigation_active_text_size = global::CourseApp.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_bottom_navigation_elevation = global::CourseApp.Droid.Resource.Dimension.design_bottom_navigation_elevation;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_bottom_navigation_height = global::CourseApp.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_bottom_navigation_icon_size = global::CourseApp.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_bottom_navigation_item_max_width = global::CourseApp.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_bottom_navigation_item_min_width = global::CourseApp.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_bottom_navigation_margin = global::CourseApp.Droid.Resource.Dimension.design_bottom_navigation_margin;
@@ -2509,10 +3327,13 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_fab_image_size = global::CourseApp.Droid.Resource.Dimension.design_fab_image_size;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_fab_size_mini = global::CourseApp.Droid.Resource.Dimension.design_fab_size_mini;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_fab_size_normal = global::CourseApp.Droid.Resource.Dimension.design_fab_size_normal;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_fab_translation_z_hovered_focused = global::CourseApp.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_fab_translation_z_pressed = global::CourseApp.Droid.Resource.Dimension.design_fab_translation_z_pressed;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_navigation_elevation = global::CourseApp.Droid.Resource.Dimension.design_navigation_elevation;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_navigation_icon_padding = global::CourseApp.Droid.Resource.Dimension.design_navigation_icon_padding;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_navigation_icon_size = global::CourseApp.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_navigation_item_horizontal_padding = global::CourseApp.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_navigation_item_icon_padding = global::CourseApp.Droid.Resource.Dimension.design_navigation_item_icon_padding;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_navigation_max_width = global::CourseApp.Droid.Resource.Dimension.design_navigation_max_width;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_navigation_padding_bottom = global::CourseApp.Droid.Resource.Dimension.design_navigation_padding_bottom;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_navigation_separator_vertical_padding = global::CourseApp.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
@@ -2530,6 +3351,7 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_tab_scrollable_min_width = global::CourseApp.Droid.Resource.Dimension.design_tab_scrollable_min_width;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_tab_text_size = global::CourseApp.Droid.Resource.Dimension.design_tab_text_size;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_tab_text_size_2line = global::CourseApp.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_textinput_caption_translate_y = global::CourseApp.Droid.Resource.Dimension.design_textinput_caption_translate_y;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.disabled_alpha_material_dark = global::CourseApp.Droid.Resource.Dimension.disabled_alpha_material_dark;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.disabled_alpha_material_light = global::CourseApp.Droid.Resource.Dimension.disabled_alpha_material_light;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.fastscroll_default_thickness = global::CourseApp.Droid.Resource.Dimension.fastscroll_default_thickness;
@@ -2545,6 +3367,54 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::CourseApp.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::CourseApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::CourseApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::CourseApp.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::CourseApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::CourseApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::CourseApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.mtrl_bottomappbar_height = global::CourseApp.Droid.Resource.Dimension.mtrl_bottomappbar_height;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.mtrl_btn_corner_radius = global::CourseApp.Droid.Resource.Dimension.mtrl_btn_corner_radius;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::CourseApp.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.mtrl_btn_disabled_elevation = global::CourseApp.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.mtrl_btn_disabled_z = global::CourseApp.Droid.Resource.Dimension.mtrl_btn_disabled_z;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.mtrl_btn_elevation = global::CourseApp.Droid.Resource.Dimension.mtrl_btn_elevation;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.mtrl_btn_focused_z = global::CourseApp.Droid.Resource.Dimension.mtrl_btn_focused_z;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.mtrl_btn_hovered_z = global::CourseApp.Droid.Resource.Dimension.mtrl_btn_hovered_z;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::CourseApp.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.mtrl_btn_icon_padding = global::CourseApp.Droid.Resource.Dimension.mtrl_btn_icon_padding;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.mtrl_btn_inset = global::CourseApp.Droid.Resource.Dimension.mtrl_btn_inset;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.mtrl_btn_letter_spacing = global::CourseApp.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.mtrl_btn_padding_bottom = global::CourseApp.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.mtrl_btn_padding_left = global::CourseApp.Droid.Resource.Dimension.mtrl_btn_padding_left;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.mtrl_btn_padding_right = global::CourseApp.Droid.Resource.Dimension.mtrl_btn_padding_right;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.mtrl_btn_padding_top = global::CourseApp.Droid.Resource.Dimension.mtrl_btn_padding_top;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.mtrl_btn_pressed_z = global::CourseApp.Droid.Resource.Dimension.mtrl_btn_pressed_z;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.mtrl_btn_stroke_size = global::CourseApp.Droid.Resource.Dimension.mtrl_btn_stroke_size;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::CourseApp.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::CourseApp.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::CourseApp.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.mtrl_btn_text_size = global::CourseApp.Droid.Resource.Dimension.mtrl_btn_text_size;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.mtrl_btn_z = global::CourseApp.Droid.Resource.Dimension.mtrl_btn_z;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.mtrl_card_elevation = global::CourseApp.Droid.Resource.Dimension.mtrl_card_elevation;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.mtrl_card_spacing = global::CourseApp.Droid.Resource.Dimension.mtrl_card_spacing;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.mtrl_chip_pressed_translation_z = global::CourseApp.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.mtrl_chip_text_size = global::CourseApp.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.mtrl_fab_elevation = global::CourseApp.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::CourseApp.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.mtrl_fab_translation_z_pressed = global::CourseApp.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.mtrl_navigation_elevation = global::CourseApp.Droid.Resource.Dimension.mtrl_navigation_elevation;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::CourseApp.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.mtrl_navigation_item_icon_padding = global::CourseApp.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::CourseApp.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.mtrl_snackbar_margin = global::CourseApp.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.mtrl_textinput_box_bottom_offset = global::CourseApp.Droid.Resource.Dimension.mtrl_textinput_box_bottom_offset;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::CourseApp.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::CourseApp.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::CourseApp.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.mtrl_textinput_box_padding_end = global::CourseApp.Droid.Resource.Dimension.mtrl_textinput_box_padding_end;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::CourseApp.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::CourseApp.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::CourseApp.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.mtrl_toolbar_default_height = global::CourseApp.Droid.Resource.Dimension.mtrl_toolbar_default_height;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.notification_action_icon_size = global::CourseApp.Droid.Resource.Dimension.notification_action_icon_size;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.notification_action_text_size = global::CourseApp.Droid.Resource.Dimension.notification_action_text_size;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.notification_big_circle_margin = global::CourseApp.Droid.Resource.Dimension.notification_big_circle_margin;
@@ -2608,6 +3478,7 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.abc_ic_voice_search_api_material = global::CourseApp.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.abc_item_background_holo_dark = global::CourseApp.Droid.Resource.Drawable.abc_item_background_holo_dark;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.abc_item_background_holo_light = global::CourseApp.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.abc_list_divider_material = global::CourseApp.Droid.Resource.Drawable.abc_list_divider_material;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.abc_list_divider_mtrl_alpha = global::CourseApp.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.abc_list_focused_holo = global::CourseApp.Droid.Resource.Drawable.abc_list_focused_holo;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.abc_list_longpressed_holo = global::CourseApp.Droid.Resource.Drawable.abc_list_longpressed_holo;
@@ -2659,6 +3530,11 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.design_ic_visibility_off = global::CourseApp.Droid.Resource.Drawable.design_ic_visibility_off;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.design_password_eye = global::CourseApp.Droid.Resource.Drawable.design_password_eye;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.design_snackbar_background = global::CourseApp.Droid.Resource.Drawable.design_snackbar_background;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.ic_mtrl_chip_checked_black = global::CourseApp.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.ic_mtrl_chip_checked_circle = global::CourseApp.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.ic_mtrl_chip_close_circle = global::CourseApp.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.mtrl_snackbar_background = global::CourseApp.Droid.Resource.Drawable.mtrl_snackbar_background;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.mtrl_tabs_default_indicator = global::CourseApp.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.navigation_empty_icon = global::CourseApp.Droid.Resource.Drawable.navigation_empty_icon;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.notification_action_background = global::CourseApp.Droid.Resource.Drawable.notification_action_background;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.notification_bg = global::CourseApp.Droid.Resource.Drawable.notification_bg;
@@ -2720,6 +3596,7 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.clip_vertical = global::CourseApp.Droid.Resource.Id.clip_vertical;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.collapseActionView = global::CourseApp.Droid.Resource.Id.collapseActionView;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.container = global::CourseApp.Droid.Resource.Id.container;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.content = global::CourseApp.Droid.Resource.Id.content;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.contentPanel = global::CourseApp.Droid.Resource.Id.contentPanel;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.coordinator = global::CourseApp.Droid.Resource.Id.coordinator;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.custom = global::CourseApp.Droid.Resource.Id.custom;
@@ -2742,9 +3619,11 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.fill = global::CourseApp.Droid.Resource.Id.fill;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.fill_horizontal = global::CourseApp.Droid.Resource.Id.fill_horizontal;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.fill_vertical = global::CourseApp.Droid.Resource.Id.fill_vertical;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.filled = global::CourseApp.Droid.Resource.Id.filled;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.@fixed = global::CourseApp.Droid.Resource.Id.@fixed;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.forever = global::CourseApp.Droid.Resource.Id.forever;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.ghost_view = global::CourseApp.Droid.Resource.Id.ghost_view;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.group_divider = global::CourseApp.Droid.Resource.Id.group_divider;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.home = global::CourseApp.Droid.Resource.Id.home;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.homeAsUp = global::CourseApp.Droid.Resource.Id.homeAsUp;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.icon = global::CourseApp.Droid.Resource.Id.icon;
@@ -2754,6 +3633,7 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.info = global::CourseApp.Droid.Resource.Id.info;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.italic = global::CourseApp.Droid.Resource.Id.italic;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.item_touch_helper_previous_elevation = global::CourseApp.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.labeled = global::CourseApp.Droid.Resource.Id.labeled;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.largeLabel = global::CourseApp.Droid.Resource.Id.largeLabel;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.left = global::CourseApp.Droid.Resource.Id.left;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.line1 = global::CourseApp.Droid.Resource.Id.line1;
@@ -2764,6 +3644,8 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.message = global::CourseApp.Droid.Resource.Id.message;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.middle = global::CourseApp.Droid.Resource.Id.middle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.mini = global::CourseApp.Droid.Resource.Id.mini;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.mtrl_child_content_container = global::CourseApp.Droid.Resource.Id.mtrl_child_content_container;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.mtrl_internal_children_alpha_tag = global::CourseApp.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.multiply = global::CourseApp.Droid.Resource.Id.multiply;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.navigation_header_container = global::CourseApp.Droid.Resource.Id.navigation_header_container;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.never = global::CourseApp.Droid.Resource.Id.never;
@@ -2772,6 +3654,7 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.notification_background = global::CourseApp.Droid.Resource.Id.notification_background;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.notification_main_column = global::CourseApp.Droid.Resource.Id.notification_main_column;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.notification_main_column_container = global::CourseApp.Droid.Resource.Id.notification_main_column_container;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.outline = global::CourseApp.Droid.Resource.Id.outline;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.parallax = global::CourseApp.Droid.Resource.Id.parallax;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.parentPanel = global::CourseApp.Droid.Resource.Id.parentPanel;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.parent_matrix = global::CourseApp.Droid.Resource.Id.parent_matrix;
@@ -2802,6 +3685,7 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.search_src_text = global::CourseApp.Droid.Resource.Id.search_src_text;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.search_voice_btn = global::CourseApp.Droid.Resource.Id.search_voice_btn;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.select_dialog_listview = global::CourseApp.Droid.Resource.Id.select_dialog_listview;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.selected = global::CourseApp.Droid.Resource.Id.selected;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.shortcut = global::CourseApp.Droid.Resource.Id.shortcut;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.showCustom = global::CourseApp.Droid.Resource.Id.showCustom;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.showHome = global::CourseApp.Droid.Resource.Id.showHome;
@@ -2810,23 +3694,29 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.snackbar_action = global::CourseApp.Droid.Resource.Id.snackbar_action;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.snackbar_text = global::CourseApp.Droid.Resource.Id.snackbar_text;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.snap = global::CourseApp.Droid.Resource.Id.snap;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.snapMargins = global::CourseApp.Droid.Resource.Id.snapMargins;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.spacer = global::CourseApp.Droid.Resource.Id.spacer;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.split_action_bar = global::CourseApp.Droid.Resource.Id.split_action_bar;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.src_atop = global::CourseApp.Droid.Resource.Id.src_atop;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.src_in = global::CourseApp.Droid.Resource.Id.src_in;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.src_over = global::CourseApp.Droid.Resource.Id.src_over;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.start = global::CourseApp.Droid.Resource.Id.start;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.stretch = global::CourseApp.Droid.Resource.Id.stretch;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.submenuarrow = global::CourseApp.Droid.Resource.Id.submenuarrow;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.submit_area = global::CourseApp.Droid.Resource.Id.submit_area;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.tabMode = global::CourseApp.Droid.Resource.Id.tabMode;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.tag_transition_group = global::CourseApp.Droid.Resource.Id.tag_transition_group;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.tag_unhandled_key_event_manager = global::CourseApp.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.tag_unhandled_key_listeners = global::CourseApp.Droid.Resource.Id.tag_unhandled_key_listeners;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.text = global::CourseApp.Droid.Resource.Id.text;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.text2 = global::CourseApp.Droid.Resource.Id.text2;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.textSpacerNoButtons = global::CourseApp.Droid.Resource.Id.textSpacerNoButtons;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.textSpacerNoTitle = global::CourseApp.Droid.Resource.Id.textSpacerNoTitle;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.textStart = global::CourseApp.Droid.Resource.Id.textStart;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.text_input_password_toggle = global::CourseApp.Droid.Resource.Id.text_input_password_toggle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.textinput_counter = global::CourseApp.Droid.Resource.Id.textinput_counter;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.textinput_error = global::CourseApp.Droid.Resource.Id.textinput_error;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.textinput_helper_text = global::CourseApp.Droid.Resource.Id.textinput_helper_text;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.time = global::CourseApp.Droid.Resource.Id.time;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.title = global::CourseApp.Droid.Resource.Id.title;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.titleDividerNoCustom = global::CourseApp.Droid.Resource.Id.titleDividerNoCustom;
@@ -2840,6 +3730,7 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.transition_scene_layoutid_cache = global::CourseApp.Droid.Resource.Id.transition_scene_layoutid_cache;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.transition_transform = global::CourseApp.Droid.Resource.Id.transition_transform;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.uniform = global::CourseApp.Droid.Resource.Id.uniform;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.unlabeled = global::CourseApp.Droid.Resource.Id.unlabeled;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.up = global::CourseApp.Droid.Resource.Id.up;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.useLogo = global::CourseApp.Droid.Resource.Id.useLogo;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.view_offset_helper = global::CourseApp.Droid.Resource.Id.view_offset_helper;
@@ -2853,9 +3744,18 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Integer.cancel_button_image_alpha = global::CourseApp.Droid.Resource.Integer.cancel_button_image_alpha;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Integer.config_tooltipAnimTime = global::CourseApp.Droid.Resource.Integer.config_tooltipAnimTime;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Integer.design_snackbar_text_max_lines = global::CourseApp.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Integer.design_tab_indicator_anim_duration_ms = global::CourseApp.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Integer.hide_password_duration = global::CourseApp.Droid.Resource.Integer.hide_password_duration;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Integer.mtrl_btn_anim_delay_ms = global::CourseApp.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Integer.mtrl_btn_anim_duration_ms = global::CourseApp.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Integer.mtrl_chip_anim_duration = global::CourseApp.Droid.Resource.Integer.mtrl_chip_anim_duration;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::CourseApp.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Integer.show_password_duration = global::CourseApp.Droid.Resource.Integer.show_password_duration;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Integer.status_bar_notification_info_maxnum = global::CourseApp.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Interpolator.mtrl_fast_out_linear_in = global::CourseApp.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Interpolator.mtrl_fast_out_slow_in = global::CourseApp.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Interpolator.mtrl_linear = global::CourseApp.Droid.Resource.Interpolator.mtrl_linear;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Interpolator.mtrl_linear_out_slow_in = global::CourseApp.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.abc_action_bar_title_item = global::CourseApp.Droid.Resource.Layout.abc_action_bar_title_item;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.abc_action_bar_up_container = global::CourseApp.Droid.Resource.Layout.abc_action_bar_up_container;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.abc_action_menu_item_layout = global::CourseApp.Droid.Resource.Layout.abc_action_menu_item_layout;
@@ -2867,6 +3767,7 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.abc_alert_dialog_button_bar_material = global::CourseApp.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.abc_alert_dialog_material = global::CourseApp.Droid.Resource.Layout.abc_alert_dialog_material;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.abc_alert_dialog_title_material = global::CourseApp.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.abc_cascading_menu_item_layout = global::CourseApp.Droid.Resource.Layout.abc_cascading_menu_item_layout;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.abc_dialog_title_material = global::CourseApp.Droid.Resource.Layout.abc_dialog_title_material;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.abc_expanded_menu_layout = global::CourseApp.Droid.Resource.Layout.abc_expanded_menu_layout;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.abc_list_menu_item_checkbox = global::CourseApp.Droid.Resource.Layout.abc_list_menu_item_checkbox;
@@ -2882,6 +3783,7 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.abc_search_dropdown_item_icons_2line = global::CourseApp.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.abc_search_view = global::CourseApp.Droid.Resource.Layout.abc_search_view;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.abc_select_dialog_material = global::CourseApp.Droid.Resource.Layout.abc_select_dialog_material;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.abc_tooltip = global::CourseApp.Droid.Resource.Layout.abc_tooltip;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.design_bottom_navigation_item = global::CourseApp.Droid.Resource.Layout.design_bottom_navigation_item;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.design_bottom_sheet_dialog = global::CourseApp.Droid.Resource.Layout.design_bottom_sheet_dialog;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.design_layout_snackbar = global::CourseApp.Droid.Resource.Layout.design_layout_snackbar;
@@ -2896,6 +3798,8 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.design_navigation_menu = global::CourseApp.Droid.Resource.Layout.design_navigation_menu;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.design_navigation_menu_item = global::CourseApp.Droid.Resource.Layout.design_navigation_menu_item;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.design_text_input_password_icon = global::CourseApp.Droid.Resource.Layout.design_text_input_password_icon;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.mtrl_layout_snackbar = global::CourseApp.Droid.Resource.Layout.mtrl_layout_snackbar;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.mtrl_layout_snackbar_include = global::CourseApp.Droid.Resource.Layout.mtrl_layout_snackbar_include;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.notification_action = global::CourseApp.Droid.Resource.Layout.notification_action;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.notification_action_tombstone = global::CourseApp.Droid.Resource.Layout.notification_action_tombstone;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.notification_template_custom_big = global::CourseApp.Droid.Resource.Layout.notification_template_custom_big;
@@ -2926,6 +3830,16 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.abc_font_family_menu_material = global::CourseApp.Droid.Resource.String.abc_font_family_menu_material;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.abc_font_family_subhead_material = global::CourseApp.Droid.Resource.String.abc_font_family_subhead_material;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.abc_font_family_title_material = global::CourseApp.Droid.Resource.String.abc_font_family_title_material;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.abc_menu_alt_shortcut_label = global::CourseApp.Droid.Resource.String.abc_menu_alt_shortcut_label;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.abc_menu_ctrl_shortcut_label = global::CourseApp.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.abc_menu_delete_shortcut_label = global::CourseApp.Droid.Resource.String.abc_menu_delete_shortcut_label;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.abc_menu_enter_shortcut_label = global::CourseApp.Droid.Resource.String.abc_menu_enter_shortcut_label;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.abc_menu_function_shortcut_label = global::CourseApp.Droid.Resource.String.abc_menu_function_shortcut_label;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.abc_menu_meta_shortcut_label = global::CourseApp.Droid.Resource.String.abc_menu_meta_shortcut_label;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.abc_menu_shift_shortcut_label = global::CourseApp.Droid.Resource.String.abc_menu_shift_shortcut_label;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.abc_menu_space_shortcut_label = global::CourseApp.Droid.Resource.String.abc_menu_space_shortcut_label;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.abc_menu_sym_shortcut_label = global::CourseApp.Droid.Resource.String.abc_menu_sym_shortcut_label;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.abc_prepend_shortcut_label = global::CourseApp.Droid.Resource.String.abc_prepend_shortcut_label;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.abc_search_hint = global::CourseApp.Droid.Resource.String.abc_search_hint;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.abc_searchview_description_clear = global::CourseApp.Droid.Resource.String.abc_searchview_description_clear;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.abc_searchview_description_query = global::CourseApp.Droid.Resource.String.abc_searchview_description_query;
@@ -2937,8 +3851,13 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.abc_toolbar_collapse_description = global::CourseApp.Droid.Resource.String.abc_toolbar_collapse_description;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.appbar_scrolling_view_behavior = global::CourseApp.Droid.Resource.String.appbar_scrolling_view_behavior;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.bottom_sheet_behavior = global::CourseApp.Droid.Resource.String.bottom_sheet_behavior;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.character_counter_content_description = global::CourseApp.Droid.Resource.String.character_counter_content_description;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.character_counter_pattern = global::CourseApp.Droid.Resource.String.character_counter_pattern;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.fab_scroll_shrink_grow_autohide_behavior = global::CourseApp.Droid.Resource.String.fab_scroll_shrink_grow_autohide_behavior;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.fab_transformation_scrim_behavior = global::CourseApp.Droid.Resource.String.fab_transformation_scrim_behavior;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.fab_transformation_sheet_behavior = global::CourseApp.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.hide_bottom_view_on_scroll_behavior = global::CourseApp.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.mtrl_chip_close_icon_content_description = global::CourseApp.Droid.Resource.String.mtrl_chip_close_icon_content_description;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.password_toggle_content_description = global::CourseApp.Droid.Resource.String.password_toggle_content_description;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.path_password_eye = global::CourseApp.Droid.Resource.String.path_password_eye;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.path_password_eye_mask_strike_through = global::CourseApp.Droid.Resource.String.path_password_eye_mask_strike_through;
@@ -2958,6 +3877,7 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_Animation_AppCompat_Dialog = global::CourseApp.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::CourseApp.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_Animation_AppCompat_Tooltip = global::CourseApp.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_CardView = global::CourseApp.Droid.Resource.Style.Base_CardView;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_DialogWindowTitle_AppCompat = global::CourseApp.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::CourseApp.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_TextAppearance_AppCompat = global::CourseApp.Droid.Resource.Style.Base_TextAppearance_AppCompat;
@@ -3022,6 +3942,23 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::CourseApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::CourseApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::CourseApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_Theme_MaterialComponents = global::CourseApp.Droid.Resource.Style.Base_Theme_MaterialComponents;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::CourseApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::CourseApp.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::CourseApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::CourseApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::CourseApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::CourseApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::CourseApp.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_Theme_MaterialComponents_Light = global::CourseApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::CourseApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::CourseApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::CourseApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::CourseApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::CourseApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::CourseApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::CourseApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::CourseApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_ThemeOverlay_AppCompat = global::CourseApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::CourseApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::CourseApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
@@ -3029,6 +3966,17 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::CourseApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::CourseApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::CourseApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::CourseApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::CourseApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_V14_Theme_MaterialComponents = global::CourseApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::CourseApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::CourseApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::CourseApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::CourseApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::CourseApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::CourseApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::CourseApp.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::CourseApp.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_V21_Theme_AppCompat = global::CourseApp.Droid.Resource.Style.Base_V21_Theme_AppCompat;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::CourseApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_V21_Theme_AppCompat_Light = global::CourseApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
@@ -3041,6 +3989,8 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_V26_Theme_AppCompat = global::CourseApp.Droid.Resource.Style.Base_V26_Theme_AppCompat;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_V26_Theme_AppCompat_Light = global::CourseApp.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::CourseApp.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_V28_Theme_AppCompat = global::CourseApp.Droid.Resource.Style.Base_V28_Theme_AppCompat;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_V28_Theme_AppCompat_Light = global::CourseApp.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_V7_Theme_AppCompat = global::CourseApp.Droid.Resource.Style.Base_V7_Theme_AppCompat;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::CourseApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_V7_Theme_AppCompat_Light = global::CourseApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
@@ -3107,8 +4057,18 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_Widget_AppCompat_Toolbar = global::CourseApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::CourseApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_Widget_Design_TabLayout = global::CourseApp.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_Widget_MaterialComponents_Chip = global::CourseApp.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::CourseApp.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::CourseApp.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.CardView = global::CourseApp.Droid.Resource.Style.CardView;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.CardView_Dark = global::CourseApp.Droid.Resource.Style.CardView_Dark;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.CardView_Light = global::CourseApp.Droid.Resource.Style.CardView_Light;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Platform_AppCompat = global::CourseApp.Droid.Resource.Style.Platform_AppCompat;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Platform_AppCompat_Light = global::CourseApp.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Platform_MaterialComponents = global::CourseApp.Droid.Resource.Style.Platform_MaterialComponents;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Platform_MaterialComponents_Dialog = global::CourseApp.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Platform_MaterialComponents_Light = global::CourseApp.Droid.Resource.Style.Platform_MaterialComponents_Light;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::CourseApp.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Platform_ThemeOverlay_AppCompat = global::CourseApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::CourseApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::CourseApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
@@ -3122,7 +4082,10 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::CourseApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::CourseApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::CourseApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::CourseApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::CourseApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::CourseApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::CourseApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::CourseApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::CourseApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::CourseApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
@@ -3188,9 +4151,25 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_Design_Counter = global::CourseApp.Droid.Resource.Style.TextAppearance_Design_Counter;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_Design_Counter_Overflow = global::CourseApp.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_Design_Error = global::CourseApp.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_Design_HelperText = global::CourseApp.Droid.Resource.Style.TextAppearance_Design_HelperText;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_Design_Hint = global::CourseApp.Droid.Resource.Style.TextAppearance_Design_Hint;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_Design_Snackbar_Message = global::CourseApp.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_Design_Tab = global::CourseApp.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::CourseApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::CourseApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_MaterialComponents_Button = global::CourseApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_MaterialComponents_Caption = global::CourseApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_MaterialComponents_Chip = global::CourseApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::CourseApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::CourseApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::CourseApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::CourseApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::CourseApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::CourseApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_MaterialComponents_Overline = global::CourseApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::CourseApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::CourseApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_MaterialComponents_Tab = global::CourseApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Tab;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::CourseApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::CourseApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::CourseApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
@@ -3221,6 +4200,27 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::CourseApp.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Theme_Design_Light_NoActionBar = global::CourseApp.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Theme_Design_NoActionBar = global::CourseApp.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Theme_MaterialComponents = global::CourseApp.Droid.Resource.Style.Theme_MaterialComponents;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::CourseApp.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Theme_MaterialComponents_Bridge = global::CourseApp.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Theme_MaterialComponents_CompactMenu = global::CourseApp.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Theme_MaterialComponents_Dialog = global::CourseApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::CourseApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::CourseApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::CourseApp.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Theme_MaterialComponents_Light = global::CourseApp.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::CourseApp.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::CourseApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::CourseApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::CourseApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::CourseApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::CourseApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::CourseApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::CourseApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::CourseApp.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::CourseApp.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Theme_MaterialComponents_NoActionBar = global::CourseApp.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::CourseApp.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.ThemeOverlay_AppCompat = global::CourseApp.Droid.Resource.Style.ThemeOverlay_AppCompat;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::CourseApp.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.ThemeOverlay_AppCompat_Dark = global::CourseApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
@@ -3228,6 +4228,18 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::CourseApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::CourseApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.ThemeOverlay_AppCompat_Light = global::CourseApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.ThemeOverlay_MaterialComponents = global::CourseApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::CourseApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::CourseApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::CourseApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::CourseApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::CourseApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::CourseApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::CourseApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::CourseApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::CourseApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::CourseApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::CourseApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_AppCompat_ActionBar = global::CourseApp.Droid.Resource.Style.Widget_AppCompat_ActionBar;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::CourseApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::CourseApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
@@ -3312,6 +4324,43 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_Design_Snackbar = global::CourseApp.Droid.Resource.Style.Widget_Design_Snackbar;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_Design_TabLayout = global::CourseApp.Droid.Resource.Style.Widget_Design_TabLayout;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_Design_TextInputLayout = global::CourseApp.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_MaterialComponents_Button = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_Button;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_MaterialComponents_Button_Icon = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_MaterialComponents_CardView = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_MaterialComponents_Chip_Action = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_MaterialComponents_ChipGroup = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_MaterialComponents_NavigationView = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_MaterialComponents_Snackbar = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_MaterialComponents_TabLayout = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_MaterialComponents_Toolbar = global::CourseApp.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_Support_CoordinatorLayout = global::CourseApp.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Xml.Empty = global::CourseApp.Droid.Resource.Xml.Empty;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ActionBar = global::CourseApp.Droid.Resource.Styleable.ActionBar;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ActionBar_background = global::CourseApp.Droid.Resource.Styleable.ActionBar_background;
@@ -3360,21 +4409,40 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ActivityChooserView_initialActivityCount = global::CourseApp.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AlertDialog = global::CourseApp.Droid.Resource.Styleable.AlertDialog;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AlertDialog_android_layout = global::CourseApp.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AlertDialog_buttonIconDimen = global::CourseApp.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::CourseApp.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AlertDialog_listItemLayout = global::CourseApp.Droid.Resource.Styleable.AlertDialog_listItemLayout;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AlertDialog_listLayout = global::CourseApp.Droid.Resource.Styleable.AlertDialog_listLayout;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::CourseApp.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AlertDialog_showTitle = global::CourseApp.Droid.Resource.Styleable.AlertDialog_showTitle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::CourseApp.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AnimatedStateListDrawableCompat = global::CourseApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::CourseApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::CourseApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::CourseApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::CourseApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::CourseApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::CourseApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AnimatedStateListDrawableItem = global::CourseApp.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::CourseApp.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::CourseApp.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AnimatedStateListDrawableTransition = global::CourseApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::CourseApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::CourseApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::CourseApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::CourseApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppBarLayout = global::CourseApp.Droid.Resource.Styleable.AppBarLayout;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppBarLayout_android_background = global::CourseApp.Droid.Resource.Styleable.AppBarLayout_android_background;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::CourseApp.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::CourseApp.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppBarLayout_elevation = global::CourseApp.Droid.Resource.Styleable.AppBarLayout_elevation;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppBarLayout_expanded = global::CourseApp.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppBarLayout_liftOnScroll = global::CourseApp.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppBarLayoutStates = global::CourseApp.Droid.Resource.Styleable.AppBarLayoutStates;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::CourseApp.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::CourseApp.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppBarLayoutStates_state_liftable = global::CourseApp.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppBarLayoutStates_state_lifted = global::CourseApp.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppBarLayout_Layout = global::CourseApp.Droid.Resource.Styleable.AppBarLayout_Layout;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::CourseApp.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::CourseApp.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
@@ -3403,7 +4471,10 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::CourseApp.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::CourseApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::CourseApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::CourseApp.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTextView_fontFamily = global::CourseApp.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::CourseApp.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTextView_lineHeight = global::CourseApp.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTextView_textAllCaps = global::CourseApp.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTheme = global::CourseApp.Droid.Resource.Styleable.AppCompatTheme;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTheme_actionBarDivider = global::CourseApp.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
@@ -3465,6 +4536,7 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::CourseApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::CourseApp.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTheme_controlBackground = global::CourseApp.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::CourseApp.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::CourseApp.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTheme_dialogTheme = global::CourseApp.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::CourseApp.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
@@ -3515,6 +4587,7 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTheme_toolbarStyle = global::CourseApp.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::CourseApp.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::CourseApp.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::CourseApp.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTheme_windowActionBar = global::CourseApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::CourseApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::CourseApp.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
@@ -3525,18 +4598,87 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::CourseApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::CourseApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTheme_windowNoTitle = global::CourseApp.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.BottomAppBar = global::CourseApp.Droid.Resource.Styleable.BottomAppBar;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.BottomAppBar_backgroundTint = global::CourseApp.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::CourseApp.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.BottomAppBar_fabCradleMargin = global::CourseApp.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::CourseApp.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::CourseApp.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.BottomAppBar_hideOnScroll = global::CourseApp.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.BottomNavigationView = global::CourseApp.Droid.Resource.Styleable.BottomNavigationView;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.BottomNavigationView_elevation = global::CourseApp.Droid.Resource.Styleable.BottomNavigationView_elevation;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.BottomNavigationView_itemBackground = global::CourseApp.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::CourseApp.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.BottomNavigationView_itemIconSize = global::CourseApp.Droid.Resource.Styleable.BottomNavigationView_itemIconSize;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.BottomNavigationView_itemIconTint = global::CourseApp.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive = global::CourseApp.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive = global::CourseApp.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.BottomNavigationView_itemTextColor = global::CourseApp.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.BottomNavigationView_labelVisibilityMode = global::CourseApp.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.BottomNavigationView_menu = global::CourseApp.Droid.Resource.Styleable.BottomNavigationView_menu;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.BottomSheetBehavior_Layout = global::CourseApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::CourseApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::CourseApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::CourseApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::CourseApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ButtonBarLayout = global::CourseApp.Droid.Resource.Styleable.ButtonBarLayout;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ButtonBarLayout_allowStacking = global::CourseApp.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CardView = global::CourseApp.Droid.Resource.Styleable.CardView;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CardView_android_minHeight = global::CourseApp.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CardView_android_minWidth = global::CourseApp.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CardView_cardBackgroundColor = global::CourseApp.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CardView_cardCornerRadius = global::CourseApp.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CardView_cardElevation = global::CourseApp.Droid.Resource.Styleable.CardView_cardElevation;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CardView_cardMaxElevation = global::CourseApp.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CardView_cardPreventCornerOverlap = global::CourseApp.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CardView_cardUseCompatPadding = global::CourseApp.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CardView_contentPadding = global::CourseApp.Droid.Resource.Styleable.CardView_contentPadding;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CardView_contentPaddingBottom = global::CourseApp.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CardView_contentPaddingLeft = global::CourseApp.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CardView_contentPaddingRight = global::CourseApp.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CardView_contentPaddingTop = global::CourseApp.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Chip = global::CourseApp.Droid.Resource.Styleable.Chip;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Chip_android_checkable = global::CourseApp.Droid.Resource.Styleable.Chip_android_checkable;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Chip_android_ellipsize = global::CourseApp.Droid.Resource.Styleable.Chip_android_ellipsize;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Chip_android_maxWidth = global::CourseApp.Droid.Resource.Styleable.Chip_android_maxWidth;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Chip_android_text = global::CourseApp.Droid.Resource.Styleable.Chip_android_text;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Chip_android_textAppearance = global::CourseApp.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Chip_checkedIcon = global::CourseApp.Droid.Resource.Styleable.Chip_checkedIcon;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Chip_checkedIconEnabled = global::CourseApp.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Chip_checkedIconVisible = global::CourseApp.Droid.Resource.Styleable.Chip_checkedIconVisible;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Chip_chipBackgroundColor = global::CourseApp.Droid.Resource.Styleable.Chip_chipBackgroundColor;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Chip_chipCornerRadius = global::CourseApp.Droid.Resource.Styleable.Chip_chipCornerRadius;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Chip_chipEndPadding = global::CourseApp.Droid.Resource.Styleable.Chip_chipEndPadding;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Chip_chipIcon = global::CourseApp.Droid.Resource.Styleable.Chip_chipIcon;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Chip_chipIconEnabled = global::CourseApp.Droid.Resource.Styleable.Chip_chipIconEnabled;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Chip_chipIconSize = global::CourseApp.Droid.Resource.Styleable.Chip_chipIconSize;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Chip_chipIconTint = global::CourseApp.Droid.Resource.Styleable.Chip_chipIconTint;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Chip_chipIconVisible = global::CourseApp.Droid.Resource.Styleable.Chip_chipIconVisible;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Chip_chipMinHeight = global::CourseApp.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Chip_chipStartPadding = global::CourseApp.Droid.Resource.Styleable.Chip_chipStartPadding;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Chip_chipStrokeColor = global::CourseApp.Droid.Resource.Styleable.Chip_chipStrokeColor;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Chip_chipStrokeWidth = global::CourseApp.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Chip_closeIcon = global::CourseApp.Droid.Resource.Styleable.Chip_closeIcon;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Chip_closeIconEnabled = global::CourseApp.Droid.Resource.Styleable.Chip_closeIconEnabled;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Chip_closeIconEndPadding = global::CourseApp.Droid.Resource.Styleable.Chip_closeIconEndPadding;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Chip_closeIconSize = global::CourseApp.Droid.Resource.Styleable.Chip_closeIconSize;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Chip_closeIconStartPadding = global::CourseApp.Droid.Resource.Styleable.Chip_closeIconStartPadding;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Chip_closeIconTint = global::CourseApp.Droid.Resource.Styleable.Chip_closeIconTint;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Chip_closeIconVisible = global::CourseApp.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Chip_hideMotionSpec = global::CourseApp.Droid.Resource.Styleable.Chip_hideMotionSpec;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Chip_iconEndPadding = global::CourseApp.Droid.Resource.Styleable.Chip_iconEndPadding;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Chip_iconStartPadding = global::CourseApp.Droid.Resource.Styleable.Chip_iconStartPadding;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Chip_rippleColor = global::CourseApp.Droid.Resource.Styleable.Chip_rippleColor;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Chip_showMotionSpec = global::CourseApp.Droid.Resource.Styleable.Chip_showMotionSpec;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Chip_textEndPadding = global::CourseApp.Droid.Resource.Styleable.Chip_textEndPadding;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Chip_textStartPadding = global::CourseApp.Droid.Resource.Styleable.Chip_textStartPadding;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ChipGroup = global::CourseApp.Droid.Resource.Styleable.ChipGroup;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ChipGroup_checkedChip = global::CourseApp.Droid.Resource.Styleable.ChipGroup_checkedChip;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ChipGroup_chipSpacing = global::CourseApp.Droid.Resource.Styleable.ChipGroup_chipSpacing;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::CourseApp.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ChipGroup_chipSpacingVertical = global::CourseApp.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ChipGroup_singleLine = global::CourseApp.Droid.Resource.Styleable.ChipGroup_singleLine;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ChipGroup_singleSelection = global::CourseApp.Droid.Resource.Styleable.ChipGroup_singleSelection;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CollapsingToolbarLayout = global::CourseApp.Droid.Resource.Styleable.CollapsingToolbarLayout;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::CourseApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::CourseApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
@@ -3593,12 +4735,20 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::CourseApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FloatingActionButton_borderWidth = global::CourseApp.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FloatingActionButton_elevation = global::CourseApp.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FloatingActionButton_fabCustomSize = global::CourseApp.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FloatingActionButton_fabSize = global::CourseApp.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::CourseApp.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::CourseApp.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FloatingActionButton_maxImageSize = global::CourseApp.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::CourseApp.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FloatingActionButton_rippleColor = global::CourseApp.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FloatingActionButton_showMotionSpec = global::CourseApp.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FloatingActionButton_useCompatPadding = global::CourseApp.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::CourseApp.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::CourseApp.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FlowLayout = global::CourseApp.Droid.Resource.Styleable.FlowLayout;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FlowLayout_itemSpacing = global::CourseApp.Droid.Resource.Styleable.FlowLayout_itemSpacing;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FlowLayout_lineSpacing = global::CourseApp.Droid.Resource.Styleable.FlowLayout_lineSpacing;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FontFamily = global::CourseApp.Droid.Resource.Styleable.FontFamily;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FontFamily_fontProviderAuthority = global::CourseApp.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FontFamily_fontProviderCerts = global::CourseApp.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
@@ -3609,14 +4759,34 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FontFamilyFont = global::CourseApp.Droid.Resource.Styleable.FontFamilyFont;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FontFamilyFont_android_font = global::CourseApp.Droid.Resource.Styleable.FontFamilyFont_android_font;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FontFamilyFont_android_fontStyle = global::CourseApp.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::CourseApp.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FontFamilyFont_android_fontWeight = global::CourseApp.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::CourseApp.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FontFamilyFont_font = global::CourseApp.Droid.Resource.Styleable.FontFamilyFont_font;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FontFamilyFont_fontStyle = global::CourseApp.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::CourseApp.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FontFamilyFont_fontWeight = global::CourseApp.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FontFamilyFont_ttcIndex = global::CourseApp.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ForegroundLinearLayout = global::CourseApp.Droid.Resource.Styleable.ForegroundLinearLayout;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::CourseApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::CourseApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::CourseApp.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.GradientColor = global::CourseApp.Droid.Resource.Styleable.GradientColor;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.GradientColor_android_centerColor = global::CourseApp.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.GradientColor_android_centerX = global::CourseApp.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.GradientColor_android_centerY = global::CourseApp.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.GradientColor_android_endColor = global::CourseApp.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.GradientColor_android_endX = global::CourseApp.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.GradientColor_android_endY = global::CourseApp.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.GradientColor_android_gradientRadius = global::CourseApp.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.GradientColor_android_startColor = global::CourseApp.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.GradientColor_android_startX = global::CourseApp.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.GradientColor_android_startY = global::CourseApp.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.GradientColor_android_tileMode = global::CourseApp.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.GradientColor_android_type = global::CourseApp.Droid.Resource.Styleable.GradientColor_android_type;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.GradientColorItem = global::CourseApp.Droid.Resource.Styleable.GradientColorItem;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.GradientColorItem_android_color = global::CourseApp.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.GradientColorItem_android_offset = global::CourseApp.Droid.Resource.Styleable.GradientColorItem_android_offset;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.LinearLayoutCompat = global::CourseApp.Droid.Resource.Styleable.LinearLayoutCompat;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::CourseApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::CourseApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
@@ -3635,6 +4805,59 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ListPopupWindow = global::CourseApp.Droid.Resource.Styleable.ListPopupWindow;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::CourseApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::CourseApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialButton = global::CourseApp.Droid.Resource.Styleable.MaterialButton;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialButton_android_insetBottom = global::CourseApp.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialButton_android_insetLeft = global::CourseApp.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialButton_android_insetRight = global::CourseApp.Droid.Resource.Styleable.MaterialButton_android_insetRight;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialButton_android_insetTop = global::CourseApp.Droid.Resource.Styleable.MaterialButton_android_insetTop;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialButton_backgroundTint = global::CourseApp.Droid.Resource.Styleable.MaterialButton_backgroundTint;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialButton_backgroundTintMode = global::CourseApp.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialButton_cornerRadius = global::CourseApp.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialButton_icon = global::CourseApp.Droid.Resource.Styleable.MaterialButton_icon;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialButton_iconGravity = global::CourseApp.Droid.Resource.Styleable.MaterialButton_iconGravity;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialButton_iconPadding = global::CourseApp.Droid.Resource.Styleable.MaterialButton_iconPadding;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialButton_iconSize = global::CourseApp.Droid.Resource.Styleable.MaterialButton_iconSize;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialButton_iconTint = global::CourseApp.Droid.Resource.Styleable.MaterialButton_iconTint;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialButton_iconTintMode = global::CourseApp.Droid.Resource.Styleable.MaterialButton_iconTintMode;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialButton_rippleColor = global::CourseApp.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialButton_strokeColor = global::CourseApp.Droid.Resource.Styleable.MaterialButton_strokeColor;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialButton_strokeWidth = global::CourseApp.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialCardView = global::CourseApp.Droid.Resource.Styleable.MaterialCardView;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialCardView_strokeColor = global::CourseApp.Droid.Resource.Styleable.MaterialCardView_strokeColor;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialCardView_strokeWidth = global::CourseApp.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialComponentsTheme = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialComponentsTheme_chipStyle = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_chipStyle;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialComponentsTheme_colorAccent = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_colorAccent;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialComponentsTheme_colorPrimary = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimary;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialComponentsTheme_colorSecondary = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_colorSecondary;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialComponentsTheme_editTextStyle = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_editTextStyle;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialComponentsTheme_scrimBackground = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_scrimBackground;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialComponentsTheme_tabStyle = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_tabStyle;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1 = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2 = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1 = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2 = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3 = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4 = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5 = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6 = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1 = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2 = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MaterialComponentsTheme_textInputStyle = global::CourseApp.Droid.Resource.Styleable.MaterialComponentsTheme_textInputStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MenuGroup = global::CourseApp.Droid.Resource.Styleable.MenuGroup;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MenuGroup_android_checkableBehavior = global::CourseApp.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MenuGroup_android_enabled = global::CourseApp.Droid.Resource.Styleable.MenuGroup_android_enabled;
@@ -3693,6 +4916,8 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.NavigationView_elevation = global::CourseApp.Droid.Resource.Styleable.NavigationView_elevation;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.NavigationView_headerLayout = global::CourseApp.Droid.Resource.Styleable.NavigationView_headerLayout;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.NavigationView_itemBackground = global::CourseApp.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.NavigationView_itemHorizontalPadding = global::CourseApp.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.NavigationView_itemIconPadding = global::CourseApp.Droid.Resource.Styleable.NavigationView_itemIconPadding;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.NavigationView_itemIconTint = global::CourseApp.Droid.Resource.Styleable.NavigationView_itemIconTint;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.NavigationView_itemTextAppearance = global::CourseApp.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.NavigationView_itemTextColor = global::CourseApp.Droid.Resource.Styleable.NavigationView_itemTextColor;
@@ -3740,6 +4965,9 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.SearchView_submitBackground = global::CourseApp.Droid.Resource.Styleable.SearchView_submitBackground;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.SearchView_suggestionRowLayout = global::CourseApp.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.SearchView_voiceIcon = global::CourseApp.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Snackbar = global::CourseApp.Droid.Resource.Styleable.Snackbar;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Snackbar_snackbarButtonStyle = global::CourseApp.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Snackbar_snackbarStyle = global::CourseApp.Droid.Resource.Styleable.Snackbar_snackbarStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.SnackbarLayout = global::CourseApp.Droid.Resource.Styleable.SnackbarLayout;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.SnackbarLayout_android_maxWidth = global::CourseApp.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.SnackbarLayout_elevation = global::CourseApp.Droid.Resource.Styleable.SnackbarLayout_elevation;
@@ -3750,6 +4978,15 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Spinner_android_popupBackground = global::CourseApp.Droid.Resource.Styleable.Spinner_android_popupBackground;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Spinner_android_prompt = global::CourseApp.Droid.Resource.Styleable.Spinner_android_prompt;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Spinner_popupTheme = global::CourseApp.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.StateListDrawable = global::CourseApp.Droid.Resource.Styleable.StateListDrawable;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.StateListDrawable_android_constantSize = global::CourseApp.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.StateListDrawable_android_dither = global::CourseApp.Droid.Resource.Styleable.StateListDrawable_android_dither;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::CourseApp.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::CourseApp.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.StateListDrawable_android_variablePadding = global::CourseApp.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.StateListDrawable_android_visible = global::CourseApp.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.StateListDrawableItem = global::CourseApp.Droid.Resource.Styleable.StateListDrawableItem;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.StateListDrawableItem_android_drawable = global::CourseApp.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.SwitchCompat = global::CourseApp.Droid.Resource.Styleable.SwitchCompat;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.SwitchCompat_android_textOff = global::CourseApp.Droid.Resource.Styleable.SwitchCompat_android_textOff;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.SwitchCompat_android_textOn = global::CourseApp.Droid.Resource.Styleable.SwitchCompat_android_textOn;
@@ -3773,8 +5010,15 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabBackground = global::CourseApp.Droid.Resource.Styleable.TabLayout_tabBackground;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabContentStart = global::CourseApp.Droid.Resource.Styleable.TabLayout_tabContentStart;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabGravity = global::CourseApp.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabIconTint = global::CourseApp.Droid.Resource.Styleable.TabLayout_tabIconTint;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabIconTintMode = global::CourseApp.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabIndicator = global::CourseApp.Droid.Resource.Styleable.TabLayout_tabIndicator;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::CourseApp.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabIndicatorColor = global::CourseApp.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::CourseApp.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabIndicatorGravity = global::CourseApp.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabIndicatorHeight = global::CourseApp.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabInlineLabel = global::CourseApp.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabMaxWidth = global::CourseApp.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabMinWidth = global::CourseApp.Droid.Resource.Styleable.TabLayout_tabMinWidth;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabMode = global::CourseApp.Droid.Resource.Styleable.TabLayout_tabMode;
@@ -3783,9 +5027,11 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabPaddingEnd = global::CourseApp.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabPaddingStart = global::CourseApp.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabPaddingTop = global::CourseApp.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabRippleColor = global::CourseApp.Droid.Resource.Styleable.TabLayout_tabRippleColor;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabSelectedTextColor = global::CourseApp.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabTextAppearance = global::CourseApp.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabTextColor = global::CourseApp.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabUnboundedRipple = global::CourseApp.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextAppearance = global::CourseApp.Droid.Resource.Styleable.TextAppearance;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextAppearance_android_fontFamily = global::CourseApp.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextAppearance_android_shadowColor = global::CourseApp.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
@@ -3803,12 +5049,24 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout = global::CourseApp.Droid.Resource.Styleable.TextInputLayout;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_android_hint = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_android_hint;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_android_textColorHint = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_boxStrokeColor = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_counterEnabled = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_counterMaxLength = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_counterTextAppearance = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_errorEnabled = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_errorTextAppearance = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_helperText = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_helperText;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_helperTextEnabled = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_hintEnabled = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_hintTextAppearance = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
@@ -3817,6 +5075,10 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_passwordToggleTint = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::CourseApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ThemeEnforcement = global::CourseApp.Droid.Resource.Styleable.ThemeEnforcement;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::CourseApp.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::CourseApp.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::CourseApp.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Toolbar = global::CourseApp.Droid.Resource.Styleable.Toolbar;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Toolbar_android_gravity = global::CourseApp.Droid.Resource.Styleable.Toolbar_android_gravity;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Toolbar_android_minHeight = global::CourseApp.Droid.Resource.Styleable.Toolbar_android_minHeight;
@@ -3868,6 +5130,8 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.MvxLang = global::CourseApp.Droid.Resource.Attribute.MvxLang;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.MvxTemplate = global::CourseApp.Droid.Resource.Attribute.MvxTemplate;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.MvxTemplateSelector = global::CourseApp.Droid.Resource.Attribute.MvxTemplateSelector;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.alpha = global::CourseApp.Droid.Resource.Attribute.alpha;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.coordinatorLayoutStyle = global::CourseApp.Droid.Resource.Attribute.coordinatorLayoutStyle;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.fastScrollEnabled = global::CourseApp.Droid.Resource.Attribute.fastScrollEnabled;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::CourseApp.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::CourseApp.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
@@ -3881,12 +5145,21 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.fontProviderPackage = global::CourseApp.Droid.Resource.Attribute.fontProviderPackage;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.fontProviderQuery = global::CourseApp.Droid.Resource.Attribute.fontProviderQuery;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.fontStyle = global::CourseApp.Droid.Resource.Attribute.fontStyle;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.fontVariationSettings = global::CourseApp.Droid.Resource.Attribute.fontVariationSettings;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.fontWeight = global::CourseApp.Droid.Resource.Attribute.fontWeight;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.keylines = global::CourseApp.Droid.Resource.Attribute.keylines;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.layoutManager = global::CourseApp.Droid.Resource.Attribute.layoutManager;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.layout_anchor = global::CourseApp.Droid.Resource.Attribute.layout_anchor;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.layout_anchorGravity = global::CourseApp.Droid.Resource.Attribute.layout_anchorGravity;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.layout_behavior = global::CourseApp.Droid.Resource.Attribute.layout_behavior;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.layout_dodgeInsetEdges = global::CourseApp.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.layout_insetEdge = global::CourseApp.Droid.Resource.Attribute.layout_insetEdge;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.layout_keyline = global::CourseApp.Droid.Resource.Attribute.layout_keyline;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.reverseLayout = global::CourseApp.Droid.Resource.Attribute.reverseLayout;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.spanCount = global::CourseApp.Droid.Resource.Attribute.spanCount;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.stackFromEnd = global::CourseApp.Droid.Resource.Attribute.stackFromEnd;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Boolean.abc_action_bar_embed_tabs = global::CourseApp.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.statusBarBackground = global::CourseApp.Droid.Resource.Attribute.statusBarBackground;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.ttcIndex = global::CourseApp.Droid.Resource.Attribute.ttcIndex;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Color.notification_action_color_filter = global::CourseApp.Droid.Resource.Color.notification_action_color_filter;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Color.notification_icon_bg_color = global::CourseApp.Droid.Resource.Color.notification_icon_bg_color;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Color.ripple_material_light = global::CourseApp.Droid.Resource.Color.ripple_material_light;
@@ -3896,6 +5169,8 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.compat_button_padding_horizontal_material = global::CourseApp.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.compat_button_padding_vertical_material = global::CourseApp.Droid.Resource.Dimension.compat_button_padding_vertical_material;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.compat_control_corner_material = global::CourseApp.Droid.Resource.Dimension.compat_control_corner_material;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.compat_notification_large_icon_max_height = global::CourseApp.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.compat_notification_large_icon_max_width = global::CourseApp.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.fastscroll_default_thickness = global::CourseApp.Droid.Resource.Dimension.fastscroll_default_thickness;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.fastscroll_margin = global::CourseApp.Droid.Resource.Dimension.fastscroll_margin;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.fastscroll_minimum_range = global::CourseApp.Droid.Resource.Dimension.fastscroll_minimum_range;
@@ -3936,28 +5211,46 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.action_image = global::CourseApp.Droid.Resource.Id.action_image;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.action_text = global::CourseApp.Droid.Resource.Id.action_text;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.actions = global::CourseApp.Droid.Resource.Id.actions;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.all = global::CourseApp.Droid.Resource.Id.all;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.async = global::CourseApp.Droid.Resource.Id.async;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.blocking = global::CourseApp.Droid.Resource.Id.blocking;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.bottom = global::CourseApp.Droid.Resource.Id.bottom;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.center = global::CourseApp.Droid.Resource.Id.center;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.center_horizontal = global::CourseApp.Droid.Resource.Id.center_horizontal;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.center_vertical = global::CourseApp.Droid.Resource.Id.center_vertical;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.chronometer = global::CourseApp.Droid.Resource.Id.chronometer;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.clip_horizontal = global::CourseApp.Droid.Resource.Id.clip_horizontal;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.clip_vertical = global::CourseApp.Droid.Resource.Id.clip_vertical;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.end = global::CourseApp.Droid.Resource.Id.end;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.fill = global::CourseApp.Droid.Resource.Id.fill;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.fill_horizontal = global::CourseApp.Droid.Resource.Id.fill_horizontal;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.fill_vertical = global::CourseApp.Droid.Resource.Id.fill_vertical;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.forever = global::CourseApp.Droid.Resource.Id.forever;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.icon = global::CourseApp.Droid.Resource.Id.icon;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.icon_group = global::CourseApp.Droid.Resource.Id.icon_group;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.info = global::CourseApp.Droid.Resource.Id.info;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.italic = global::CourseApp.Droid.Resource.Id.italic;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.item_touch_helper_previous_elevation = global::CourseApp.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.left = global::CourseApp.Droid.Resource.Id.left;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.line1 = global::CourseApp.Droid.Resource.Id.line1;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.line3 = global::CourseApp.Droid.Resource.Id.line3;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.none = global::CourseApp.Droid.Resource.Id.none;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.normal = global::CourseApp.Droid.Resource.Id.normal;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.notification_background = global::CourseApp.Droid.Resource.Id.notification_background;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.notification_main_column = global::CourseApp.Droid.Resource.Id.notification_main_column;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.notification_main_column_container = global::CourseApp.Droid.Resource.Id.notification_main_column_container;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.right = global::CourseApp.Droid.Resource.Id.right;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.right_icon = global::CourseApp.Droid.Resource.Id.right_icon;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.right_side = global::CourseApp.Droid.Resource.Id.right_side;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.start = global::CourseApp.Droid.Resource.Id.start;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.tag_transition_group = global::CourseApp.Droid.Resource.Id.tag_transition_group;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.tag_unhandled_key_event_manager = global::CourseApp.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.tag_unhandled_key_listeners = global::CourseApp.Droid.Resource.Id.tag_unhandled_key_listeners;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.text = global::CourseApp.Droid.Resource.Id.text;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.text2 = global::CourseApp.Droid.Resource.Id.text2;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.time = global::CourseApp.Droid.Resource.Id.time;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.title = global::CourseApp.Droid.Resource.Id.title;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.top = global::CourseApp.Droid.Resource.Id.top;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Integer.status_bar_notification_info_maxnum = global::CourseApp.Droid.Resource.Integer.status_bar_notification_info_maxnum;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Layout.notification_action = global::CourseApp.Droid.Resource.Layout.notification_action;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Layout.notification_action_tombstone = global::CourseApp.Droid.Resource.Layout.notification_action_tombstone;
@@ -3973,6 +5266,22 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Style.TextAppearance_Compat_Notification_Title = global::CourseApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Style.Widget_Compat_NotificationActionContainer = global::CourseApp.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Style.Widget_Compat_NotificationActionText = global::CourseApp.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Style.Widget_Support_CoordinatorLayout = global::CourseApp.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.ColorStateListItem = global::CourseApp.Droid.Resource.Styleable.ColorStateListItem;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.ColorStateListItem_alpha = global::CourseApp.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.ColorStateListItem_android_alpha = global::CourseApp.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.ColorStateListItem_android_color = global::CourseApp.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.CoordinatorLayout = global::CourseApp.Droid.Resource.Styleable.CoordinatorLayout;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.CoordinatorLayout_keylines = global::CourseApp.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::CourseApp.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.CoordinatorLayout_Layout = global::CourseApp.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::CourseApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::CourseApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::CourseApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::CourseApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::CourseApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::CourseApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::CourseApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamily = global::CourseApp.Droid.Resource.Styleable.FontFamily;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamily_fontProviderAuthority = global::CourseApp.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamily_fontProviderCerts = global::CourseApp.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
@@ -3983,10 +5292,30 @@ namespace CourseApp.Droid
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamilyFont = global::CourseApp.Droid.Resource.Styleable.FontFamilyFont;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamilyFont_android_font = global::CourseApp.Droid.Resource.Styleable.FontFamilyFont_android_font;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamilyFont_android_fontStyle = global::CourseApp.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::CourseApp.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamilyFont_android_fontWeight = global::CourseApp.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::CourseApp.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamilyFont_font = global::CourseApp.Droid.Resource.Styleable.FontFamilyFont_font;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamilyFont_fontStyle = global::CourseApp.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::CourseApp.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamilyFont_fontWeight = global::CourseApp.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamilyFont_ttcIndex = global::CourseApp.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.GradientColor = global::CourseApp.Droid.Resource.Styleable.GradientColor;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.GradientColor_android_centerColor = global::CourseApp.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.GradientColor_android_centerX = global::CourseApp.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.GradientColor_android_centerY = global::CourseApp.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.GradientColor_android_endColor = global::CourseApp.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.GradientColor_android_endX = global::CourseApp.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.GradientColor_android_endY = global::CourseApp.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.GradientColor_android_gradientRadius = global::CourseApp.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.GradientColor_android_startColor = global::CourseApp.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.GradientColor_android_startX = global::CourseApp.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.GradientColor_android_startY = global::CourseApp.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.GradientColor_android_tileMode = global::CourseApp.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.GradientColor_android_type = global::CourseApp.Droid.Resource.Styleable.GradientColor_android_type;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.GradientColorItem = global::CourseApp.Droid.Resource.Styleable.GradientColorItem;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.GradientColorItem_android_color = global::CourseApp.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.GradientColorItem_android_offset = global::CourseApp.Droid.Resource.Styleable.GradientColorItem_android_offset;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxBinding = global::CourseApp.Droid.Resource.Styleable.MvxBinding;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxBinding_MvxBind = global::CourseApp.Droid.Resource.Styleable.MvxBinding_MvxBind;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxBinding_MvxLang = global::CourseApp.Droid.Resource.Styleable.MvxBinding_MvxLang;
@@ -7133,82 +8462,100 @@ namespace CourseApp.Droid
 			public const int avd_show_password = 2131165275;
 			
 			// aapt resource value: 0x7F07005C
-			public const int design_bottom_navigation_item_background = 2131165276;
+			public const int bakery_products = 2131165276;
 			
 			// aapt resource value: 0x7F07005D
-			public const int design_fab_background = 2131165277;
+			public const int design_bottom_navigation_item_background = 2131165277;
 			
 			// aapt resource value: 0x7F07005E
-			public const int design_ic_visibility = 2131165278;
+			public const int design_fab_background = 2131165278;
 			
 			// aapt resource value: 0x7F07005F
-			public const int design_ic_visibility_off = 2131165279;
+			public const int design_ic_visibility = 2131165279;
 			
 			// aapt resource value: 0x7F070060
-			public const int design_password_eye = 2131165280;
+			public const int design_ic_visibility_off = 2131165280;
 			
 			// aapt resource value: 0x7F070061
-			public const int design_snackbar_background = 2131165281;
+			public const int design_password_eye = 2131165281;
 			
 			// aapt resource value: 0x7F070062
-			public const int ic_mtrl_chip_checked_black = 2131165282;
+			public const int design_snackbar_background = 2131165282;
 			
 			// aapt resource value: 0x7F070063
-			public const int ic_mtrl_chip_checked_circle = 2131165283;
+			public const int dessert = 2131165283;
 			
 			// aapt resource value: 0x7F070064
-			public const int ic_mtrl_chip_close_circle = 2131165284;
+			public const int ic_mtrl_chip_checked_black = 2131165284;
 			
 			// aapt resource value: 0x7F070065
-			public const int mtrl_snackbar_background = 2131165285;
+			public const int ic_mtrl_chip_checked_circle = 2131165285;
 			
 			// aapt resource value: 0x7F070066
-			public const int mtrl_tabs_default_indicator = 2131165286;
+			public const int ic_mtrl_chip_close_circle = 2131165286;
 			
 			// aapt resource value: 0x7F070067
-			public const int navigation_empty_icon = 2131165287;
+			public const int mtrl_snackbar_background = 2131165287;
 			
 			// aapt resource value: 0x7F070068
-			public const int notification_action_background = 2131165288;
+			public const int mtrl_tabs_default_indicator = 2131165288;
 			
 			// aapt resource value: 0x7F070069
-			public const int notification_bg = 2131165289;
+			public const int navigation_empty_icon = 2131165289;
 			
 			// aapt resource value: 0x7F07006A
-			public const int notification_bg_low = 2131165290;
+			public const int notification_action_background = 2131165290;
 			
 			// aapt resource value: 0x7F07006B
-			public const int notification_bg_low_normal = 2131165291;
+			public const int notification_bg = 2131165291;
 			
 			// aapt resource value: 0x7F07006C
-			public const int notification_bg_low_pressed = 2131165292;
+			public const int notification_bg_low = 2131165292;
 			
 			// aapt resource value: 0x7F07006D
-			public const int notification_bg_normal = 2131165293;
+			public const int notification_bg_low_normal = 2131165293;
 			
 			// aapt resource value: 0x7F07006E
-			public const int notification_bg_normal_pressed = 2131165294;
+			public const int notification_bg_low_pressed = 2131165294;
 			
 			// aapt resource value: 0x7F07006F
-			public const int notification_icon_background = 2131165295;
+			public const int notification_bg_normal = 2131165295;
 			
 			// aapt resource value: 0x7F070070
-			public const int notification_template_icon_bg = 2131165296;
+			public const int notification_bg_normal_pressed = 2131165296;
 			
 			// aapt resource value: 0x7F070071
-			public const int notification_template_icon_low_bg = 2131165297;
+			public const int notification_icon_background = 2131165297;
 			
 			// aapt resource value: 0x7F070072
-			public const int notification_tile_bg = 2131165298;
+			public const int notification_template_icon_bg = 2131165298;
 			
 			// aapt resource value: 0x7F070073
-			public const int notify_panel_notification_icon_bg = 2131165299;
+			public const int notification_template_icon_low_bg = 2131165299;
 			
 			// aapt resource value: 0x7F070074
-			public const int tooltip_frame_dark = 2131165300;
+			public const int notification_tile_bg = 2131165300;
 			
 			// aapt resource value: 0x7F070075
-			public const int tooltip_frame_light = 2131165301;
+			public const int notify_panel_notification_icon_bg = 2131165301;
+			
+			// aapt resource value: 0x7F070076
+			public const int porridge = 2131165302;
+			
+			// aapt resource value: 0x7F070077
+			public const int salads = 2131165303;
+			
+			// aapt resource value: 0x7F070078
+			public const int side_dishes = 2131165304;
+			
+			// aapt resource value: 0x7F070079
+			public const int soups = 2131165305;
+			
+			// aapt resource value: 0x7F07007A
+			public const int tooltip_frame_dark = 2131165306;
+			
+			// aapt resource value: 0x7F07007B
+			public const int tooltip_frame_light = 2131165307;
 			
 			static Drawable()
 			{
@@ -7980,88 +9327,88 @@ namespace CourseApp.Droid
 			public const int abc_tooltip = 2131427355;
 			
 			// aapt resource value: 0x7F0B001C
-			public const int activity_main = 2131427356;
+			public const int browser_actions_context_menu_page = 2131427356;
 			
 			// aapt resource value: 0x7F0B001D
-			public const int browser_actions_context_menu_page = 2131427357;
+			public const int browser_actions_context_menu_row = 2131427357;
 			
 			// aapt resource value: 0x7F0B001E
-			public const int browser_actions_context_menu_row = 2131427358;
+			public const int design_bottom_navigation_item = 2131427358;
 			
 			// aapt resource value: 0x7F0B001F
-			public const int design_bottom_navigation_item = 2131427359;
+			public const int design_bottom_sheet_dialog = 2131427359;
 			
 			// aapt resource value: 0x7F0B0020
-			public const int design_bottom_sheet_dialog = 2131427360;
+			public const int design_layout_snackbar = 2131427360;
 			
 			// aapt resource value: 0x7F0B0021
-			public const int design_layout_snackbar = 2131427361;
+			public const int design_layout_snackbar_include = 2131427361;
 			
 			// aapt resource value: 0x7F0B0022
-			public const int design_layout_snackbar_include = 2131427362;
+			public const int design_layout_tab_icon = 2131427362;
 			
 			// aapt resource value: 0x7F0B0023
-			public const int design_layout_tab_icon = 2131427363;
+			public const int design_layout_tab_text = 2131427363;
 			
 			// aapt resource value: 0x7F0B0024
-			public const int design_layout_tab_text = 2131427364;
+			public const int design_menu_item_action_area = 2131427364;
 			
 			// aapt resource value: 0x7F0B0025
-			public const int design_menu_item_action_area = 2131427365;
+			public const int design_navigation_item = 2131427365;
 			
 			// aapt resource value: 0x7F0B0026
-			public const int design_navigation_item = 2131427366;
+			public const int design_navigation_item_header = 2131427366;
 			
 			// aapt resource value: 0x7F0B0027
-			public const int design_navigation_item_header = 2131427367;
+			public const int design_navigation_item_separator = 2131427367;
 			
 			// aapt resource value: 0x7F0B0028
-			public const int design_navigation_item_separator = 2131427368;
+			public const int design_navigation_item_subheader = 2131427368;
 			
 			// aapt resource value: 0x7F0B0029
-			public const int design_navigation_item_subheader = 2131427369;
+			public const int design_navigation_menu = 2131427369;
 			
 			// aapt resource value: 0x7F0B002A
-			public const int design_navigation_menu = 2131427370;
+			public const int design_navigation_menu_item = 2131427370;
 			
 			// aapt resource value: 0x7F0B002B
-			public const int design_navigation_menu_item = 2131427371;
+			public const int design_text_input_password_icon = 2131427371;
 			
 			// aapt resource value: 0x7F0B002C
-			public const int design_text_input_password_icon = 2131427372;
+			public const int mtrl_layout_snackbar = 2131427372;
 			
 			// aapt resource value: 0x7F0B002D
-			public const int mtrl_layout_snackbar = 2131427373;
+			public const int mtrl_layout_snackbar_include = 2131427373;
 			
 			// aapt resource value: 0x7F0B002E
-			public const int mtrl_layout_snackbar_include = 2131427374;
+			public const int notification_action = 2131427374;
 			
 			// aapt resource value: 0x7F0B002F
-			public const int notification_action = 2131427375;
+			public const int notification_action_tombstone = 2131427375;
 			
 			// aapt resource value: 0x7F0B0030
-			public const int notification_action_tombstone = 2131427376;
+			public const int notification_template_custom_big = 2131427376;
 			
 			// aapt resource value: 0x7F0B0031
-			public const int notification_template_custom_big = 2131427377;
+			public const int notification_template_icon_group = 2131427377;
 			
 			// aapt resource value: 0x7F0B0032
-			public const int notification_template_icon_group = 2131427378;
+			public const int notification_template_part_chronometer = 2131427378;
 			
 			// aapt resource value: 0x7F0B0033
-			public const int notification_template_part_chronometer = 2131427379;
+			public const int notification_template_part_time = 2131427379;
 			
 			// aapt resource value: 0x7F0B0034
-			public const int notification_template_part_time = 2131427380;
+			public const int select_dialog_item_material = 2131427380;
 			
 			// aapt resource value: 0x7F0B0035
-			public const int select_dialog_item_material = 2131427381;
+			public const int select_dialog_multichoice_material = 2131427381;
 			
 			// aapt resource value: 0x7F0B0036
-			public const int select_dialog_multichoice_material = 2131427382;
+			public const int select_dialog_singlechoice_material = 2131427382;
 			
 			// aapt resource value: 0x7F0B0037
-			public const int select_dialog_singlechoice_material = 2131427383;
+			public const int splash = 2131427383;
 			
 			// aapt resource value: 0x7F0B0038
 			public const int support_simple_spinner_dropdown_item = 2131427384;
@@ -9825,101 +11172,101 @@ namespace CourseApp.Droid
 			public static int[] ActionBarLayout = new int[] {
 					16842931};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int ActionBarLayout_android_layout_gravity = 0;
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int ActionBar_background = 0;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int ActionBar_backgroundSplit = 1;
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int ActionBar_backgroundStacked = 2;
 			
-			// aapt resource value: 0x3
+			// aapt resource value: 3
 			public const int ActionBar_contentInsetEnd = 3;
 			
-			// aapt resource value: 0x4
+			// aapt resource value: 4
 			public const int ActionBar_contentInsetEndWithActions = 4;
 			
-			// aapt resource value: 0x5
+			// aapt resource value: 5
 			public const int ActionBar_contentInsetLeft = 5;
 			
-			// aapt resource value: 0x6
+			// aapt resource value: 6
 			public const int ActionBar_contentInsetRight = 6;
 			
-			// aapt resource value: 0x7
+			// aapt resource value: 7
 			public const int ActionBar_contentInsetStart = 7;
 			
-			// aapt resource value: 0x8
+			// aapt resource value: 8
 			public const int ActionBar_contentInsetStartWithNavigation = 8;
 			
-			// aapt resource value: 0x9
+			// aapt resource value: 9
 			public const int ActionBar_customNavigationLayout = 9;
 			
-			// aapt resource value: 0x10
-			public const int ActionBar_displayOptions = 16;
+			// aapt resource value: 10
+			public const int ActionBar_displayOptions = 10;
 			
-			// aapt resource value: 0x11
-			public const int ActionBar_divider = 17;
+			// aapt resource value: 11
+			public const int ActionBar_divider = 11;
 			
-			// aapt resource value: 0x12
-			public const int ActionBar_elevation = 18;
+			// aapt resource value: 12
+			public const int ActionBar_elevation = 12;
 			
-			// aapt resource value: 0x13
-			public const int ActionBar_height = 19;
+			// aapt resource value: 13
+			public const int ActionBar_height = 13;
 			
-			// aapt resource value: 0x14
-			public const int ActionBar_hideOnContentScroll = 20;
+			// aapt resource value: 14
+			public const int ActionBar_hideOnContentScroll = 14;
 			
-			// aapt resource value: 0x15
-			public const int ActionBar_homeAsUpIndicator = 21;
+			// aapt resource value: 15
+			public const int ActionBar_homeAsUpIndicator = 15;
 			
-			// aapt resource value: 0x16
-			public const int ActionBar_homeLayout = 22;
+			// aapt resource value: 16
+			public const int ActionBar_homeLayout = 16;
 			
-			// aapt resource value: 0x17
-			public const int ActionBar_icon = 23;
+			// aapt resource value: 17
+			public const int ActionBar_icon = 17;
 			
-			// aapt resource value: 0x18
-			public const int ActionBar_indeterminateProgressStyle = 24;
+			// aapt resource value: 18
+			public const int ActionBar_indeterminateProgressStyle = 18;
 			
-			// aapt resource value: 0x19
-			public const int ActionBar_itemPadding = 25;
+			// aapt resource value: 19
+			public const int ActionBar_itemPadding = 19;
 			
-			// aapt resource value: 0x20
-			public const int ActionBar_logo = 32;
+			// aapt resource value: 20
+			public const int ActionBar_logo = 20;
 			
-			// aapt resource value: 0x21
-			public const int ActionBar_navigationMode = 33;
+			// aapt resource value: 21
+			public const int ActionBar_navigationMode = 21;
 			
-			// aapt resource value: 0x22
-			public const int ActionBar_popupTheme = 34;
+			// aapt resource value: 22
+			public const int ActionBar_popupTheme = 22;
 			
-			// aapt resource value: 0x23
-			public const int ActionBar_progressBarPadding = 35;
+			// aapt resource value: 23
+			public const int ActionBar_progressBarPadding = 23;
 			
-			// aapt resource value: 0x24
-			public const int ActionBar_progressBarStyle = 36;
+			// aapt resource value: 24
+			public const int ActionBar_progressBarStyle = 24;
 			
-			// aapt resource value: 0x25
-			public const int ActionBar_subtitle = 37;
+			// aapt resource value: 25
+			public const int ActionBar_subtitle = 25;
 			
-			// aapt resource value: 0x26
-			public const int ActionBar_subtitleTextStyle = 38;
+			// aapt resource value: 26
+			public const int ActionBar_subtitleTextStyle = 26;
 			
-			// aapt resource value: 0x27
-			public const int ActionBar_title = 39;
+			// aapt resource value: 27
+			public const int ActionBar_title = 27;
 			
-			// aapt resource value: 0x28
-			public const int ActionBar_titleTextStyle = 40;
+			// aapt resource value: 28
+			public const int ActionBar_titleTextStyle = 28;
 			
 			// aapt resource value: { 0x101013F }
 			public static int[] ActionMenuItemView = new int[] {
 					16843071};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int ActionMenuItemView_android_minWidth = 0;
 			
 			// aapt resource value: { 0xFFFFFFFF }
@@ -9935,22 +11282,22 @@ namespace CourseApp.Droid
 					2130903421,
 					2130903500};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int ActionMode_background = 0;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int ActionMode_backgroundSplit = 1;
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int ActionMode_closeItemLayout = 2;
 			
-			// aapt resource value: 0x3
+			// aapt resource value: 3
 			public const int ActionMode_height = 3;
 			
-			// aapt resource value: 0x4
+			// aapt resource value: 4
 			public const int ActionMode_subtitleTextStyle = 4;
 			
-			// aapt resource value: 0x5
+			// aapt resource value: 5
 			public const int ActionMode_titleTextStyle = 5;
 			
 			// aapt resource value: { 0x7F0300C1,0x7F0300FE }
@@ -9958,10 +11305,10 @@ namespace CourseApp.Droid
 					2130903233,
 					2130903294};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 0;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int ActivityChooserView_initialActivityCount = 1;
 			
 			// aapt resource value: { 0x10100F2,0x7F030059,0x7F03005A,0x7F030121,0x7F030122,0x7F030133,0x7F030162,0x7F030163 }
@@ -9975,28 +11322,28 @@ namespace CourseApp.Droid
 					2130903394,
 					2130903395};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int AlertDialog_android_layout = 0;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int AlertDialog_buttonIconDimen = 1;
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int AlertDialog_buttonPanelSideLayout = 2;
 			
-			// aapt resource value: 0x3
+			// aapt resource value: 3
 			public const int AlertDialog_listItemLayout = 3;
 			
-			// aapt resource value: 0x4
+			// aapt resource value: 4
 			public const int AlertDialog_listLayout = 4;
 			
-			// aapt resource value: 0x5
+			// aapt resource value: 5
 			public const int AlertDialog_multiChoiceItemLayout = 5;
 			
-			// aapt resource value: 0x6
+			// aapt resource value: 6
 			public const int AlertDialog_showTitle = 6;
 			
-			// aapt resource value: 0x7
+			// aapt resource value: 7
 			public const int AlertDialog_singleChoiceItemLayout = 7;
 			
 			// aapt resource value: { 0x101011C,0x1010194,0x1010195,0x1010196,0x101030C,0x101030D }
@@ -10008,22 +11355,22 @@ namespace CourseApp.Droid
 					16843532,
 					16843533};
 			
-			// aapt resource value: 0x3
+			// aapt resource value: 3
 			public const int AnimatedStateListDrawableCompat_android_constantSize = 3;
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int AnimatedStateListDrawableCompat_android_dither = 0;
 			
-			// aapt resource value: 0x4
+			// aapt resource value: 4
 			public const int AnimatedStateListDrawableCompat_android_enterFadeDuration = 4;
 			
-			// aapt resource value: 0x5
+			// aapt resource value: 5
 			public const int AnimatedStateListDrawableCompat_android_exitFadeDuration = 5;
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int AnimatedStateListDrawableCompat_android_variablePadding = 2;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int AnimatedStateListDrawableCompat_android_visible = 1;
 			
 			// aapt resource value: { 0x10100D0,0x1010199 }
@@ -10031,10 +11378,10 @@ namespace CourseApp.Droid
 					16842960,
 					16843161};
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int AnimatedStateListDrawableItem_android_drawable = 1;
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int AnimatedStateListDrawableItem_android_id = 0;
 			
 			// aapt resource value: { 0x1010199,0x1010449,0x101044A,0x101044B }
@@ -10044,16 +11391,16 @@ namespace CourseApp.Droid
 					16843850,
 					16843851};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int AnimatedStateListDrawableTransition_android_drawable = 0;
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int AnimatedStateListDrawableTransition_android_fromId = 2;
 			
-			// aapt resource value: 0x3
+			// aapt resource value: 3
 			public const int AnimatedStateListDrawableTransition_android_reversible = 3;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int AnimatedStateListDrawableTransition_android_toId = 1;
 			
 			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F0300BC,0x7F0300C2,0x7F03011C }
@@ -10072,31 +11419,31 @@ namespace CourseApp.Droid
 					2130903410,
 					2130903411};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int AppBarLayoutStates_state_collapsed = 0;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int AppBarLayoutStates_state_collapsible = 1;
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int AppBarLayoutStates_state_liftable = 2;
 			
-			// aapt resource value: 0x3
+			// aapt resource value: 3
 			public const int AppBarLayoutStates_state_lifted = 3;
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int AppBarLayout_android_background = 0;
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int AppBarLayout_android_keyboardNavigationCluster = 2;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int AppBarLayout_android_touchscreenBlocksFocus = 1;
 			
-			// aapt resource value: 0x3
+			// aapt resource value: 3
 			public const int AppBarLayout_elevation = 3;
 			
-			// aapt resource value: 0x4
+			// aapt resource value: 4
 			public const int AppBarLayout_expanded = 4;
 			
 			// aapt resource value: { 0x7F03011A,0x7F03011B }
@@ -10104,13 +11451,13 @@ namespace CourseApp.Droid
 					2130903322,
 					2130903323};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int AppBarLayout_Layout_layout_scrollFlags = 0;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int AppBarLayout_Layout_layout_scrollInterpolator = 1;
 			
-			// aapt resource value: 0x5
+			// aapt resource value: 5
 			public const int AppBarLayout_liftOnScroll = 5;
 			
 			// aapt resource value: { 0x1010119,0x7F03016D,0x7F0301C0,0x7F0301C1 }
@@ -10120,16 +11467,16 @@ namespace CourseApp.Droid
 					2130903488,
 					2130903489};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int AppCompatImageView_android_src = 0;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int AppCompatImageView_srcCompat = 1;
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int AppCompatImageView_tint = 2;
 			
-			// aapt resource value: 0x3
+			// aapt resource value: 3
 			public const int AppCompatImageView_tintMode = 3;
 			
 			// aapt resource value: { 0x1010142,0x7F0301BD,0x7F0301BE,0x7F0301BF }
@@ -10139,16 +11486,16 @@ namespace CourseApp.Droid
 					2130903486,
 					2130903487};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int AppCompatSeekBar_android_thumb = 0;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int AppCompatSeekBar_tickMark = 1;
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int AppCompatSeekBar_tickMarkTint = 2;
 			
-			// aapt resource value: 0x3
+			// aapt resource value: 3
 			public const int AppCompatSeekBar_tickMarkTintMode = 3;
 			
 			// aapt resource value: { 0x1010034,0x101016D,0x101016E,0x101016F,0x1010170,0x1010392,0x1010393 }
@@ -10161,25 +11508,25 @@ namespace CourseApp.Droid
 					16843666,
 					16843667};
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int AppCompatTextHelper_android_drawableBottom = 2;
 			
-			// aapt resource value: 0x6
+			// aapt resource value: 6
 			public const int AppCompatTextHelper_android_drawableEnd = 6;
 			
-			// aapt resource value: 0x3
+			// aapt resource value: 3
 			public const int AppCompatTextHelper_android_drawableLeft = 3;
 			
-			// aapt resource value: 0x4
+			// aapt resource value: 4
 			public const int AppCompatTextHelper_android_drawableRight = 4;
 			
-			// aapt resource value: 0x5
+			// aapt resource value: 5
 			public const int AppCompatTextHelper_android_drawableStart = 5;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int AppCompatTextHelper_android_drawableTop = 1;
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int AppCompatTextHelper_android_textAppearance = 0;
 			
 			// aapt resource value: { 0x1010034,0x7F030033,0x7F030034,0x7F030035,0x7F030036,0x7F030037,0x7F0300D5,0x7F0300D8,0x7F03010F,0x7F03011D,0x7F03019D }
@@ -10196,38 +11543,38 @@ namespace CourseApp.Droid
 					2130903325,
 					2130903453};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int AppCompatTextView_android_textAppearance = 0;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int AppCompatTextView_autoSizeMaxTextSize = 1;
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int AppCompatTextView_autoSizeMinTextSize = 2;
 			
-			// aapt resource value: 0x3
+			// aapt resource value: 3
 			public const int AppCompatTextView_autoSizePresetSizes = 3;
 			
-			// aapt resource value: 0x4
+			// aapt resource value: 4
 			public const int AppCompatTextView_autoSizeStepGranularity = 4;
 			
-			// aapt resource value: 0x5
+			// aapt resource value: 5
 			public const int AppCompatTextView_autoSizeTextType = 5;
 			
-			// aapt resource value: 0x6
+			// aapt resource value: 6
 			public const int AppCompatTextView_firstBaselineToTopHeight = 6;
 			
-			// aapt resource value: 0x7
+			// aapt resource value: 7
 			public const int AppCompatTextView_fontFamily = 7;
 			
-			// aapt resource value: 0x8
+			// aapt resource value: 8
 			public const int AppCompatTextView_lastBaselineToBottomHeight = 8;
 			
-			// aapt resource value: 0x9
+			// aapt resource value: 9
 			public const int AppCompatTextView_lineHeight = 9;
 			
-			// aapt resource value: 0x10
-			public const int AppCompatTextView_textAllCaps = 16;
+			// aapt resource value: 10
+			public const int AppCompatTextView_textAllCaps = 10;
 			
 			// aapt resource value: { 0x1010057,0x10100AE,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000D,0x7F03000E,0x7F03000F,0x7F030010,0x7F030011,0x7F030012,0x7F030013,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F03001F,0x7F030020,0x7F030021,0x7F030022,0x7F030023,0x7F030024,0x7F030025,0x7F030028,0x7F030029,0x7F03002A,0x7F03002B,0x7F03002C,0x7F030032,0x7F030045,0x7F030053,0x7F030054,0x7F030055,0x7F030056,0x7F030057,0x7F03005B,0x7F03005C,0x7F030066,0x7F03006B,0x7F03008B,0x7F03008C,0x7F03008D,0x7F03008E,0x7F03008F,0x7F030090,0x7F030091,0x7F030092,0x7F030093,0x7F030095,0x7F0300A4,0x7F0300AD,0x7F0300AE,0x7F0300AF,0x7F0300B2,0x7F0300B4,0x7F0300B7,0x7F0300B8,0x7F0300B9,0x7F0300BA,0x7F0300BB,0x7F0300F0,0x7F0300FC,0x7F03011F,0x7F030120,0x7F030123,0x7F030124,0x7F030125,0x7F030126,0x7F030127,0x7F030128,0x7F030129,0x7F03013E,0x7F03013F,0x7F030140,0x7F030146,0x7F030148,0x7F03014F,0x7F030150,0x7F030151,0x7F030152,0x7F03015A,0x7F03015B,0x7F03015C,0x7F03015D,0x7F03016A,0x7F03016B,0x7F030181,0x7F0301A8,0x7F0301A9,0x7F0301AA,0x7F0301AB,0x7F0301AD,0x7F0301AE,0x7F0301AF,0x7F0301B0,0x7F0301B3,0x7F0301B4,0x7F0301CE,0x7F0301CF,0x7F0301D0,0x7F0301D1,0x7F0301D8,0x7F0301DA,0x7F0301DB,0x7F0301DC,0x7F0301DD,0x7F0301DE,0x7F0301DF,0x7F0301E0,0x7F0301E1,0x7F0301E2,0x7F0301E3 }
 			public static int[] AppCompatTheme = new int[] {
@@ -10353,368 +11700,368 @@ namespace CourseApp.Droid
 					2130903522,
 					2130903523};
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int AppCompatTheme_actionBarDivider = 2;
 			
-			// aapt resource value: 0x3
+			// aapt resource value: 3
 			public const int AppCompatTheme_actionBarItemBackground = 3;
 			
-			// aapt resource value: 0x4
+			// aapt resource value: 4
 			public const int AppCompatTheme_actionBarPopupTheme = 4;
 			
-			// aapt resource value: 0x5
+			// aapt resource value: 5
 			public const int AppCompatTheme_actionBarSize = 5;
 			
-			// aapt resource value: 0x6
+			// aapt resource value: 6
 			public const int AppCompatTheme_actionBarSplitStyle = 6;
 			
-			// aapt resource value: 0x7
+			// aapt resource value: 7
 			public const int AppCompatTheme_actionBarStyle = 7;
 			
-			// aapt resource value: 0x8
+			// aapt resource value: 8
 			public const int AppCompatTheme_actionBarTabBarStyle = 8;
 			
-			// aapt resource value: 0x9
+			// aapt resource value: 9
 			public const int AppCompatTheme_actionBarTabStyle = 9;
 			
-			// aapt resource value: 0x10
-			public const int AppCompatTheme_actionBarTabTextStyle = 16;
+			// aapt resource value: 10
+			public const int AppCompatTheme_actionBarTabTextStyle = 10;
 			
-			// aapt resource value: 0x11
-			public const int AppCompatTheme_actionBarTheme = 17;
+			// aapt resource value: 11
+			public const int AppCompatTheme_actionBarTheme = 11;
 			
-			// aapt resource value: 0x12
-			public const int AppCompatTheme_actionBarWidgetTheme = 18;
+			// aapt resource value: 12
+			public const int AppCompatTheme_actionBarWidgetTheme = 12;
 			
-			// aapt resource value: 0x13
-			public const int AppCompatTheme_actionButtonStyle = 19;
+			// aapt resource value: 13
+			public const int AppCompatTheme_actionButtonStyle = 13;
 			
-			// aapt resource value: 0x14
-			public const int AppCompatTheme_actionDropDownStyle = 20;
+			// aapt resource value: 14
+			public const int AppCompatTheme_actionDropDownStyle = 14;
 			
-			// aapt resource value: 0x15
-			public const int AppCompatTheme_actionMenuTextAppearance = 21;
+			// aapt resource value: 15
+			public const int AppCompatTheme_actionMenuTextAppearance = 15;
 			
-			// aapt resource value: 0x16
-			public const int AppCompatTheme_actionMenuTextColor = 22;
+			// aapt resource value: 16
+			public const int AppCompatTheme_actionMenuTextColor = 16;
 			
-			// aapt resource value: 0x17
-			public const int AppCompatTheme_actionModeBackground = 23;
+			// aapt resource value: 17
+			public const int AppCompatTheme_actionModeBackground = 17;
 			
-			// aapt resource value: 0x18
-			public const int AppCompatTheme_actionModeCloseButtonStyle = 24;
+			// aapt resource value: 18
+			public const int AppCompatTheme_actionModeCloseButtonStyle = 18;
 			
-			// aapt resource value: 0x19
-			public const int AppCompatTheme_actionModeCloseDrawable = 25;
+			// aapt resource value: 19
+			public const int AppCompatTheme_actionModeCloseDrawable = 19;
 			
-			// aapt resource value: 0x20
-			public const int AppCompatTheme_actionModeCopyDrawable = 32;
+			// aapt resource value: 20
+			public const int AppCompatTheme_actionModeCopyDrawable = 20;
 			
-			// aapt resource value: 0x21
-			public const int AppCompatTheme_actionModeCutDrawable = 33;
+			// aapt resource value: 21
+			public const int AppCompatTheme_actionModeCutDrawable = 21;
 			
-			// aapt resource value: 0x22
-			public const int AppCompatTheme_actionModeFindDrawable = 34;
+			// aapt resource value: 22
+			public const int AppCompatTheme_actionModeFindDrawable = 22;
 			
-			// aapt resource value: 0x23
-			public const int AppCompatTheme_actionModePasteDrawable = 35;
+			// aapt resource value: 23
+			public const int AppCompatTheme_actionModePasteDrawable = 23;
 			
-			// aapt resource value: 0x24
-			public const int AppCompatTheme_actionModePopupWindowStyle = 36;
+			// aapt resource value: 24
+			public const int AppCompatTheme_actionModePopupWindowStyle = 24;
 			
-			// aapt resource value: 0x25
-			public const int AppCompatTheme_actionModeSelectAllDrawable = 37;
+			// aapt resource value: 25
+			public const int AppCompatTheme_actionModeSelectAllDrawable = 25;
 			
-			// aapt resource value: 0x26
-			public const int AppCompatTheme_actionModeShareDrawable = 38;
+			// aapt resource value: 26
+			public const int AppCompatTheme_actionModeShareDrawable = 26;
 			
-			// aapt resource value: 0x27
-			public const int AppCompatTheme_actionModeSplitBackground = 39;
+			// aapt resource value: 27
+			public const int AppCompatTheme_actionModeSplitBackground = 27;
 			
-			// aapt resource value: 0x28
-			public const int AppCompatTheme_actionModeStyle = 40;
+			// aapt resource value: 28
+			public const int AppCompatTheme_actionModeStyle = 28;
 			
-			// aapt resource value: 0x29
-			public const int AppCompatTheme_actionModeWebSearchDrawable = 41;
+			// aapt resource value: 29
+			public const int AppCompatTheme_actionModeWebSearchDrawable = 29;
 			
-			// aapt resource value: 0x30
-			public const int AppCompatTheme_actionOverflowButtonStyle = 48;
+			// aapt resource value: 30
+			public const int AppCompatTheme_actionOverflowButtonStyle = 30;
 			
-			// aapt resource value: 0x31
-			public const int AppCompatTheme_actionOverflowMenuStyle = 49;
+			// aapt resource value: 31
+			public const int AppCompatTheme_actionOverflowMenuStyle = 31;
 			
-			// aapt resource value: 0x32
-			public const int AppCompatTheme_activityChooserViewStyle = 50;
+			// aapt resource value: 32
+			public const int AppCompatTheme_activityChooserViewStyle = 32;
 			
-			// aapt resource value: 0x33
-			public const int AppCompatTheme_alertDialogButtonGroupStyle = 51;
+			// aapt resource value: 33
+			public const int AppCompatTheme_alertDialogButtonGroupStyle = 33;
 			
-			// aapt resource value: 0x34
-			public const int AppCompatTheme_alertDialogCenterButtons = 52;
+			// aapt resource value: 34
+			public const int AppCompatTheme_alertDialogCenterButtons = 34;
 			
-			// aapt resource value: 0x35
-			public const int AppCompatTheme_alertDialogStyle = 53;
+			// aapt resource value: 35
+			public const int AppCompatTheme_alertDialogStyle = 35;
 			
-			// aapt resource value: 0x36
-			public const int AppCompatTheme_alertDialogTheme = 54;
+			// aapt resource value: 36
+			public const int AppCompatTheme_alertDialogTheme = 36;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int AppCompatTheme_android_windowAnimationStyle = 1;
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int AppCompatTheme_android_windowIsFloating = 0;
 			
-			// aapt resource value: 0x37
-			public const int AppCompatTheme_autoCompleteTextViewStyle = 55;
+			// aapt resource value: 37
+			public const int AppCompatTheme_autoCompleteTextViewStyle = 37;
 			
-			// aapt resource value: 0x38
-			public const int AppCompatTheme_borderlessButtonStyle = 56;
+			// aapt resource value: 38
+			public const int AppCompatTheme_borderlessButtonStyle = 38;
 			
-			// aapt resource value: 0x39
-			public const int AppCompatTheme_buttonBarButtonStyle = 57;
+			// aapt resource value: 39
+			public const int AppCompatTheme_buttonBarButtonStyle = 39;
 			
-			// aapt resource value: 0x40
-			public const int AppCompatTheme_buttonBarNegativeButtonStyle = 64;
+			// aapt resource value: 40
+			public const int AppCompatTheme_buttonBarNegativeButtonStyle = 40;
 			
-			// aapt resource value: 0x41
-			public const int AppCompatTheme_buttonBarNeutralButtonStyle = 65;
+			// aapt resource value: 41
+			public const int AppCompatTheme_buttonBarNeutralButtonStyle = 41;
 			
-			// aapt resource value: 0x42
-			public const int AppCompatTheme_buttonBarPositiveButtonStyle = 66;
+			// aapt resource value: 42
+			public const int AppCompatTheme_buttonBarPositiveButtonStyle = 42;
 			
-			// aapt resource value: 0x43
-			public const int AppCompatTheme_buttonBarStyle = 67;
+			// aapt resource value: 43
+			public const int AppCompatTheme_buttonBarStyle = 43;
 			
-			// aapt resource value: 0x44
-			public const int AppCompatTheme_buttonStyle = 68;
+			// aapt resource value: 44
+			public const int AppCompatTheme_buttonStyle = 44;
 			
-			// aapt resource value: 0x45
-			public const int AppCompatTheme_buttonStyleSmall = 69;
+			// aapt resource value: 45
+			public const int AppCompatTheme_buttonStyleSmall = 45;
 			
-			// aapt resource value: 0x46
-			public const int AppCompatTheme_checkboxStyle = 70;
+			// aapt resource value: 46
+			public const int AppCompatTheme_checkboxStyle = 46;
 			
-			// aapt resource value: 0x47
-			public const int AppCompatTheme_checkedTextViewStyle = 71;
+			// aapt resource value: 47
+			public const int AppCompatTheme_checkedTextViewStyle = 47;
 			
-			// aapt resource value: 0x48
-			public const int AppCompatTheme_colorAccent = 72;
+			// aapt resource value: 48
+			public const int AppCompatTheme_colorAccent = 48;
 			
-			// aapt resource value: 0x49
-			public const int AppCompatTheme_colorBackgroundFloating = 73;
+			// aapt resource value: 49
+			public const int AppCompatTheme_colorBackgroundFloating = 49;
 			
-			// aapt resource value: 0x50
-			public const int AppCompatTheme_colorButtonNormal = 80;
+			// aapt resource value: 50
+			public const int AppCompatTheme_colorButtonNormal = 50;
 			
-			// aapt resource value: 0x51
-			public const int AppCompatTheme_colorControlActivated = 81;
+			// aapt resource value: 51
+			public const int AppCompatTheme_colorControlActivated = 51;
 			
-			// aapt resource value: 0x52
-			public const int AppCompatTheme_colorControlHighlight = 82;
+			// aapt resource value: 52
+			public const int AppCompatTheme_colorControlHighlight = 52;
 			
-			// aapt resource value: 0x53
-			public const int AppCompatTheme_colorControlNormal = 83;
+			// aapt resource value: 53
+			public const int AppCompatTheme_colorControlNormal = 53;
 			
-			// aapt resource value: 0x54
-			public const int AppCompatTheme_colorError = 84;
+			// aapt resource value: 54
+			public const int AppCompatTheme_colorError = 54;
 			
-			// aapt resource value: 0x55
-			public const int AppCompatTheme_colorPrimary = 85;
+			// aapt resource value: 55
+			public const int AppCompatTheme_colorPrimary = 55;
 			
-			// aapt resource value: 0x56
-			public const int AppCompatTheme_colorPrimaryDark = 86;
+			// aapt resource value: 56
+			public const int AppCompatTheme_colorPrimaryDark = 56;
 			
-			// aapt resource value: 0x57
-			public const int AppCompatTheme_colorSwitchThumbNormal = 87;
+			// aapt resource value: 57
+			public const int AppCompatTheme_colorSwitchThumbNormal = 57;
 			
-			// aapt resource value: 0x58
-			public const int AppCompatTheme_controlBackground = 88;
+			// aapt resource value: 58
+			public const int AppCompatTheme_controlBackground = 58;
 			
-			// aapt resource value: 0x59
-			public const int AppCompatTheme_dialogCornerRadius = 89;
+			// aapt resource value: 59
+			public const int AppCompatTheme_dialogCornerRadius = 59;
 			
-			// aapt resource value: 0x60
-			public const int AppCompatTheme_dialogPreferredPadding = 96;
+			// aapt resource value: 60
+			public const int AppCompatTheme_dialogPreferredPadding = 60;
 			
-			// aapt resource value: 0x61
-			public const int AppCompatTheme_dialogTheme = 97;
+			// aapt resource value: 61
+			public const int AppCompatTheme_dialogTheme = 61;
 			
-			// aapt resource value: 0x62
-			public const int AppCompatTheme_dividerHorizontal = 98;
+			// aapt resource value: 62
+			public const int AppCompatTheme_dividerHorizontal = 62;
 			
-			// aapt resource value: 0x63
-			public const int AppCompatTheme_dividerVertical = 99;
+			// aapt resource value: 63
+			public const int AppCompatTheme_dividerVertical = 63;
 			
-			// aapt resource value: 0x65
-			public const int AppCompatTheme_dropdownListPreferredItemHeight = 101;
+			// aapt resource value: 65
+			public const int AppCompatTheme_dropdownListPreferredItemHeight = 65;
 			
-			// aapt resource value: 0x64
-			public const int AppCompatTheme_dropDownListViewStyle = 100;
+			// aapt resource value: 64
+			public const int AppCompatTheme_dropDownListViewStyle = 64;
 			
-			// aapt resource value: 0x66
-			public const int AppCompatTheme_editTextBackground = 102;
+			// aapt resource value: 66
+			public const int AppCompatTheme_editTextBackground = 66;
 			
-			// aapt resource value: 0x67
-			public const int AppCompatTheme_editTextColor = 103;
+			// aapt resource value: 67
+			public const int AppCompatTheme_editTextColor = 67;
 			
-			// aapt resource value: 0x68
-			public const int AppCompatTheme_editTextStyle = 104;
+			// aapt resource value: 68
+			public const int AppCompatTheme_editTextStyle = 68;
 			
-			// aapt resource value: 0x69
-			public const int AppCompatTheme_homeAsUpIndicator = 105;
+			// aapt resource value: 69
+			public const int AppCompatTheme_homeAsUpIndicator = 69;
 			
-			// aapt resource value: 0x70
-			public const int AppCompatTheme_imageButtonStyle = 112;
+			// aapt resource value: 70
+			public const int AppCompatTheme_imageButtonStyle = 70;
 			
-			// aapt resource value: 0x71
-			public const int AppCompatTheme_listChoiceBackgroundIndicator = 113;
+			// aapt resource value: 71
+			public const int AppCompatTheme_listChoiceBackgroundIndicator = 71;
 			
-			// aapt resource value: 0x72
-			public const int AppCompatTheme_listDividerAlertDialog = 114;
+			// aapt resource value: 72
+			public const int AppCompatTheme_listDividerAlertDialog = 72;
 			
-			// aapt resource value: 0x73
-			public const int AppCompatTheme_listMenuViewStyle = 115;
+			// aapt resource value: 73
+			public const int AppCompatTheme_listMenuViewStyle = 73;
 			
-			// aapt resource value: 0x74
-			public const int AppCompatTheme_listPopupWindowStyle = 116;
+			// aapt resource value: 74
+			public const int AppCompatTheme_listPopupWindowStyle = 74;
 			
-			// aapt resource value: 0x75
-			public const int AppCompatTheme_listPreferredItemHeight = 117;
+			// aapt resource value: 75
+			public const int AppCompatTheme_listPreferredItemHeight = 75;
 			
-			// aapt resource value: 0x76
-			public const int AppCompatTheme_listPreferredItemHeightLarge = 118;
+			// aapt resource value: 76
+			public const int AppCompatTheme_listPreferredItemHeightLarge = 76;
 			
-			// aapt resource value: 0x77
-			public const int AppCompatTheme_listPreferredItemHeightSmall = 119;
+			// aapt resource value: 77
+			public const int AppCompatTheme_listPreferredItemHeightSmall = 77;
 			
-			// aapt resource value: 0x78
-			public const int AppCompatTheme_listPreferredItemPaddingLeft = 120;
+			// aapt resource value: 78
+			public const int AppCompatTheme_listPreferredItemPaddingLeft = 78;
 			
-			// aapt resource value: 0x79
-			public const int AppCompatTheme_listPreferredItemPaddingRight = 121;
+			// aapt resource value: 79
+			public const int AppCompatTheme_listPreferredItemPaddingRight = 79;
 			
-			// aapt resource value: 0x80
-			public const int AppCompatTheme_panelBackground = 128;
+			// aapt resource value: 80
+			public const int AppCompatTheme_panelBackground = 80;
 			
-			// aapt resource value: 0x81
-			public const int AppCompatTheme_panelMenuListTheme = 129;
+			// aapt resource value: 81
+			public const int AppCompatTheme_panelMenuListTheme = 81;
 			
-			// aapt resource value: 0x82
-			public const int AppCompatTheme_panelMenuListWidth = 130;
+			// aapt resource value: 82
+			public const int AppCompatTheme_panelMenuListWidth = 82;
 			
-			// aapt resource value: 0x83
-			public const int AppCompatTheme_popupMenuStyle = 131;
+			// aapt resource value: 83
+			public const int AppCompatTheme_popupMenuStyle = 83;
 			
-			// aapt resource value: 0x84
-			public const int AppCompatTheme_popupWindowStyle = 132;
+			// aapt resource value: 84
+			public const int AppCompatTheme_popupWindowStyle = 84;
 			
-			// aapt resource value: 0x85
-			public const int AppCompatTheme_radioButtonStyle = 133;
+			// aapt resource value: 85
+			public const int AppCompatTheme_radioButtonStyle = 85;
 			
-			// aapt resource value: 0x86
-			public const int AppCompatTheme_ratingBarStyle = 134;
+			// aapt resource value: 86
+			public const int AppCompatTheme_ratingBarStyle = 86;
 			
-			// aapt resource value: 0x87
-			public const int AppCompatTheme_ratingBarStyleIndicator = 135;
+			// aapt resource value: 87
+			public const int AppCompatTheme_ratingBarStyleIndicator = 87;
 			
-			// aapt resource value: 0x88
-			public const int AppCompatTheme_ratingBarStyleSmall = 136;
+			// aapt resource value: 88
+			public const int AppCompatTheme_ratingBarStyleSmall = 88;
 			
-			// aapt resource value: 0x89
-			public const int AppCompatTheme_searchViewStyle = 137;
+			// aapt resource value: 89
+			public const int AppCompatTheme_searchViewStyle = 89;
 			
-			// aapt resource value: 0x90
-			public const int AppCompatTheme_seekBarStyle = 144;
+			// aapt resource value: 90
+			public const int AppCompatTheme_seekBarStyle = 90;
 			
-			// aapt resource value: 0x91
-			public const int AppCompatTheme_selectableItemBackground = 145;
+			// aapt resource value: 91
+			public const int AppCompatTheme_selectableItemBackground = 91;
 			
-			// aapt resource value: 0x92
-			public const int AppCompatTheme_selectableItemBackgroundBorderless = 146;
+			// aapt resource value: 92
+			public const int AppCompatTheme_selectableItemBackgroundBorderless = 92;
 			
-			// aapt resource value: 0x93
-			public const int AppCompatTheme_spinnerDropDownItemStyle = 147;
+			// aapt resource value: 93
+			public const int AppCompatTheme_spinnerDropDownItemStyle = 93;
 			
-			// aapt resource value: 0x94
-			public const int AppCompatTheme_spinnerStyle = 148;
+			// aapt resource value: 94
+			public const int AppCompatTheme_spinnerStyle = 94;
 			
-			// aapt resource value: 0x95
-			public const int AppCompatTheme_switchStyle = 149;
+			// aapt resource value: 95
+			public const int AppCompatTheme_switchStyle = 95;
 			
-			// aapt resource value: 0x96
-			public const int AppCompatTheme_textAppearanceLargePopupMenu = 150;
+			// aapt resource value: 96
+			public const int AppCompatTheme_textAppearanceLargePopupMenu = 96;
 			
-			// aapt resource value: 0x97
-			public const int AppCompatTheme_textAppearanceListItem = 151;
+			// aapt resource value: 97
+			public const int AppCompatTheme_textAppearanceListItem = 97;
 			
-			// aapt resource value: 0x98
-			public const int AppCompatTheme_textAppearanceListItemSecondary = 152;
+			// aapt resource value: 98
+			public const int AppCompatTheme_textAppearanceListItemSecondary = 98;
 			
-			// aapt resource value: 0x99
-			public const int AppCompatTheme_textAppearanceListItemSmall = 153;
+			// aapt resource value: 99
+			public const int AppCompatTheme_textAppearanceListItemSmall = 99;
 			
-			// aapt resource value: 0x100
-			public const int AppCompatTheme_textAppearancePopupMenuHeader = 256;
+			// aapt resource value: 100
+			public const int AppCompatTheme_textAppearancePopupMenuHeader = 100;
 			
-			// aapt resource value: 0x101
-			public const int AppCompatTheme_textAppearanceSearchResultSubtitle = 257;
+			// aapt resource value: 101
+			public const int AppCompatTheme_textAppearanceSearchResultSubtitle = 101;
 			
-			// aapt resource value: 0x102
-			public const int AppCompatTheme_textAppearanceSearchResultTitle = 258;
+			// aapt resource value: 102
+			public const int AppCompatTheme_textAppearanceSearchResultTitle = 102;
 			
-			// aapt resource value: 0x103
-			public const int AppCompatTheme_textAppearanceSmallPopupMenu = 259;
+			// aapt resource value: 103
+			public const int AppCompatTheme_textAppearanceSmallPopupMenu = 103;
 			
-			// aapt resource value: 0x104
-			public const int AppCompatTheme_textColorAlertDialogListItem = 260;
+			// aapt resource value: 104
+			public const int AppCompatTheme_textColorAlertDialogListItem = 104;
 			
-			// aapt resource value: 0x105
-			public const int AppCompatTheme_textColorSearchUrl = 261;
+			// aapt resource value: 105
+			public const int AppCompatTheme_textColorSearchUrl = 105;
 			
-			// aapt resource value: 0x106
-			public const int AppCompatTheme_toolbarNavigationButtonStyle = 262;
+			// aapt resource value: 106
+			public const int AppCompatTheme_toolbarNavigationButtonStyle = 106;
 			
-			// aapt resource value: 0x107
-			public const int AppCompatTheme_toolbarStyle = 263;
+			// aapt resource value: 107
+			public const int AppCompatTheme_toolbarStyle = 107;
 			
-			// aapt resource value: 0x108
-			public const int AppCompatTheme_tooltipForegroundColor = 264;
+			// aapt resource value: 108
+			public const int AppCompatTheme_tooltipForegroundColor = 108;
 			
-			// aapt resource value: 0x109
-			public const int AppCompatTheme_tooltipFrameBackground = 265;
+			// aapt resource value: 109
+			public const int AppCompatTheme_tooltipFrameBackground = 109;
 			
-			// aapt resource value: 0x110
-			public const int AppCompatTheme_viewInflaterClass = 272;
+			// aapt resource value: 110
+			public const int AppCompatTheme_viewInflaterClass = 110;
 			
-			// aapt resource value: 0x111
-			public const int AppCompatTheme_windowActionBar = 273;
+			// aapt resource value: 111
+			public const int AppCompatTheme_windowActionBar = 111;
 			
-			// aapt resource value: 0x112
-			public const int AppCompatTheme_windowActionBarOverlay = 274;
+			// aapt resource value: 112
+			public const int AppCompatTheme_windowActionBarOverlay = 112;
 			
-			// aapt resource value: 0x113
-			public const int AppCompatTheme_windowActionModeOverlay = 275;
+			// aapt resource value: 113
+			public const int AppCompatTheme_windowActionModeOverlay = 113;
 			
-			// aapt resource value: 0x114
-			public const int AppCompatTheme_windowFixedHeightMajor = 276;
+			// aapt resource value: 114
+			public const int AppCompatTheme_windowFixedHeightMajor = 114;
 			
-			// aapt resource value: 0x115
-			public const int AppCompatTheme_windowFixedHeightMinor = 277;
+			// aapt resource value: 115
+			public const int AppCompatTheme_windowFixedHeightMinor = 115;
 			
-			// aapt resource value: 0x116
-			public const int AppCompatTheme_windowFixedWidthMajor = 278;
+			// aapt resource value: 116
+			public const int AppCompatTheme_windowFixedWidthMajor = 116;
 			
-			// aapt resource value: 0x117
-			public const int AppCompatTheme_windowFixedWidthMinor = 279;
+			// aapt resource value: 117
+			public const int AppCompatTheme_windowFixedWidthMinor = 117;
 			
-			// aapt resource value: 0x118
-			public const int AppCompatTheme_windowMinWidthMajor = 280;
+			// aapt resource value: 118
+			public const int AppCompatTheme_windowMinWidthMajor = 118;
 			
-			// aapt resource value: 0x119
-			public const int AppCompatTheme_windowMinWidthMinor = 281;
+			// aapt resource value: 119
+			public const int AppCompatTheme_windowMinWidthMinor = 119;
 			
-			// aapt resource value: 0x120
-			public const int AppCompatTheme_windowNoTitle = 288;
+			// aapt resource value: 120
+			public const int AppCompatTheme_windowNoTitle = 120;
 			
 			// aapt resource value: { 0x7F03003B,0x7F0300CA,0x7F0300CB,0x7F0300CC,0x7F0300CD,0x7F0300EC }
 			public static int[] BottomAppBar = new int[] {
@@ -10725,22 +12072,22 @@ namespace CourseApp.Droid
 					2130903245,
 					2130903276};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int BottomAppBar_backgroundTint = 0;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int BottomAppBar_fabAlignmentMode = 1;
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int BottomAppBar_fabCradleMargin = 2;
 			
-			// aapt resource value: 0x3
+			// aapt resource value: 3
 			public const int BottomAppBar_fabCradleRoundedCornerRadius = 3;
 			
-			// aapt resource value: 0x4
+			// aapt resource value: 4
 			public const int BottomAppBar_fabCradleVerticalOffset = 4;
 			
-			// aapt resource value: 0x5
+			// aapt resource value: 5
 			public const int BottomAppBar_hideOnScroll = 5;
 			
 			// aapt resource value: { 0x7F0300BC,0x7F030101,0x7F030103,0x7F030105,0x7F030106,0x7F03010A,0x7F03010B,0x7F03010C,0x7F03010E,0x7F030132 }
@@ -10756,34 +12103,34 @@ namespace CourseApp.Droid
 					2130903310,
 					2130903346};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int BottomNavigationView_elevation = 0;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int BottomNavigationView_itemBackground = 1;
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int BottomNavigationView_itemHorizontalTranslationEnabled = 2;
 			
-			// aapt resource value: 0x3
+			// aapt resource value: 3
 			public const int BottomNavigationView_itemIconSize = 3;
 			
-			// aapt resource value: 0x4
+			// aapt resource value: 4
 			public const int BottomNavigationView_itemIconTint = 4;
 			
-			// aapt resource value: 0x5
+			// aapt resource value: 5
 			public const int BottomNavigationView_itemTextAppearanceActive = 5;
 			
-			// aapt resource value: 0x6
+			// aapt resource value: 6
 			public const int BottomNavigationView_itemTextAppearanceInactive = 6;
 			
-			// aapt resource value: 0x7
+			// aapt resource value: 7
 			public const int BottomNavigationView_itemTextColor = 7;
 			
-			// aapt resource value: 0x8
+			// aapt resource value: 8
 			public const int BottomNavigationView_labelVisibilityMode = 8;
 			
-			// aapt resource value: 0x9
+			// aapt resource value: 9
 			public const int BottomNavigationView_menu = 9;
 			
 			// aapt resource value: { 0x7F03003F,0x7F030040,0x7F030042,0x7F030043 }
@@ -10793,23 +12140,23 @@ namespace CourseApp.Droid
 					2130903106,
 					2130903107};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int BottomSheetBehavior_Layout_behavior_fitToContents = 0;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int BottomSheetBehavior_Layout_behavior_hideable = 1;
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int BottomSheetBehavior_Layout_behavior_peekHeight = 2;
 			
-			// aapt resource value: 0x3
+			// aapt resource value: 3
 			public const int BottomSheetBehavior_Layout_behavior_skipCollapsed = 3;
 			
 			// aapt resource value: { 0x7F03002D }
 			public static int[] ButtonBarLayout = new int[] {
 					2130903085};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int ButtonBarLayout_allowStacking = 0;
 			
 			// aapt resource value: { 0x101013F,0x1010140,0x7F03005F,0x7F030060,0x7F030061,0x7F030062,0x7F030063,0x7F030064,0x7F03009E,0x7F03009F,0x7F0300A0,0x7F0300A1,0x7F0300A2 }
@@ -10828,44 +12175,44 @@ namespace CourseApp.Droid
 					2130903201,
 					2130903202};
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int CardView_android_minHeight = 1;
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int CardView_android_minWidth = 0;
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int CardView_cardBackgroundColor = 2;
 			
-			// aapt resource value: 0x3
+			// aapt resource value: 3
 			public const int CardView_cardCornerRadius = 3;
 			
-			// aapt resource value: 0x4
+			// aapt resource value: 4
 			public const int CardView_cardElevation = 4;
 			
-			// aapt resource value: 0x5
+			// aapt resource value: 5
 			public const int CardView_cardMaxElevation = 5;
 			
-			// aapt resource value: 0x6
+			// aapt resource value: 6
 			public const int CardView_cardPreventCornerOverlap = 6;
 			
-			// aapt resource value: 0x7
+			// aapt resource value: 7
 			public const int CardView_cardUseCompatPadding = 7;
 			
-			// aapt resource value: 0x8
+			// aapt resource value: 8
 			public const int CardView_contentPadding = 8;
 			
-			// aapt resource value: 0x9
+			// aapt resource value: 9
 			public const int CardView_contentPaddingBottom = 9;
 			
-			// aapt resource value: 0x10
-			public const int CardView_contentPaddingLeft = 16;
+			// aapt resource value: 10
+			public const int CardView_contentPaddingLeft = 10;
 			
-			// aapt resource value: 0x11
-			public const int CardView_contentPaddingRight = 17;
+			// aapt resource value: 11
+			public const int CardView_contentPaddingRight = 11;
 			
-			// aapt resource value: 0x12
-			public const int CardView_contentPaddingTop = 18;
+			// aapt resource value: 12
+			public const int CardView_contentPaddingTop = 12;
 			
 			// aapt resource value: { 0x1010034,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F030068,0x7F030069,0x7F03006A,0x7F03006C,0x7F03006D,0x7F03006E,0x7F030070,0x7F030071,0x7F030072,0x7F030073,0x7F030074,0x7F030075,0x7F03007A,0x7F03007B,0x7F03007C,0x7F03007E,0x7F03007F,0x7F030080,0x7F030081,0x7F030082,0x7F030083,0x7F030084,0x7F0300EA,0x7F0300F4,0x7F0300F8,0x7F030154,0x7F030160,0x7F0301B5,0x7F0301B7 }
 			public static int[] Chip = new int[] {
@@ -10913,125 +12260,125 @@ namespace CourseApp.Droid
 					2130903396,
 					2130903397};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int ChipGroup_checkedChip = 0;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int ChipGroup_chipSpacing = 1;
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int ChipGroup_chipSpacingHorizontal = 2;
 			
-			// aapt resource value: 0x3
+			// aapt resource value: 3
 			public const int ChipGroup_chipSpacingVertical = 3;
 			
-			// aapt resource value: 0x4
+			// aapt resource value: 4
 			public const int ChipGroup_singleLine = 4;
 			
-			// aapt resource value: 0x5
+			// aapt resource value: 5
 			public const int ChipGroup_singleSelection = 5;
 			
-			// aapt resource value: 0x4
+			// aapt resource value: 4
 			public const int Chip_android_checkable = 4;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int Chip_android_ellipsize = 1;
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int Chip_android_maxWidth = 2;
 			
-			// aapt resource value: 0x3
+			// aapt resource value: 3
 			public const int Chip_android_text = 3;
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int Chip_android_textAppearance = 0;
 			
-			// aapt resource value: 0x5
+			// aapt resource value: 5
 			public const int Chip_checkedIcon = 5;
 			
-			// aapt resource value: 0x6
+			// aapt resource value: 6
 			public const int Chip_checkedIconEnabled = 6;
 			
-			// aapt resource value: 0x7
+			// aapt resource value: 7
 			public const int Chip_checkedIconVisible = 7;
 			
-			// aapt resource value: 0x8
+			// aapt resource value: 8
 			public const int Chip_chipBackgroundColor = 8;
 			
-			// aapt resource value: 0x9
+			// aapt resource value: 9
 			public const int Chip_chipCornerRadius = 9;
 			
-			// aapt resource value: 0x10
-			public const int Chip_chipEndPadding = 16;
+			// aapt resource value: 10
+			public const int Chip_chipEndPadding = 10;
 			
-			// aapt resource value: 0x11
-			public const int Chip_chipIcon = 17;
+			// aapt resource value: 11
+			public const int Chip_chipIcon = 11;
 			
-			// aapt resource value: 0x12
-			public const int Chip_chipIconEnabled = 18;
+			// aapt resource value: 12
+			public const int Chip_chipIconEnabled = 12;
 			
-			// aapt resource value: 0x13
-			public const int Chip_chipIconSize = 19;
+			// aapt resource value: 13
+			public const int Chip_chipIconSize = 13;
 			
-			// aapt resource value: 0x14
-			public const int Chip_chipIconTint = 20;
+			// aapt resource value: 14
+			public const int Chip_chipIconTint = 14;
 			
-			// aapt resource value: 0x15
-			public const int Chip_chipIconVisible = 21;
+			// aapt resource value: 15
+			public const int Chip_chipIconVisible = 15;
 			
-			// aapt resource value: 0x16
-			public const int Chip_chipMinHeight = 22;
+			// aapt resource value: 16
+			public const int Chip_chipMinHeight = 16;
 			
-			// aapt resource value: 0x17
-			public const int Chip_chipStartPadding = 23;
+			// aapt resource value: 17
+			public const int Chip_chipStartPadding = 17;
 			
-			// aapt resource value: 0x18
-			public const int Chip_chipStrokeColor = 24;
+			// aapt resource value: 18
+			public const int Chip_chipStrokeColor = 18;
 			
-			// aapt resource value: 0x19
-			public const int Chip_chipStrokeWidth = 25;
+			// aapt resource value: 19
+			public const int Chip_chipStrokeWidth = 19;
 			
-			// aapt resource value: 0x20
-			public const int Chip_closeIcon = 32;
+			// aapt resource value: 20
+			public const int Chip_closeIcon = 20;
 			
-			// aapt resource value: 0x21
-			public const int Chip_closeIconEnabled = 33;
+			// aapt resource value: 21
+			public const int Chip_closeIconEnabled = 21;
 			
-			// aapt resource value: 0x22
-			public const int Chip_closeIconEndPadding = 34;
+			// aapt resource value: 22
+			public const int Chip_closeIconEndPadding = 22;
 			
-			// aapt resource value: 0x23
-			public const int Chip_closeIconSize = 35;
+			// aapt resource value: 23
+			public const int Chip_closeIconSize = 23;
 			
-			// aapt resource value: 0x24
-			public const int Chip_closeIconStartPadding = 36;
+			// aapt resource value: 24
+			public const int Chip_closeIconStartPadding = 24;
 			
-			// aapt resource value: 0x25
-			public const int Chip_closeIconTint = 37;
+			// aapt resource value: 25
+			public const int Chip_closeIconTint = 25;
 			
-			// aapt resource value: 0x26
-			public const int Chip_closeIconVisible = 38;
+			// aapt resource value: 26
+			public const int Chip_closeIconVisible = 26;
 			
-			// aapt resource value: 0x27
-			public const int Chip_hideMotionSpec = 39;
+			// aapt resource value: 27
+			public const int Chip_hideMotionSpec = 27;
 			
-			// aapt resource value: 0x28
-			public const int Chip_iconEndPadding = 40;
+			// aapt resource value: 28
+			public const int Chip_iconEndPadding = 28;
 			
-			// aapt resource value: 0x29
-			public const int Chip_iconStartPadding = 41;
+			// aapt resource value: 29
+			public const int Chip_iconStartPadding = 29;
 			
-			// aapt resource value: 0x30
-			public const int Chip_rippleColor = 48;
+			// aapt resource value: 30
+			public const int Chip_rippleColor = 30;
 			
-			// aapt resource value: 0x31
-			public const int Chip_showMotionSpec = 49;
+			// aapt resource value: 31
+			public const int Chip_showMotionSpec = 31;
 			
-			// aapt resource value: 0x32
-			public const int Chip_textEndPadding = 50;
+			// aapt resource value: 32
+			public const int Chip_textEndPadding = 32;
 			
-			// aapt resource value: 0x33
-			public const int Chip_textStartPadding = 51;
+			// aapt resource value: 33
+			public const int Chip_textStartPadding = 33;
 			
 			// aapt resource value: { 0x7F030088,0x7F030089,0x7F0300A3,0x7F0300C3,0x7F0300C4,0x7F0300C5,0x7F0300C6,0x7F0300C7,0x7F0300C8,0x7F0300C9,0x7F030155,0x7F030157,0x7F030175,0x7F0301C2,0x7F0301C3,0x7F0301CD }
 			public static int[] CollapsingToolbarLayout = new int[] {
@@ -11052,34 +12399,34 @@ namespace CourseApp.Droid
 					2130903491,
 					2130903501};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_collapsedTitleGravity = 0;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int CollapsingToolbarLayout_collapsedTitleTextAppearance = 1;
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int CollapsingToolbarLayout_contentScrim = 2;
 			
-			// aapt resource value: 0x3
+			// aapt resource value: 3
 			public const int CollapsingToolbarLayout_expandedTitleGravity = 3;
 			
-			// aapt resource value: 0x4
+			// aapt resource value: 4
 			public const int CollapsingToolbarLayout_expandedTitleMargin = 4;
 			
-			// aapt resource value: 0x5
+			// aapt resource value: 5
 			public const int CollapsingToolbarLayout_expandedTitleMarginBottom = 5;
 			
-			// aapt resource value: 0x6
+			// aapt resource value: 6
 			public const int CollapsingToolbarLayout_expandedTitleMarginEnd = 6;
 			
-			// aapt resource value: 0x7
+			// aapt resource value: 7
 			public const int CollapsingToolbarLayout_expandedTitleMarginStart = 7;
 			
-			// aapt resource value: 0x8
+			// aapt resource value: 8
 			public const int CollapsingToolbarLayout_expandedTitleMarginTop = 8;
 			
-			// aapt resource value: 0x9
+			// aapt resource value: 9
 			public const int CollapsingToolbarLayout_expandedTitleTextAppearance = 9;
 			
 			// aapt resource value: { 0x7F030115,0x7F030116 }
@@ -11087,29 +12434,29 @@ namespace CourseApp.Droid
 					2130903317,
 					2130903318};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 0;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = 1;
 			
-			// aapt resource value: 0x10
-			public const int CollapsingToolbarLayout_scrimAnimationDuration = 16;
+			// aapt resource value: 10
+			public const int CollapsingToolbarLayout_scrimAnimationDuration = 10;
 			
-			// aapt resource value: 0x11
-			public const int CollapsingToolbarLayout_scrimVisibleHeightTrigger = 17;
+			// aapt resource value: 11
+			public const int CollapsingToolbarLayout_scrimVisibleHeightTrigger = 11;
 			
-			// aapt resource value: 0x12
-			public const int CollapsingToolbarLayout_statusBarScrim = 18;
+			// aapt resource value: 12
+			public const int CollapsingToolbarLayout_statusBarScrim = 12;
 			
-			// aapt resource value: 0x13
-			public const int CollapsingToolbarLayout_title = 19;
+			// aapt resource value: 13
+			public const int CollapsingToolbarLayout_title = 13;
 			
-			// aapt resource value: 0x14
-			public const int CollapsingToolbarLayout_titleEnabled = 20;
+			// aapt resource value: 14
+			public const int CollapsingToolbarLayout_titleEnabled = 14;
 			
-			// aapt resource value: 0x15
-			public const int CollapsingToolbarLayout_toolbarId = 21;
+			// aapt resource value: 15
+			public const int CollapsingToolbarLayout_toolbarId = 15;
 			
 			// aapt resource value: { 0x10101A5,0x101031F,0x7F03002E }
 			public static int[] ColorStateListItem = new int[] {
@@ -11117,13 +12464,13 @@ namespace CourseApp.Droid
 					16843551,
 					2130903086};
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int ColorStateListItem_alpha = 2;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int ColorStateListItem_android_alpha = 1;
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int ColorStateListItem_android_color = 0;
 			
 			// aapt resource value: { 0x1010107,0x7F03005D,0x7F03005E }
@@ -11132,13 +12479,13 @@ namespace CourseApp.Droid
 					2130903133,
 					2130903134};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int CompoundButton_android_button = 0;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int CompoundButton_buttonTint = 1;
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int CompoundButton_buttonTintMode = 2;
 			
 			// aapt resource value: { 0x7F03010D,0x7F030174 }
@@ -11146,7 +12493,7 @@ namespace CourseApp.Droid
 					2130903309,
 					2130903412};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int CoordinatorLayout_keylines = 0;
 			
 			// aapt resource value: { 0x10100B3,0x7F030112,0x7F030113,0x7F030114,0x7F030117,0x7F030118,0x7F030119 }
@@ -11159,28 +12506,28 @@ namespace CourseApp.Droid
 					2130903320,
 					2130903321};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int CoordinatorLayout_Layout_android_layout_gravity = 0;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int CoordinatorLayout_Layout_layout_anchor = 1;
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int CoordinatorLayout_Layout_layout_anchorGravity = 2;
 			
-			// aapt resource value: 0x3
+			// aapt resource value: 3
 			public const int CoordinatorLayout_Layout_layout_behavior = 3;
 			
-			// aapt resource value: 0x4
+			// aapt resource value: 4
 			public const int CoordinatorLayout_Layout_layout_dodgeInsetEdges = 4;
 			
-			// aapt resource value: 0x5
+			// aapt resource value: 5
 			public const int CoordinatorLayout_Layout_layout_insetEdge = 5;
 			
-			// aapt resource value: 0x6
+			// aapt resource value: 6
 			public const int CoordinatorLayout_Layout_layout_keyline = 6;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int CoordinatorLayout_statusBarBackground = 1;
 			
 			// aapt resource value: { 0x7F030048,0x7F030049 }
@@ -11188,10 +12535,10 @@ namespace CourseApp.Droid
 					2130903112,
 					2130903113};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int DesignTheme_bottomSheetDialogTheme = 0;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int DesignTheme_bottomSheetStyle = 1;
 			
 			// aapt resource value: { 0x7F030030,0x7F030031,0x7F03003D,0x7F03008A,0x7F0300B5,0x7F0300E3,0x7F030169,0x7F0301B9 }
@@ -11205,28 +12552,28 @@ namespace CourseApp.Droid
 					2130903401,
 					2130903481};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int DrawerArrowToggle_arrowHeadLength = 0;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int DrawerArrowToggle_arrowShaftLength = 1;
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int DrawerArrowToggle_barLength = 2;
 			
-			// aapt resource value: 0x3
+			// aapt resource value: 3
 			public const int DrawerArrowToggle_color = 3;
 			
-			// aapt resource value: 0x4
+			// aapt resource value: 4
 			public const int DrawerArrowToggle_drawableSize = 4;
 			
-			// aapt resource value: 0x5
+			// aapt resource value: 5
 			public const int DrawerArrowToggle_gapBetweenBars = 5;
 			
-			// aapt resource value: 0x6
+			// aapt resource value: 6
 			public const int DrawerArrowToggle_spinBars = 6;
 			
-			// aapt resource value: 0x7
+			// aapt resource value: 7
 			public const int DrawerArrowToggle_thickness = 7;
 			
 			// aapt resource value: { 0x7F03003B,0x7F03003C,0x7F030044,0x7F0300BC,0x7F0300CE,0x7F0300CF,0x7F0300EA,0x7F0300F2,0x7F030130,0x7F03014A,0x7F030154,0x7F030160,0x7F0301D7 }
@@ -11245,61 +12592,61 @@ namespace CourseApp.Droid
 					2130903392,
 					2130903511};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int FloatingActionButton_backgroundTint = 0;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int FloatingActionButton_backgroundTintMode = 1;
 			
 			// aapt resource value: { 0x7F03003E }
 			public static int[] FloatingActionButton_Behavior_Layout = new int[] {
 					2130903102};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 0;
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int FloatingActionButton_borderWidth = 2;
 			
-			// aapt resource value: 0x3
+			// aapt resource value: 3
 			public const int FloatingActionButton_elevation = 3;
 			
-			// aapt resource value: 0x4
+			// aapt resource value: 4
 			public const int FloatingActionButton_fabCustomSize = 4;
 			
-			// aapt resource value: 0x5
+			// aapt resource value: 5
 			public const int FloatingActionButton_fabSize = 5;
 			
-			// aapt resource value: 0x6
+			// aapt resource value: 6
 			public const int FloatingActionButton_hideMotionSpec = 6;
 			
-			// aapt resource value: 0x7
+			// aapt resource value: 7
 			public const int FloatingActionButton_hoveredFocusedTranslationZ = 7;
 			
-			// aapt resource value: 0x8
+			// aapt resource value: 8
 			public const int FloatingActionButton_maxImageSize = 8;
 			
-			// aapt resource value: 0x9
+			// aapt resource value: 9
 			public const int FloatingActionButton_pressedTranslationZ = 9;
 			
-			// aapt resource value: 0x10
-			public const int FloatingActionButton_rippleColor = 16;
+			// aapt resource value: 10
+			public const int FloatingActionButton_rippleColor = 10;
 			
-			// aapt resource value: 0x11
-			public const int FloatingActionButton_showMotionSpec = 17;
+			// aapt resource value: 11
+			public const int FloatingActionButton_showMotionSpec = 11;
 			
-			// aapt resource value: 0x12
-			public const int FloatingActionButton_useCompatPadding = 18;
+			// aapt resource value: 12
+			public const int FloatingActionButton_useCompatPadding = 12;
 			
 			// aapt resource value: { 0x7F030108,0x7F03011E }
 			public static int[] FlowLayout = new int[] {
 					2130903304,
 					2130903326};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int FlowLayout_itemSpacing = 0;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int FlowLayout_lineSpacing = 1;
 			
 			// aapt resource value: { 0x7F0300D9,0x7F0300DA,0x7F0300DB,0x7F0300DC,0x7F0300DD,0x7F0300DE }
@@ -11324,52 +12671,52 @@ namespace CourseApp.Droid
 					2130903265,
 					2130903510};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int FontFamilyFont_android_font = 0;
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int FontFamilyFont_android_fontStyle = 2;
 			
-			// aapt resource value: 0x4
+			// aapt resource value: 4
 			public const int FontFamilyFont_android_fontVariationSettings = 4;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int FontFamilyFont_android_fontWeight = 1;
 			
-			// aapt resource value: 0x3
+			// aapt resource value: 3
 			public const int FontFamilyFont_android_ttcIndex = 3;
 			
-			// aapt resource value: 0x5
+			// aapt resource value: 5
 			public const int FontFamilyFont_font = 5;
 			
-			// aapt resource value: 0x6
+			// aapt resource value: 6
 			public const int FontFamilyFont_fontStyle = 6;
 			
-			// aapt resource value: 0x7
+			// aapt resource value: 7
 			public const int FontFamilyFont_fontVariationSettings = 7;
 			
-			// aapt resource value: 0x8
+			// aapt resource value: 8
 			public const int FontFamilyFont_fontWeight = 8;
 			
-			// aapt resource value: 0x9
+			// aapt resource value: 9
 			public const int FontFamilyFont_ttcIndex = 9;
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int FontFamily_fontProviderAuthority = 0;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int FontFamily_fontProviderCerts = 1;
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int FontFamily_fontProviderFetchStrategy = 2;
 			
-			// aapt resource value: 0x3
+			// aapt resource value: 3
 			public const int FontFamily_fontProviderFetchTimeout = 3;
 			
-			// aapt resource value: 0x4
+			// aapt resource value: 4
 			public const int FontFamily_fontProviderPackage = 4;
 			
-			// aapt resource value: 0x5
+			// aapt resource value: 5
 			public const int FontFamily_fontProviderQuery = 5;
 			
 			// aapt resource value: { 0x1010109,0x1010200,0x7F0300E2 }
@@ -11378,13 +12725,13 @@ namespace CourseApp.Droid
 					16843264,
 					2130903266};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int ForegroundLinearLayout_android_foreground = 0;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int ForegroundLinearLayout_android_foregroundGravity = 1;
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int ForegroundLinearLayout_foregroundInsidePadding = 2;
 			
 			// aapt resource value: { 0x101019D,0x101019E,0x10101A1,0x10101A2,0x10101A3,0x10101A4,0x1010201,0x101020B,0x1010510,0x1010511,0x1010512,0x1010513 }
@@ -11407,46 +12754,46 @@ namespace CourseApp.Droid
 					16843173,
 					16844052};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int GradientColorItem_android_color = 0;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int GradientColorItem_android_offset = 1;
 			
-			// aapt resource value: 0x7
+			// aapt resource value: 7
 			public const int GradientColor_android_centerColor = 7;
 			
-			// aapt resource value: 0x3
+			// aapt resource value: 3
 			public const int GradientColor_android_centerX = 3;
 			
-			// aapt resource value: 0x4
+			// aapt resource value: 4
 			public const int GradientColor_android_centerY = 4;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int GradientColor_android_endColor = 1;
 			
-			// aapt resource value: 0x10
-			public const int GradientColor_android_endX = 16;
+			// aapt resource value: 10
+			public const int GradientColor_android_endX = 10;
 			
-			// aapt resource value: 0x11
-			public const int GradientColor_android_endY = 17;
+			// aapt resource value: 11
+			public const int GradientColor_android_endY = 11;
 			
-			// aapt resource value: 0x5
+			// aapt resource value: 5
 			public const int GradientColor_android_gradientRadius = 5;
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int GradientColor_android_startColor = 0;
 			
-			// aapt resource value: 0x8
+			// aapt resource value: 8
 			public const int GradientColor_android_startX = 8;
 			
-			// aapt resource value: 0x9
+			// aapt resource value: 9
 			public const int GradientColor_android_startY = 9;
 			
-			// aapt resource value: 0x6
+			// aapt resource value: 6
 			public const int GradientColor_android_tileMode = 6;
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int GradientColor_android_type = 2;
 			
 			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F0300B1,0x7F0300B3,0x7F030131,0x7F03015F }
@@ -11461,25 +12808,25 @@ namespace CourseApp.Droid
 					2130903345,
 					2130903391};
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int LinearLayoutCompat_android_baselineAligned = 2;
 			
-			// aapt resource value: 0x3
+			// aapt resource value: 3
 			public const int LinearLayoutCompat_android_baselineAlignedChildIndex = 3;
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int LinearLayoutCompat_android_gravity = 0;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int LinearLayoutCompat_android_orientation = 1;
 			
-			// aapt resource value: 0x4
+			// aapt resource value: 4
 			public const int LinearLayoutCompat_android_weightSum = 4;
 			
-			// aapt resource value: 0x5
+			// aapt resource value: 5
 			public const int LinearLayoutCompat_divider = 5;
 			
-			// aapt resource value: 0x6
+			// aapt resource value: 6
 			public const int LinearLayoutCompat_dividerPadding = 6;
 			
 			// aapt resource value: { 0x10100B3,0x10100F4,0x10100F5,0x1010181 }
@@ -11489,22 +12836,22 @@ namespace CourseApp.Droid
 					16842997,
 					16843137};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int LinearLayoutCompat_Layout_android_layout_gravity = 0;
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int LinearLayoutCompat_Layout_android_layout_height = 2;
 			
-			// aapt resource value: 0x3
+			// aapt resource value: 3
 			public const int LinearLayoutCompat_Layout_android_layout_weight = 3;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int LinearLayoutCompat_Layout_android_layout_width = 1;
 			
-			// aapt resource value: 0x7
+			// aapt resource value: 7
 			public const int LinearLayoutCompat_measureWithLargestChild = 7;
 			
-			// aapt resource value: 0x8
+			// aapt resource value: 8
 			public const int LinearLayoutCompat_showDividers = 8;
 			
 			// aapt resource value: { 0x10102AC,0x10102AD }
@@ -11512,10 +12859,10 @@ namespace CourseApp.Droid
 					16843436,
 					16843437};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int ListPopupWindow_android_dropDownHorizontalOffset = 0;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
 			
 			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F03003B,0x7F03003C,0x7F0300A6,0x7F0300F3,0x7F0300F5,0x7F0300F6,0x7F0300F7,0x7F0300F9,0x7F0300FA,0x7F030154,0x7F030176,0x7F030177 }
@@ -11537,63 +12884,63 @@ namespace CourseApp.Droid
 					2130903414,
 					2130903415};
 			
-			// aapt resource value: 0x3
+			// aapt resource value: 3
 			public const int MaterialButton_android_insetBottom = 3;
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int MaterialButton_android_insetLeft = 0;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int MaterialButton_android_insetRight = 1;
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int MaterialButton_android_insetTop = 2;
 			
-			// aapt resource value: 0x4
+			// aapt resource value: 4
 			public const int MaterialButton_backgroundTint = 4;
 			
-			// aapt resource value: 0x5
+			// aapt resource value: 5
 			public const int MaterialButton_backgroundTintMode = 5;
 			
-			// aapt resource value: 0x6
+			// aapt resource value: 6
 			public const int MaterialButton_cornerRadius = 6;
 			
-			// aapt resource value: 0x7
+			// aapt resource value: 7
 			public const int MaterialButton_icon = 7;
 			
-			// aapt resource value: 0x8
+			// aapt resource value: 8
 			public const int MaterialButton_iconGravity = 8;
 			
-			// aapt resource value: 0x9
+			// aapt resource value: 9
 			public const int MaterialButton_iconPadding = 9;
 			
-			// aapt resource value: 0x10
-			public const int MaterialButton_iconSize = 16;
+			// aapt resource value: 10
+			public const int MaterialButton_iconSize = 10;
 			
-			// aapt resource value: 0x11
-			public const int MaterialButton_iconTint = 17;
+			// aapt resource value: 11
+			public const int MaterialButton_iconTint = 11;
 			
-			// aapt resource value: 0x12
-			public const int MaterialButton_iconTintMode = 18;
+			// aapt resource value: 12
+			public const int MaterialButton_iconTintMode = 12;
 			
-			// aapt resource value: 0x13
-			public const int MaterialButton_rippleColor = 19;
+			// aapt resource value: 13
+			public const int MaterialButton_rippleColor = 13;
 			
-			// aapt resource value: 0x14
-			public const int MaterialButton_strokeColor = 20;
+			// aapt resource value: 14
+			public const int MaterialButton_strokeColor = 14;
 			
-			// aapt resource value: 0x15
-			public const int MaterialButton_strokeWidth = 21;
+			// aapt resource value: 15
+			public const int MaterialButton_strokeWidth = 15;
 			
 			// aapt resource value: { 0x7F030176,0x7F030177 }
 			public static int[] MaterialCardView = new int[] {
 					2130903414,
 					2130903415};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int MaterialCardView_strokeColor = 0;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int MaterialCardView_strokeWidth = 1;
 			
 			// aapt resource value: { 0x7F030048,0x7F030049,0x7F03006F,0x7F030079,0x7F03007D,0x7F03008B,0x7F03008C,0x7F030092,0x7F030093,0x7F030094,0x7F0300BB,0x7F0300D6,0x7F03012C,0x7F03012D,0x7F030137,0x7F030156,0x7F030166,0x7F030199,0x7F03019E,0x7F03019F,0x7F0301A0,0x7F0301A1,0x7F0301A2,0x7F0301A3,0x7F0301A4,0x7F0301A5,0x7F0301A6,0x7F0301A7,0x7F0301AC,0x7F0301B1,0x7F0301B2,0x7F0301B6 }
@@ -11631,101 +12978,101 @@ namespace CourseApp.Droid
 					2130903474,
 					2130903478};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int MaterialComponentsTheme_bottomSheetDialogTheme = 0;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int MaterialComponentsTheme_bottomSheetStyle = 1;
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int MaterialComponentsTheme_chipGroupStyle = 2;
 			
-			// aapt resource value: 0x3
+			// aapt resource value: 3
 			public const int MaterialComponentsTheme_chipStandaloneStyle = 3;
 			
-			// aapt resource value: 0x4
+			// aapt resource value: 4
 			public const int MaterialComponentsTheme_chipStyle = 4;
 			
-			// aapt resource value: 0x5
+			// aapt resource value: 5
 			public const int MaterialComponentsTheme_colorAccent = 5;
 			
-			// aapt resource value: 0x6
+			// aapt resource value: 6
 			public const int MaterialComponentsTheme_colorBackgroundFloating = 6;
 			
-			// aapt resource value: 0x7
+			// aapt resource value: 7
 			public const int MaterialComponentsTheme_colorPrimary = 7;
 			
-			// aapt resource value: 0x8
+			// aapt resource value: 8
 			public const int MaterialComponentsTheme_colorPrimaryDark = 8;
 			
-			// aapt resource value: 0x9
+			// aapt resource value: 9
 			public const int MaterialComponentsTheme_colorSecondary = 9;
 			
-			// aapt resource value: 0x10
-			public const int MaterialComponentsTheme_editTextStyle = 16;
+			// aapt resource value: 10
+			public const int MaterialComponentsTheme_editTextStyle = 10;
 			
-			// aapt resource value: 0x11
-			public const int MaterialComponentsTheme_floatingActionButtonStyle = 17;
+			// aapt resource value: 11
+			public const int MaterialComponentsTheme_floatingActionButtonStyle = 11;
 			
-			// aapt resource value: 0x12
-			public const int MaterialComponentsTheme_materialButtonStyle = 18;
+			// aapt resource value: 12
+			public const int MaterialComponentsTheme_materialButtonStyle = 12;
 			
-			// aapt resource value: 0x13
-			public const int MaterialComponentsTheme_materialCardViewStyle = 19;
+			// aapt resource value: 13
+			public const int MaterialComponentsTheme_materialCardViewStyle = 13;
 			
-			// aapt resource value: 0x14
-			public const int MaterialComponentsTheme_navigationViewStyle = 20;
+			// aapt resource value: 14
+			public const int MaterialComponentsTheme_navigationViewStyle = 14;
 			
-			// aapt resource value: 0x15
-			public const int MaterialComponentsTheme_scrimBackground = 21;
+			// aapt resource value: 15
+			public const int MaterialComponentsTheme_scrimBackground = 15;
 			
-			// aapt resource value: 0x16
-			public const int MaterialComponentsTheme_snackbarButtonStyle = 22;
+			// aapt resource value: 16
+			public const int MaterialComponentsTheme_snackbarButtonStyle = 16;
 			
-			// aapt resource value: 0x17
-			public const int MaterialComponentsTheme_tabStyle = 23;
+			// aapt resource value: 17
+			public const int MaterialComponentsTheme_tabStyle = 17;
 			
-			// aapt resource value: 0x18
-			public const int MaterialComponentsTheme_textAppearanceBody1 = 24;
+			// aapt resource value: 18
+			public const int MaterialComponentsTheme_textAppearanceBody1 = 18;
 			
-			// aapt resource value: 0x19
-			public const int MaterialComponentsTheme_textAppearanceBody2 = 25;
+			// aapt resource value: 19
+			public const int MaterialComponentsTheme_textAppearanceBody2 = 19;
 			
-			// aapt resource value: 0x20
-			public const int MaterialComponentsTheme_textAppearanceButton = 32;
+			// aapt resource value: 20
+			public const int MaterialComponentsTheme_textAppearanceButton = 20;
 			
-			// aapt resource value: 0x21
-			public const int MaterialComponentsTheme_textAppearanceCaption = 33;
+			// aapt resource value: 21
+			public const int MaterialComponentsTheme_textAppearanceCaption = 21;
 			
-			// aapt resource value: 0x22
-			public const int MaterialComponentsTheme_textAppearanceHeadline1 = 34;
+			// aapt resource value: 22
+			public const int MaterialComponentsTheme_textAppearanceHeadline1 = 22;
 			
-			// aapt resource value: 0x23
-			public const int MaterialComponentsTheme_textAppearanceHeadline2 = 35;
+			// aapt resource value: 23
+			public const int MaterialComponentsTheme_textAppearanceHeadline2 = 23;
 			
-			// aapt resource value: 0x24
-			public const int MaterialComponentsTheme_textAppearanceHeadline3 = 36;
+			// aapt resource value: 24
+			public const int MaterialComponentsTheme_textAppearanceHeadline3 = 24;
 			
-			// aapt resource value: 0x25
-			public const int MaterialComponentsTheme_textAppearanceHeadline4 = 37;
+			// aapt resource value: 25
+			public const int MaterialComponentsTheme_textAppearanceHeadline4 = 25;
 			
-			// aapt resource value: 0x26
-			public const int MaterialComponentsTheme_textAppearanceHeadline5 = 38;
+			// aapt resource value: 26
+			public const int MaterialComponentsTheme_textAppearanceHeadline5 = 26;
 			
-			// aapt resource value: 0x27
-			public const int MaterialComponentsTheme_textAppearanceHeadline6 = 39;
+			// aapt resource value: 27
+			public const int MaterialComponentsTheme_textAppearanceHeadline6 = 27;
 			
-			// aapt resource value: 0x28
-			public const int MaterialComponentsTheme_textAppearanceOverline = 40;
+			// aapt resource value: 28
+			public const int MaterialComponentsTheme_textAppearanceOverline = 28;
 			
-			// aapt resource value: 0x29
-			public const int MaterialComponentsTheme_textAppearanceSubtitle1 = 41;
+			// aapt resource value: 29
+			public const int MaterialComponentsTheme_textAppearanceSubtitle1 = 29;
 			
-			// aapt resource value: 0x30
-			public const int MaterialComponentsTheme_textAppearanceSubtitle2 = 48;
+			// aapt resource value: 30
+			public const int MaterialComponentsTheme_textAppearanceSubtitle2 = 30;
 			
-			// aapt resource value: 0x31
-			public const int MaterialComponentsTheme_textInputStyle = 49;
+			// aapt resource value: 31
+			public const int MaterialComponentsTheme_textInputStyle = 31;
 			
 			// aapt resource value: { 0x101000E,0x10100D0,0x1010194,0x10101DE,0x10101DF,0x10101E0 }
 			public static int[] MenuGroup = new int[] {
@@ -11736,22 +13083,22 @@ namespace CourseApp.Droid
 					16843231,
 					16843232};
 			
-			// aapt resource value: 0x5
+			// aapt resource value: 5
 			public const int MenuGroup_android_checkableBehavior = 5;
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int MenuGroup_android_enabled = 0;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int MenuGroup_android_id = 1;
 			
-			// aapt resource value: 0x3
+			// aapt resource value: 3
 			public const int MenuGroup_android_menuCategory = 3;
 			
-			// aapt resource value: 0x4
+			// aapt resource value: 4
 			public const int MenuGroup_android_orderInCategory = 4;
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int MenuGroup_android_visible = 2;
 			
 			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F030014,0x7F030026,0x7F030027,0x7F03002F,0x7F030097,0x7F0300F9,0x7F0300FA,0x7F030138,0x7F03015E,0x7F0301D2 }
@@ -11780,74 +13127,74 @@ namespace CourseApp.Droid
 					2130903390,
 					2130903506};
 			
-			// aapt resource value: 0x13
-			public const int MenuItem_actionLayout = 19;
+			// aapt resource value: 13
+			public const int MenuItem_actionLayout = 13;
 			
-			// aapt resource value: 0x14
-			public const int MenuItem_actionProviderClass = 20;
+			// aapt resource value: 14
+			public const int MenuItem_actionProviderClass = 14;
 			
-			// aapt resource value: 0x15
-			public const int MenuItem_actionViewClass = 21;
+			// aapt resource value: 15
+			public const int MenuItem_actionViewClass = 15;
 			
-			// aapt resource value: 0x16
-			public const int MenuItem_alphabeticModifiers = 22;
+			// aapt resource value: 16
+			public const int MenuItem_alphabeticModifiers = 16;
 			
-			// aapt resource value: 0x9
+			// aapt resource value: 9
 			public const int MenuItem_android_alphabeticShortcut = 9;
 			
-			// aapt resource value: 0x11
-			public const int MenuItem_android_checkable = 17;
+			// aapt resource value: 11
+			public const int MenuItem_android_checkable = 11;
 			
-			// aapt resource value: 0x3
+			// aapt resource value: 3
 			public const int MenuItem_android_checked = 3;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int MenuItem_android_enabled = 1;
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int MenuItem_android_icon = 0;
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int MenuItem_android_id = 2;
 			
-			// aapt resource value: 0x5
+			// aapt resource value: 5
 			public const int MenuItem_android_menuCategory = 5;
 			
-			// aapt resource value: 0x10
-			public const int MenuItem_android_numericShortcut = 16;
+			// aapt resource value: 10
+			public const int MenuItem_android_numericShortcut = 10;
 			
-			// aapt resource value: 0x12
-			public const int MenuItem_android_onClick = 18;
+			// aapt resource value: 12
+			public const int MenuItem_android_onClick = 12;
 			
-			// aapt resource value: 0x6
+			// aapt resource value: 6
 			public const int MenuItem_android_orderInCategory = 6;
 			
-			// aapt resource value: 0x7
+			// aapt resource value: 7
 			public const int MenuItem_android_title = 7;
 			
-			// aapt resource value: 0x8
+			// aapt resource value: 8
 			public const int MenuItem_android_titleCondensed = 8;
 			
-			// aapt resource value: 0x4
+			// aapt resource value: 4
 			public const int MenuItem_android_visible = 4;
 			
-			// aapt resource value: 0x17
-			public const int MenuItem_contentDescription = 23;
+			// aapt resource value: 17
+			public const int MenuItem_contentDescription = 17;
 			
-			// aapt resource value: 0x18
-			public const int MenuItem_iconTint = 24;
+			// aapt resource value: 18
+			public const int MenuItem_iconTint = 18;
 			
-			// aapt resource value: 0x19
-			public const int MenuItem_iconTintMode = 25;
+			// aapt resource value: 19
+			public const int MenuItem_iconTintMode = 19;
 			
-			// aapt resource value: 0x20
-			public const int MenuItem_numericModifiers = 32;
+			// aapt resource value: 20
+			public const int MenuItem_numericModifiers = 20;
 			
-			// aapt resource value: 0x21
-			public const int MenuItem_showAsAction = 33;
+			// aapt resource value: 21
+			public const int MenuItem_showAsAction = 21;
 			
-			// aapt resource value: 0x22
-			public const int MenuItem_tooltipText = 34;
+			// aapt resource value: 22
+			public const int MenuItem_tooltipText = 22;
 			
 			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F030149,0x7F030178 }
 			public static int[] MenuView = new int[] {
@@ -11861,31 +13208,31 @@ namespace CourseApp.Droid
 					2130903369,
 					2130903416};
 			
-			// aapt resource value: 0x4
+			// aapt resource value: 4
 			public const int MenuView_android_headerBackground = 4;
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int MenuView_android_horizontalDivider = 2;
 			
-			// aapt resource value: 0x5
+			// aapt resource value: 5
 			public const int MenuView_android_itemBackground = 5;
 			
-			// aapt resource value: 0x6
+			// aapt resource value: 6
 			public const int MenuView_android_itemIconDisabledAlpha = 6;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int MenuView_android_itemTextAppearance = 1;
 			
-			// aapt resource value: 0x3
+			// aapt resource value: 3
 			public const int MenuView_android_verticalDivider = 3;
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int MenuView_android_windowAnimationStyle = 0;
 			
-			// aapt resource value: 0x7
+			// aapt resource value: 7
 			public const int MenuView_preserveIconSpacing = 7;
 			
-			// aapt resource value: 0x8
+			// aapt resource value: 8
 			public const int MenuView_subMenuArrow = 8;
 			
 			// aapt resource value: { 0x7F030000,0x7F030004 }
@@ -11893,24 +13240,24 @@ namespace CourseApp.Droid
 					2130903040,
 					2130903044};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int MvxBinding_MvxBind = 0;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int MvxBinding_MvxLang = 1;
 			
 			// aapt resource value: { 0x7F030005 }
 			public static int[] MvxControl = new int[] {
 					2130903045};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int MvxControl_MvxTemplate = 0;
 			
 			// aapt resource value: { 0x7F030002 }
 			public static int[] MvxExpandableListView = new int[] {
 					2130903042};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int MvxExpandableListView_MvxGroupItemTemplate = 0;
 			
 			// aapt resource value: { 0x7F030001,0x7F030003 }
@@ -11918,17 +13265,17 @@ namespace CourseApp.Droid
 					2130903041,
 					2130903043};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int MvxListView_MvxDropDownItemTemplate = 0;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int MvxListView_MvxItemTemplate = 1;
 			
 			// aapt resource value: { 0x7F030006 }
 			public static int[] MvxRecyclerView = new int[] {
 					2130903046};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int MvxRecyclerView_MvxTemplateSelector = 0;
 			
 			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F0300BC,0x7F0300E5,0x7F030101,0x7F030102,0x7F030104,0x7F030106,0x7F030109,0x7F03010C,0x7F030132 }
@@ -11946,41 +13293,41 @@ namespace CourseApp.Droid
 					2130903308,
 					2130903346};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int NavigationView_android_background = 0;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int NavigationView_android_fitsSystemWindows = 1;
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int NavigationView_android_maxWidth = 2;
 			
-			// aapt resource value: 0x3
+			// aapt resource value: 3
 			public const int NavigationView_elevation = 3;
 			
-			// aapt resource value: 0x4
+			// aapt resource value: 4
 			public const int NavigationView_headerLayout = 4;
 			
-			// aapt resource value: 0x5
+			// aapt resource value: 5
 			public const int NavigationView_itemBackground = 5;
 			
-			// aapt resource value: 0x6
+			// aapt resource value: 6
 			public const int NavigationView_itemHorizontalPadding = 6;
 			
-			// aapt resource value: 0x7
+			// aapt resource value: 7
 			public const int NavigationView_itemIconPadding = 7;
 			
-			// aapt resource value: 0x8
+			// aapt resource value: 8
 			public const int NavigationView_itemIconTint = 8;
 			
-			// aapt resource value: 0x9
+			// aapt resource value: 9
 			public const int NavigationView_itemTextAppearance = 9;
 			
-			// aapt resource value: 0x10
-			public const int NavigationView_itemTextColor = 16;
+			// aapt resource value: 10
+			public const int NavigationView_itemTextColor = 10;
 			
-			// aapt resource value: 0x11
-			public const int NavigationView_menu = 17;
+			// aapt resource value: 11
+			public const int NavigationView_menu = 11;
 			
 			// aapt resource value: { 0x1010176,0x10102C9,0x7F030139 }
 			public static int[] PopupWindow = new int[] {
@@ -11992,16 +13339,16 @@ namespace CourseApp.Droid
 			public static int[] PopupWindowBackgroundState = new int[] {
 					2130903407};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int PopupWindowBackgroundState_state_above_anchor = 0;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int PopupWindow_android_popupAnimationStyle = 1;
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int PopupWindow_android_popupBackground = 0;
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int PopupWindow_overlapAnchor = 2;
 			
 			// aapt resource value: { 0x7F03013A,0x7F03013D }
@@ -12009,10 +13356,10 @@ namespace CourseApp.Droid
 					2130903354,
 					2130903357};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int RecycleListView_paddingBottomNoButtons = 0;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int RecycleListView_paddingTopNoTitle = 1;
 			
 			// aapt resource value: { 0x10100C4,0x10100F1,0x7F0300D0,0x7F0300D1,0x7F0300D2,0x7F0300D3,0x7F0300D4,0x7F030111,0x7F030153,0x7F030168,0x7F03016E }
@@ -12029,51 +13376,51 @@ namespace CourseApp.Droid
 					2130903400,
 					2130903406};
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int RecyclerView_android_descendantFocusability = 1;
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int RecyclerView_android_orientation = 0;
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int RecyclerView_fastScrollEnabled = 2;
 			
-			// aapt resource value: 0x3
+			// aapt resource value: 3
 			public const int RecyclerView_fastScrollHorizontalThumbDrawable = 3;
 			
-			// aapt resource value: 0x4
+			// aapt resource value: 4
 			public const int RecyclerView_fastScrollHorizontalTrackDrawable = 4;
 			
-			// aapt resource value: 0x5
+			// aapt resource value: 5
 			public const int RecyclerView_fastScrollVerticalThumbDrawable = 5;
 			
-			// aapt resource value: 0x6
+			// aapt resource value: 6
 			public const int RecyclerView_fastScrollVerticalTrackDrawable = 6;
 			
-			// aapt resource value: 0x7
+			// aapt resource value: 7
 			public const int RecyclerView_layoutManager = 7;
 			
-			// aapt resource value: 0x8
+			// aapt resource value: 8
 			public const int RecyclerView_reverseLayout = 8;
 			
-			// aapt resource value: 0x9
+			// aapt resource value: 9
 			public const int RecyclerView_spanCount = 9;
 			
-			// aapt resource value: 0x10
-			public const int RecyclerView_stackFromEnd = 16;
+			// aapt resource value: 10
+			public const int RecyclerView_stackFromEnd = 10;
 			
 			// aapt resource value: { 0x7F0300FF }
 			public static int[] ScrimInsetsFrameLayout = new int[] {
 					2130903295};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int ScrimInsetsFrameLayout_insetForeground = 0;
 			
 			// aapt resource value: { 0x7F030041 }
 			public static int[] ScrollingViewBehavior_Layout = new int[] {
 					2130903105};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 0;
 			
 			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F03007E,0x7F030096,0x7F0300AC,0x7F0300E4,0x7F0300FB,0x7F030110,0x7F03014D,0x7F03014E,0x7F030158,0x7F030159,0x7F030179,0x7F03017E,0x7F0301D9 }
@@ -12096,56 +13443,56 @@ namespace CourseApp.Droid
 					2130903422,
 					2130903513};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int SearchView_android_focusable = 0;
 			
-			// aapt resource value: 0x3
+			// aapt resource value: 3
 			public const int SearchView_android_imeOptions = 3;
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int SearchView_android_inputType = 2;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int SearchView_android_maxWidth = 1;
 			
-			// aapt resource value: 0x4
+			// aapt resource value: 4
 			public const int SearchView_closeIcon = 4;
 			
-			// aapt resource value: 0x5
+			// aapt resource value: 5
 			public const int SearchView_commitIcon = 5;
 			
-			// aapt resource value: 0x6
+			// aapt resource value: 6
 			public const int SearchView_defaultQueryHint = 6;
 			
-			// aapt resource value: 0x7
+			// aapt resource value: 7
 			public const int SearchView_goIcon = 7;
 			
-			// aapt resource value: 0x8
+			// aapt resource value: 8
 			public const int SearchView_iconifiedByDefault = 8;
 			
-			// aapt resource value: 0x9
+			// aapt resource value: 9
 			public const int SearchView_layout = 9;
 			
-			// aapt resource value: 0x10
-			public const int SearchView_queryBackground = 16;
+			// aapt resource value: 10
+			public const int SearchView_queryBackground = 10;
 			
-			// aapt resource value: 0x11
-			public const int SearchView_queryHint = 17;
+			// aapt resource value: 11
+			public const int SearchView_queryHint = 11;
 			
-			// aapt resource value: 0x12
-			public const int SearchView_searchHintIcon = 18;
+			// aapt resource value: 12
+			public const int SearchView_searchHintIcon = 12;
 			
-			// aapt resource value: 0x13
-			public const int SearchView_searchIcon = 19;
+			// aapt resource value: 13
+			public const int SearchView_searchIcon = 13;
 			
-			// aapt resource value: 0x14
-			public const int SearchView_submitBackground = 20;
+			// aapt resource value: 14
+			public const int SearchView_submitBackground = 14;
 			
-			// aapt resource value: 0x15
-			public const int SearchView_suggestionRowLayout = 21;
+			// aapt resource value: 15
+			public const int SearchView_suggestionRowLayout = 15;
 			
-			// aapt resource value: 0x16
-			public const int SearchView_voiceIcon = 22;
+			// aapt resource value: 16
+			public const int SearchView_voiceIcon = 16;
 			
 			// aapt resource value: { 0x7F030166,0x7F030167 }
 			public static int[] Snackbar = new int[] {
@@ -12158,19 +13505,19 @@ namespace CourseApp.Droid
 					2130903228,
 					2130903342};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int SnackbarLayout_android_maxWidth = 0;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int SnackbarLayout_elevation = 1;
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int SnackbarLayout_maxActionInlineWidth = 2;
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int Snackbar_snackbarButtonStyle = 0;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int Snackbar_snackbarStyle = 1;
 			
 			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F030147 }
@@ -12181,19 +13528,19 @@ namespace CourseApp.Droid
 					16843362,
 					2130903367};
 			
-			// aapt resource value: 0x3
+			// aapt resource value: 3
 			public const int Spinner_android_dropDownWidth = 3;
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int Spinner_android_entries = 0;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int Spinner_android_popupBackground = 1;
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int Spinner_android_prompt = 2;
 			
-			// aapt resource value: 0x4
+			// aapt resource value: 4
 			public const int Spinner_popupTheme = 4;
 			
 			// aapt resource value: { 0x101011C,0x1010194,0x1010195,0x1010196,0x101030C,0x101030D }
@@ -12209,25 +13556,25 @@ namespace CourseApp.Droid
 			public static int[] StateListDrawableItem = new int[] {
 					16843161};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int StateListDrawableItem_android_drawable = 0;
 			
-			// aapt resource value: 0x3
+			// aapt resource value: 3
 			public const int StateListDrawable_android_constantSize = 3;
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int StateListDrawable_android_dither = 0;
 			
-			// aapt resource value: 0x4
+			// aapt resource value: 4
 			public const int StateListDrawable_android_enterFadeDuration = 4;
 			
-			// aapt resource value: 0x5
+			// aapt resource value: 5
 			public const int StateListDrawable_android_exitFadeDuration = 5;
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int StateListDrawable_android_variablePadding = 2;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int StateListDrawable_android_visible = 1;
 			
 			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F030161,0x7F03016C,0x7F03017F,0x7F030180,0x7F030182,0x7F0301BA,0x7F0301BB,0x7F0301BC,0x7F0301D3,0x7F0301D4,0x7F0301D5 }
@@ -12247,47 +13594,47 @@ namespace CourseApp.Droid
 					2130903508,
 					2130903509};
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int SwitchCompat_android_textOff = 1;
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int SwitchCompat_android_textOn = 0;
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int SwitchCompat_android_thumb = 2;
 			
-			// aapt resource value: 0x3
+			// aapt resource value: 3
 			public const int SwitchCompat_showText = 3;
 			
-			// aapt resource value: 0x4
+			// aapt resource value: 4
 			public const int SwitchCompat_splitTrack = 4;
 			
-			// aapt resource value: 0x5
+			// aapt resource value: 5
 			public const int SwitchCompat_switchMinWidth = 5;
 			
-			// aapt resource value: 0x6
+			// aapt resource value: 6
 			public const int SwitchCompat_switchPadding = 6;
 			
-			// aapt resource value: 0x7
+			// aapt resource value: 7
 			public const int SwitchCompat_switchTextAppearance = 7;
 			
-			// aapt resource value: 0x8
+			// aapt resource value: 8
 			public const int SwitchCompat_thumbTextPadding = 8;
 			
-			// aapt resource value: 0x9
+			// aapt resource value: 9
 			public const int SwitchCompat_thumbTint = 9;
 			
-			// aapt resource value: 0x10
-			public const int SwitchCompat_thumbTintMode = 16;
+			// aapt resource value: 10
+			public const int SwitchCompat_thumbTintMode = 10;
 			
-			// aapt resource value: 0x11
-			public const int SwitchCompat_track = 17;
+			// aapt resource value: 11
+			public const int SwitchCompat_track = 11;
 			
-			// aapt resource value: 0x12
-			public const int SwitchCompat_trackTint = 18;
+			// aapt resource value: 12
+			public const int SwitchCompat_trackTint = 12;
 			
-			// aapt resource value: 0x13
-			public const int SwitchCompat_trackTintMode = 19;
+			// aapt resource value: 13
+			public const int SwitchCompat_trackTintMode = 13;
 			
 			// aapt resource value: { 0x1010002,0x10100F2,0x101014F }
 			public static int[] TabItem = new int[] {
@@ -12295,13 +13642,13 @@ namespace CourseApp.Droid
 					16842994,
 					16843087};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int TabItem_android_icon = 0;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int TabItem_android_layout = 1;
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int TabItem_android_text = 2;
 			
 			// aapt resource value: { 0x7F030183,0x7F030184,0x7F030185,0x7F030186,0x7F030187,0x7F030188,0x7F030189,0x7F03018A,0x7F03018B,0x7F03018C,0x7F03018D,0x7F03018E,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030198,0x7F03019A,0x7F03019B,0x7F03019C }
@@ -12332,80 +13679,80 @@ namespace CourseApp.Droid
 					2130903451,
 					2130903452};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int TabLayout_tabBackground = 0;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int TabLayout_tabContentStart = 1;
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int TabLayout_tabGravity = 2;
 			
-			// aapt resource value: 0x3
+			// aapt resource value: 3
 			public const int TabLayout_tabIconTint = 3;
 			
-			// aapt resource value: 0x4
+			// aapt resource value: 4
 			public const int TabLayout_tabIconTintMode = 4;
 			
-			// aapt resource value: 0x5
+			// aapt resource value: 5
 			public const int TabLayout_tabIndicator = 5;
 			
-			// aapt resource value: 0x6
+			// aapt resource value: 6
 			public const int TabLayout_tabIndicatorAnimationDuration = 6;
 			
-			// aapt resource value: 0x7
+			// aapt resource value: 7
 			public const int TabLayout_tabIndicatorColor = 7;
 			
-			// aapt resource value: 0x8
+			// aapt resource value: 8
 			public const int TabLayout_tabIndicatorFullWidth = 8;
 			
-			// aapt resource value: 0x9
+			// aapt resource value: 9
 			public const int TabLayout_tabIndicatorGravity = 9;
 			
-			// aapt resource value: 0x10
-			public const int TabLayout_tabIndicatorHeight = 16;
+			// aapt resource value: 10
+			public const int TabLayout_tabIndicatorHeight = 10;
 			
-			// aapt resource value: 0x11
-			public const int TabLayout_tabInlineLabel = 17;
+			// aapt resource value: 11
+			public const int TabLayout_tabInlineLabel = 11;
 			
-			// aapt resource value: 0x12
-			public const int TabLayout_tabMaxWidth = 18;
+			// aapt resource value: 12
+			public const int TabLayout_tabMaxWidth = 12;
 			
-			// aapt resource value: 0x13
-			public const int TabLayout_tabMinWidth = 19;
+			// aapt resource value: 13
+			public const int TabLayout_tabMinWidth = 13;
 			
-			// aapt resource value: 0x14
-			public const int TabLayout_tabMode = 20;
+			// aapt resource value: 14
+			public const int TabLayout_tabMode = 14;
 			
-			// aapt resource value: 0x15
-			public const int TabLayout_tabPadding = 21;
+			// aapt resource value: 15
+			public const int TabLayout_tabPadding = 15;
 			
-			// aapt resource value: 0x16
-			public const int TabLayout_tabPaddingBottom = 22;
+			// aapt resource value: 16
+			public const int TabLayout_tabPaddingBottom = 16;
 			
-			// aapt resource value: 0x17
-			public const int TabLayout_tabPaddingEnd = 23;
+			// aapt resource value: 17
+			public const int TabLayout_tabPaddingEnd = 17;
 			
-			// aapt resource value: 0x18
-			public const int TabLayout_tabPaddingStart = 24;
+			// aapt resource value: 18
+			public const int TabLayout_tabPaddingStart = 18;
 			
-			// aapt resource value: 0x19
-			public const int TabLayout_tabPaddingTop = 25;
+			// aapt resource value: 19
+			public const int TabLayout_tabPaddingTop = 19;
 			
-			// aapt resource value: 0x20
-			public const int TabLayout_tabRippleColor = 32;
+			// aapt resource value: 20
+			public const int TabLayout_tabRippleColor = 20;
 			
-			// aapt resource value: 0x21
-			public const int TabLayout_tabSelectedTextColor = 33;
+			// aapt resource value: 21
+			public const int TabLayout_tabSelectedTextColor = 21;
 			
-			// aapt resource value: 0x22
-			public const int TabLayout_tabTextAppearance = 34;
+			// aapt resource value: 22
+			public const int TabLayout_tabTextAppearance = 22;
 			
-			// aapt resource value: 0x23
-			public const int TabLayout_tabTextColor = 35;
+			// aapt resource value: 23
+			public const int TabLayout_tabTextColor = 23;
 			
-			// aapt resource value: 0x24
-			public const int TabLayout_tabUnboundedRipple = 36;
+			// aapt resource value: 24
+			public const int TabLayout_tabUnboundedRipple = 24;
 			
 			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x7F0300D8,0x7F03019D }
 			public static int[] TextAppearance = new int[] {
@@ -12423,44 +13770,44 @@ namespace CourseApp.Droid
 					2130903256,
 					2130903453};
 			
-			// aapt resource value: 0x10
-			public const int TextAppearance_android_fontFamily = 16;
+			// aapt resource value: 10
+			public const int TextAppearance_android_fontFamily = 10;
 			
-			// aapt resource value: 0x6
+			// aapt resource value: 6
 			public const int TextAppearance_android_shadowColor = 6;
 			
-			// aapt resource value: 0x7
+			// aapt resource value: 7
 			public const int TextAppearance_android_shadowDx = 7;
 			
-			// aapt resource value: 0x8
+			// aapt resource value: 8
 			public const int TextAppearance_android_shadowDy = 8;
 			
-			// aapt resource value: 0x9
+			// aapt resource value: 9
 			public const int TextAppearance_android_shadowRadius = 9;
 			
-			// aapt resource value: 0x3
+			// aapt resource value: 3
 			public const int TextAppearance_android_textColor = 3;
 			
-			// aapt resource value: 0x4
+			// aapt resource value: 4
 			public const int TextAppearance_android_textColorHint = 4;
 			
-			// aapt resource value: 0x5
+			// aapt resource value: 5
 			public const int TextAppearance_android_textColorLink = 5;
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int TextAppearance_android_textSize = 0;
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int TextAppearance_android_textStyle = 2;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int TextAppearance_android_typeface = 1;
 			
-			// aapt resource value: 0x11
-			public const int TextAppearance_fontFamily = 17;
+			// aapt resource value: 11
+			public const int TextAppearance_fontFamily = 11;
 			
-			// aapt resource value: 0x12
-			public const int TextAppearance_textAllCaps = 18;
+			// aapt resource value: 12
+			public const int TextAppearance_textAllCaps = 12;
 			
 			// aapt resource value: { 0x101009A,0x1010150,0x7F03004A,0x7F03004B,0x7F03004C,0x7F03004D,0x7F03004E,0x7F03004F,0x7F030050,0x7F030051,0x7F030052,0x7F0300A7,0x7F0300A8,0x7F0300A9,0x7F0300AA,0x7F0300BF,0x7F0300C0,0x7F0300E7,0x7F0300E8,0x7F0300E9,0x7F0300ED,0x7F0300EE,0x7F0300EF,0x7F030141,0x7F030142,0x7F030143,0x7F030144,0x7F030145 }
 			public static int[] TextInputLayout = new int[] {
@@ -12493,89 +13840,89 @@ namespace CourseApp.Droid
 					2130903364,
 					2130903365};
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int TextInputLayout_android_hint = 1;
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int TextInputLayout_android_textColorHint = 0;
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int TextInputLayout_boxBackgroundColor = 2;
 			
-			// aapt resource value: 0x3
+			// aapt resource value: 3
 			public const int TextInputLayout_boxBackgroundMode = 3;
 			
-			// aapt resource value: 0x4
+			// aapt resource value: 4
 			public const int TextInputLayout_boxCollapsedPaddingTop = 4;
 			
-			// aapt resource value: 0x5
+			// aapt resource value: 5
 			public const int TextInputLayout_boxCornerRadiusBottomEnd = 5;
 			
-			// aapt resource value: 0x6
+			// aapt resource value: 6
 			public const int TextInputLayout_boxCornerRadiusBottomStart = 6;
 			
-			// aapt resource value: 0x7
+			// aapt resource value: 7
 			public const int TextInputLayout_boxCornerRadiusTopEnd = 7;
 			
-			// aapt resource value: 0x8
+			// aapt resource value: 8
 			public const int TextInputLayout_boxCornerRadiusTopStart = 8;
 			
-			// aapt resource value: 0x9
+			// aapt resource value: 9
 			public const int TextInputLayout_boxStrokeColor = 9;
 			
-			// aapt resource value: 0x10
-			public const int TextInputLayout_boxStrokeWidth = 16;
+			// aapt resource value: 10
+			public const int TextInputLayout_boxStrokeWidth = 10;
 			
-			// aapt resource value: 0x11
-			public const int TextInputLayout_counterEnabled = 17;
+			// aapt resource value: 11
+			public const int TextInputLayout_counterEnabled = 11;
 			
-			// aapt resource value: 0x12
-			public const int TextInputLayout_counterMaxLength = 18;
+			// aapt resource value: 12
+			public const int TextInputLayout_counterMaxLength = 12;
 			
-			// aapt resource value: 0x13
-			public const int TextInputLayout_counterOverflowTextAppearance = 19;
+			// aapt resource value: 13
+			public const int TextInputLayout_counterOverflowTextAppearance = 13;
 			
-			// aapt resource value: 0x14
-			public const int TextInputLayout_counterTextAppearance = 20;
+			// aapt resource value: 14
+			public const int TextInputLayout_counterTextAppearance = 14;
 			
-			// aapt resource value: 0x15
-			public const int TextInputLayout_errorEnabled = 21;
+			// aapt resource value: 15
+			public const int TextInputLayout_errorEnabled = 15;
 			
-			// aapt resource value: 0x16
-			public const int TextInputLayout_errorTextAppearance = 22;
+			// aapt resource value: 16
+			public const int TextInputLayout_errorTextAppearance = 16;
 			
-			// aapt resource value: 0x17
-			public const int TextInputLayout_helperText = 23;
+			// aapt resource value: 17
+			public const int TextInputLayout_helperText = 17;
 			
-			// aapt resource value: 0x18
-			public const int TextInputLayout_helperTextEnabled = 24;
+			// aapt resource value: 18
+			public const int TextInputLayout_helperTextEnabled = 18;
 			
-			// aapt resource value: 0x19
-			public const int TextInputLayout_helperTextTextAppearance = 25;
+			// aapt resource value: 19
+			public const int TextInputLayout_helperTextTextAppearance = 19;
 			
-			// aapt resource value: 0x20
-			public const int TextInputLayout_hintAnimationEnabled = 32;
+			// aapt resource value: 20
+			public const int TextInputLayout_hintAnimationEnabled = 20;
 			
-			// aapt resource value: 0x21
-			public const int TextInputLayout_hintEnabled = 33;
+			// aapt resource value: 21
+			public const int TextInputLayout_hintEnabled = 21;
 			
-			// aapt resource value: 0x22
-			public const int TextInputLayout_hintTextAppearance = 34;
+			// aapt resource value: 22
+			public const int TextInputLayout_hintTextAppearance = 22;
 			
-			// aapt resource value: 0x23
-			public const int TextInputLayout_passwordToggleContentDescription = 35;
+			// aapt resource value: 23
+			public const int TextInputLayout_passwordToggleContentDescription = 23;
 			
-			// aapt resource value: 0x24
-			public const int TextInputLayout_passwordToggleDrawable = 36;
+			// aapt resource value: 24
+			public const int TextInputLayout_passwordToggleDrawable = 24;
 			
-			// aapt resource value: 0x25
-			public const int TextInputLayout_passwordToggleEnabled = 37;
+			// aapt resource value: 25
+			public const int TextInputLayout_passwordToggleEnabled = 25;
 			
-			// aapt resource value: 0x26
-			public const int TextInputLayout_passwordToggleTint = 38;
+			// aapt resource value: 26
+			public const int TextInputLayout_passwordToggleTint = 26;
 			
-			// aapt resource value: 0x27
-			public const int TextInputLayout_passwordToggleTintMode = 39;
+			// aapt resource value: 27
+			public const int TextInputLayout_passwordToggleTintMode = 27;
 			
 			// aapt resource value: { 0x1010034,0x7F0300BD,0x7F0300BE }
 			public static int[] ThemeEnforcement = new int[] {
@@ -12583,13 +13930,13 @@ namespace CourseApp.Droid
 					2130903229,
 					2130903230};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int ThemeEnforcement_android_textAppearance = 0;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int ThemeEnforcement_enforceMaterialTheme = 1;
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int ThemeEnforcement_enforceTextAppearance = 2;
 			
 			// aapt resource value: { 0x10100AF,0x1010140,0x7F030058,0x7F030086,0x7F030087,0x7F030098,0x7F030099,0x7F03009A,0x7F03009B,0x7F03009C,0x7F03009D,0x7F03012A,0x7F03012B,0x7F03012F,0x7F030134,0x7F030135,0x7F030147,0x7F03017A,0x7F03017B,0x7F03017C,0x7F0301C2,0x7F0301C4,0x7F0301C5,0x7F0301C6,0x7F0301C7,0x7F0301C8,0x7F0301C9,0x7F0301CA,0x7F0301CB }
@@ -12624,92 +13971,92 @@ namespace CourseApp.Droid
 					2130903498,
 					2130903499};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int Toolbar_android_gravity = 0;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int Toolbar_android_minHeight = 1;
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int Toolbar_buttonGravity = 2;
 			
-			// aapt resource value: 0x3
+			// aapt resource value: 3
 			public const int Toolbar_collapseContentDescription = 3;
 			
-			// aapt resource value: 0x4
+			// aapt resource value: 4
 			public const int Toolbar_collapseIcon = 4;
 			
-			// aapt resource value: 0x5
+			// aapt resource value: 5
 			public const int Toolbar_contentInsetEnd = 5;
 			
-			// aapt resource value: 0x6
+			// aapt resource value: 6
 			public const int Toolbar_contentInsetEndWithActions = 6;
 			
-			// aapt resource value: 0x7
+			// aapt resource value: 7
 			public const int Toolbar_contentInsetLeft = 7;
 			
-			// aapt resource value: 0x8
+			// aapt resource value: 8
 			public const int Toolbar_contentInsetRight = 8;
 			
-			// aapt resource value: 0x9
+			// aapt resource value: 9
 			public const int Toolbar_contentInsetStart = 9;
 			
-			// aapt resource value: 0x10
-			public const int Toolbar_contentInsetStartWithNavigation = 16;
+			// aapt resource value: 10
+			public const int Toolbar_contentInsetStartWithNavigation = 10;
 			
-			// aapt resource value: 0x11
-			public const int Toolbar_logo = 17;
+			// aapt resource value: 11
+			public const int Toolbar_logo = 11;
 			
-			// aapt resource value: 0x12
-			public const int Toolbar_logoDescription = 18;
+			// aapt resource value: 12
+			public const int Toolbar_logoDescription = 12;
 			
-			// aapt resource value: 0x13
-			public const int Toolbar_maxButtonHeight = 19;
+			// aapt resource value: 13
+			public const int Toolbar_maxButtonHeight = 13;
 			
-			// aapt resource value: 0x14
-			public const int Toolbar_navigationContentDescription = 20;
+			// aapt resource value: 14
+			public const int Toolbar_navigationContentDescription = 14;
 			
-			// aapt resource value: 0x15
-			public const int Toolbar_navigationIcon = 21;
+			// aapt resource value: 15
+			public const int Toolbar_navigationIcon = 15;
 			
-			// aapt resource value: 0x16
-			public const int Toolbar_popupTheme = 22;
+			// aapt resource value: 16
+			public const int Toolbar_popupTheme = 16;
 			
-			// aapt resource value: 0x17
-			public const int Toolbar_subtitle = 23;
+			// aapt resource value: 17
+			public const int Toolbar_subtitle = 17;
 			
-			// aapt resource value: 0x18
-			public const int Toolbar_subtitleTextAppearance = 24;
+			// aapt resource value: 18
+			public const int Toolbar_subtitleTextAppearance = 18;
 			
-			// aapt resource value: 0x19
-			public const int Toolbar_subtitleTextColor = 25;
+			// aapt resource value: 19
+			public const int Toolbar_subtitleTextColor = 19;
 			
-			// aapt resource value: 0x20
-			public const int Toolbar_title = 32;
+			// aapt resource value: 20
+			public const int Toolbar_title = 20;
 			
-			// aapt resource value: 0x21
-			public const int Toolbar_titleMargin = 33;
+			// aapt resource value: 21
+			public const int Toolbar_titleMargin = 21;
 			
-			// aapt resource value: 0x22
-			public const int Toolbar_titleMarginBottom = 34;
+			// aapt resource value: 22
+			public const int Toolbar_titleMarginBottom = 22;
 			
-			// aapt resource value: 0x23
-			public const int Toolbar_titleMarginEnd = 35;
+			// aapt resource value: 23
+			public const int Toolbar_titleMarginEnd = 23;
 			
-			// aapt resource value: 0x26
-			public const int Toolbar_titleMargins = 38;
+			// aapt resource value: 26
+			public const int Toolbar_titleMargins = 26;
 			
-			// aapt resource value: 0x24
-			public const int Toolbar_titleMarginStart = 36;
+			// aapt resource value: 24
+			public const int Toolbar_titleMarginStart = 24;
 			
-			// aapt resource value: 0x25
-			public const int Toolbar_titleMarginTop = 37;
+			// aapt resource value: 25
+			public const int Toolbar_titleMarginTop = 25;
 			
-			// aapt resource value: 0x27
-			public const int Toolbar_titleTextAppearance = 39;
+			// aapt resource value: 27
+			public const int Toolbar_titleTextAppearance = 27;
 			
-			// aapt resource value: 0x28
-			public const int Toolbar_titleTextColor = 40;
+			// aapt resource value: 28
+			public const int Toolbar_titleTextColor = 28;
 			
 			// aapt resource value: { 0x1010000,0x10100DA,0x7F03013B,0x7F03013C,0x7F0301B8 }
 			public static int[] View = new int[] {
@@ -12725,13 +14072,13 @@ namespace CourseApp.Droid
 					2130903099,
 					2130903100};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int ViewBackgroundHelper_android_background = 0;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int ViewBackgroundHelper_backgroundTint = 1;
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int ViewBackgroundHelper_backgroundTintMode = 2;
 			
 			// aapt resource value: { 0x10100D0,0x10100F2,0x10100F3 }
@@ -12740,28 +14087,28 @@ namespace CourseApp.Droid
 					16842994,
 					16842995};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int ViewStubCompat_android_id = 0;
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int ViewStubCompat_android_inflatedId = 2;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int ViewStubCompat_android_layout = 1;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int View_android_focusable = 1;
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int View_android_theme = 0;
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int View_paddingEnd = 2;
 			
-			// aapt resource value: 0x3
+			// aapt resource value: 3
 			public const int View_paddingStart = 3;
 			
-			// aapt resource value: 0x4
+			// aapt resource value: 4
 			public const int View_theme = 4;
 			
 			static Styleable()

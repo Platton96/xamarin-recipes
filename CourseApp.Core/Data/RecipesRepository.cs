@@ -6,11 +6,11 @@ using System.Text;
 
 namespace CourseApp.Core.Data
 {
-	public class RecipesLocalRepository
+	public class RecipesRepository
 	{
 		private string _dbPath;
 
-		public RecipesLocalRepository(string dbPath)
+		public RecipesRepository(string dbPath)
 		{
 			_dbPath = dbPath;
 			using (var _db = new SQLiteConnection(_dbPath))

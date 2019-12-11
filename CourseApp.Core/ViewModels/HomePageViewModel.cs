@@ -1,51 +1,54 @@
 ﻿using CourseApp.Core.Data;
-using CourseApp.Core.Infarstructure;
 using CourseApp.Core.Models;
 using CourseApp.Core.Service;
+using CourseApp.Core.ViewModels;
 using MvvmCross.Commands;
+using MvvmCross.Navigation;
 using MvvmCross.ViewModels;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace CourseApp.Core
 {
-	public class HomePageViewModel : MvxViewModel
-	{
-		INavigationManager _navigationManager;
-		private IEnumerable<Dishes> _dishes;
-		RecipesLocalRepository  _recipesLocalService;
+    public class HomePageViewModel : MvxViewModel
+    {
+        private readonly IMvxNavigationService _mvxNavigationService;
+        private ObservableCollection<DishesCategory> _dishesCategories;
 
-		public IMvxCommand NavigateToCityAsyncCommand => new MvxAsyncCommand<Dishes>(DoNavigateToRecipesAsync);
-		public HomePageViewModel()
-		{
-			//_navigationManager = navigationService;
-		}
-		public override Task Initialize()
-		{
-			// Async initialization, YEY!
+        public IMvxCommand NavigateToRecipesAsyncCommand => new MvxAsyncCommand<DishesCategory>(DoNavigateToRecipesAsync);
+        public HomePageViewModel(IMvxNavigationService mvxNavigationService)
+        {
+            _mvxNavigationService = mvxNavigationService;
+        }
 
-			return base.Initialize();
-		}
-		public IEnumerable<Dishes> Dishes
-		{
-			get => _dishes;
-			set
-			{
-				_dishes = value;
-				RaisePropertyChanged(() => Dishes);
-			}
-		}
+        public ObservableCollection<DishesCategory> DishesCategories
+        {
+            get => _dishesCategories;
+            set
+            {
+                _dishesCategories = value;
+                RaisePropertyChanged(() => DishesCategories);
+            }
+        }
 
-		public override  void ViewCreated()
-		{
-			base.ViewCreated();
-		//	Dishes =  _recipesLocalService.GetAll();
-		}
-		private async Task DoNavigateToRecipesAsync(Dishes dishes)
-		{
-			await _navigationManager.NavigateToRecipesAsync(dishes);
-		}
-	}
+        public override void ViewCreated()
+        {
+            base.ViewCreated();
+            InitiaizeDiahesCotigories();
+        }
+        private async Task DoNavigateToRecipesAsync(DishesCategory dishesCategory)
+        {
+            await _mvxNavigationService.Navigate<RecipesViewModel, DishesCategory>(dishesCategory);
+        }
+
+        private void InitiaizeDiahesCotigories()
+        {
+            DishesCategories = Defines.GetDishesCategories();
+        }
+
+    }
+
 }
