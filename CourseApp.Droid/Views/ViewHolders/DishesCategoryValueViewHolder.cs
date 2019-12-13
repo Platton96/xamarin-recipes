@@ -1,13 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using Android.App;
-using Android.Content;
 using Android.Content.Res;
-using Android.OS;
-using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using CourseApp.Core.Models;
@@ -22,11 +14,16 @@ namespace CourseApp.Droid.Views.ViewHolders
         private LinearLayout _dishesCategoryItemCell;
         private TextView _dishesCategoryTitle;
         private ImageView _dishesCategoryImage;
+        private Resources _resources;
 
         public event EventHandler DishesCategoryImageClicked;
 
-        public DishesCategoryValueViewHolder(View itemView, IMvxAndroidBindingContext context) : base(itemView, context)
+        public DishesCategoryValueViewHolder(View itemView, IMvxAndroidBindingContext context, Resources resourcesWithImage) : base(itemView, context)
         {
+            _resources = resourcesWithImage;
+            InitComponents(itemView);
+            ApplyBindings();
+      
 
         }
         private void ApplyBindings()
@@ -35,7 +32,8 @@ namespace CourseApp.Droid.Views.ViewHolders
 
             bindingSet.Bind(_dishesCategoryTitle)
                 .For(p => p.Text)
-                .To(vm => vm.Name);
+                .To(vm => vm.Name ).
+                OneWay();
             bindingSet.Apply();
         }
         private void InitComponents(View itemView)
@@ -47,14 +45,27 @@ namespace CourseApp.Droid.Views.ViewHolders
             _dishesCategoryItemCell.Click+= (s, e) =>
             {
                 DishesCategoryImageClicked(DataContext as DishesCategory, null);
+
             };
-            
+
+            _dishesCategoryItemCell.ViewAttachedToWindow+= (s, e) =>
+            {
+                var dishesCategoryFileName = (DataContext as DishesCategory)?.FileName;
+
+                if (!string.IsNullOrEmpty(dishesCategoryFileName))
+                {
+                    SetImageDishesCategory(dishesCategoryFileName, _resources);
+                }
+            };
+
+
         }
 
-        private void SetImageDishesCategory(string nameImage)
+        private void SetImageDishesCategory(string nameImage, Resources resourcesWithImage)
         {
-            //var imageResourseId= Resources.GetIdentifier(nameImage, "drawable", C);
-           // _dishesCategoryImage.SetImageResource(Resource.Id.soups)
+
+           var resourceImgeId = resourcesWithImage.GetIdentifier(nameImage, "drawable", "com.companyname.courseapp.droid");
+           _dishesCategoryImage.SetImageResource(resourceImgeId);
         }
     }
 }

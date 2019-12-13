@@ -67,8 +67,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SplashScreen.cs" />
     <Compile Include="Views\Adapters\DishesCategoryAdapter.cs" />
-    <Compile Include="Views\Adapters\DishesCategoryViewHolder.cs" />
-    <Compile Include="Views\CategoryTemplateSelector.cs" />
     <Compile Include="Views\HomePageView.cs" />
     <Compile Include="Views\ViewHolders\DishesCategoryValueViewHolder.cs" />
   </ItemGroup>
@@ -78,9 +76,18 @@
     <None Include="Assets\AboutAssets.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\layout\HomePage.xml">
+    <AndroidResource Include="Resources\layout\dishes_caategory_item.axml">
       <SubType>Designer</SubType>
-    </Content>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\soup.png" />
+    <AndroidResource Include="Resources\drawable\deserts.png" />
+    <AndroidResource Include="Resources\drawable\drinks.png" />
+    <AndroidResource Include="Resources\drawable\hots.png" />
+    <AndroidResource Include="Resources\drawable\jams.png" />
+    <AndroidResource Include="Resources\drawable\salads.png" />
+    <AndroidResource Include="Resources\drawable\sauses.png" />
+    <AndroidResource Include="Resources\drawable\snacks.png" />
+    <AndroidResource Include="Resources\drawable\wood.jpg" />
     <AndroidResource Include="Resources\values\colors.xml" />
     <AndroidResource Include="Resources\values\ic_launcher_background.xml" />
     <AndroidResource Include="Resources\values\strings.xml" />
@@ -105,6 +112,9 @@
     <AndroidResource Include="Resources\layout\splash.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
+    <AndroidResource Include="Resources\layout\MainPage.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="MvvmCross">
@@ -118,6 +128,9 @@
     </PackageReference>
     <PackageReference Include="sqlite-net-pcl">
       <Version>1.6.292</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Android.Support.Constraint.Layout">
+      <Version>1.1.2</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Android.Support.Design" Version="28.0.0.1" />
     <PackageReference Include="Xamarin.Android.Support.Core.Utils" Version="28.0.0.1" />
@@ -143,15 +156,7 @@
     <AndroidResource Include="Resources\drawable\porridge.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\salads.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\drawable\side_dishes.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Resources\layout\dishes_category_item_template.xml">
-      <SubType>Designer</SubType>
-    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

@@ -8,6 +8,7 @@ using Android.Content;
 using Android.Graphics.Drawables;
 using Android.OS;
 using Android.Runtime;
+using Android.Support.V7.Widget;
 using Android.Views;
 using Android.Widget;
 using CourseApp.Core;
@@ -19,7 +20,7 @@ using MvvmCross.Platforms.Android.Binding.BindingContext;
 
 namespace CourseApp.Droid.Views
 {
-    [Activity(Label = "Главная страница")]
+    [Activity(Label = "Dishes")]
     public class HomePageView : MvxAppCompatActivity<HomePageViewModel>
     {
         private MvxRecyclerView _recyclerView;
@@ -28,17 +29,21 @@ namespace CourseApp.Droid.Views
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            _adapter = new DishesCategoryAdapter((IMvxAndroidBindingContext)BindingContext);
+            _adapter = new DishesCategoryAdapter((IMvxAndroidBindingContext)BindingContext, Resources);
 
             // Set our view from the "main" layout resource
-            SetContentView(Resource.Layout.HomePage);
+            SetContentView(Resource.Layout.MainPage);
             InitComponents();
             ApplyBindings();
         
         }
         private void InitComponents()
         {
+            var citiesLayoutManager = new GridLayoutManager(ApplicationContext, 3);        
+        
+
             _recyclerView = FindViewById<MvxRecyclerView>(Resource.Id.dishes_category_list);
+            _recyclerView.SetLayoutManager(citiesLayoutManager);
             _recyclerView.Adapter = _adapter;
         }
         private void ApplyBindings()
@@ -47,7 +52,7 @@ namespace CourseApp.Droid.Views
             bindingSet.Bind(_adapter).For(b => b.DishesCategoryClick).To(vm => vm.NavigateToRecipesAsyncCommand);
             bindingSet.Bind(_adapter).For(b => b.ItemsSource).To(vm => vm.DishesCategories);
 
-        bindingSet.Apply();
+            bindingSet.Apply();
         }
     }
 }

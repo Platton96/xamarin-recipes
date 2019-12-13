@@ -16,43 +16,57 @@ namespace CourseApp.Core
                 {
                     Id = 1,
                     Name = "Супы",
-                    FileName = "soups"
+                    FileName = "soup"
                 },
 
                 new DishesCategory
                 {
                     Id = 2,
-                    Name = "Гарниры",
-                    FileName = "side_dishes"
+                    Name = "Напитки",
+                    FileName = "drinks"
                 },
 
                 new DishesCategory
                 {
                     Id = 3,
-                    Name = "Каши",
-                    FileName = "porridge"
+                    Name = "Десерты",
+                    FileName = "deserts"
                 },
 
+    
                 new DishesCategory
                 {
                     Id = 4,
-                    Name = "Десерты",
-                    FileName = "dessert"
+                    Name = "Закатки",
+                    FileName = "jams"
                 },
 
                 new DishesCategory
                 {
                     Id = 5,
-                    Name = "bacery_products",
-                    FileName = "soups"
+                    Name = "Салаты",
+                    FileName = "salads"
                 },
 
-                new DishesCategory
+                   new DishesCategory
                 {
                     Id = 6,
-                    Name = "salads",
-                    FileName = "soups"
+                    Name = "Соусы",
+                    FileName = "sauses"
                 },
+
+                   new DishesCategory
+                {
+                    Id = 7,
+                    Name = "Закуски",
+                    FileName = "snacks"
+                },
+                      new DishesCategory
+                {
+                    Id = 8,
+                    Name = "Cупы",
+                    FileName = "soup"
+                }
             };
         }
     }
