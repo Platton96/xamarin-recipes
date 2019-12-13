@@ -1,4 +1,5 @@
-﻿using MvvmCross.IoC;
+﻿using CourseApp.Core.ViewModels;
+using MvvmCross.IoC;
 using MvvmCross.ViewModels;
 using System;
 using System.Collections.Generic;

@@ -1,26 +1,33 @@
 ﻿using CourseApp.Core.Models;
+using MvvmCross.Commands;
+using MvvmCross.Navigation;
 using MvvmCross.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace CourseApp.Core.ViewModels
 {
-	public class RecipesViewModel : MvxViewModel<DishesCategory>
-	{
+    public class RecipesViewModel : MvxViewModel<DishesCategory>
+    {
+        private readonly IMvxNavigationService _mvxNavigationService;
         private DishesCategory _dishesCategory;
-		public DishesCategory DishesCategory
+
+        public IMvxCommand NavigateToAddingRecipeAsyncCommand => new MvxAsyncCommand<DishesCategory>(DoNavigateToAddingRecipeAsync);
+
+        public RecipesViewModel(IMvxNavigationService mvxNavigationService)
         {
-			get => _dishesCategory;
-			set
-			{
-				_dishesCategory = value;
-				RaisePropertyChanged(() => DishesCategory);
-			}
-		}
-		public override void Prepare(DishesCategory parameter)
-		{
-			_dishesCategory = parameter;
-		}
-	}
+            _mvxNavigationService = mvxNavigationService;
+        }
+
+        private async Task DoNavigateToAddingRecipeAsync(DishesCategory dishesCategory)
+        {
+            await _mvxNavigationService.Navigate<AddingRecipeViewModel, DishesCategory>(dishesCategory);
+        }
+        public override void Prepare(DishesCategory parameter)
+        {
+            _dishesCategory = parameter;
+        }
+    }
 }

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace CourseApp.Core.Models
 {
-	public class Recipes
+	public class Recipe
 	{
 		[DataMember(Name = "id")]
 		public int Id { get; set; }

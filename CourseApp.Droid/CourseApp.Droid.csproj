@@ -67,7 +67,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SplashScreen.cs" />
     <Compile Include="Views\Adapters\DishesCategoryAdapter.cs" />
+    <Compile Include="Views\AddingRecipeView.cs" />
     <Compile Include="Views\HomePageView.cs" />
+    <Compile Include="Views\RecipesView.cs" />
     <Compile Include="Views\ViewHolders\DishesCategoryValueViewHolder.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -157,6 +159,16 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\side_dishes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\RecipesPage.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\AddingRecipePage.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

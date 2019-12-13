@@ -15,7 +15,7 @@ namespace CourseApp.Core.Data
 			_dbPath = dbPath;
 			using (var _db = new SQLiteConnection(_dbPath))
 			{
-				_db.CreateTable<Recipes>();
+				_db.CreateTable<Recipe>();
 			}
 		}
 
@@ -39,7 +39,7 @@ namespace CourseApp.Core.Data
 		{
 			using (var _db = new SQLiteConnection(_dbPath))
 			{
-				_db.Delete<Recipes>(id);
+				_db.Delete<Recipe>(id);
 			}
 		}
 
@@ -47,7 +47,7 @@ namespace CourseApp.Core.Data
 		{
 			using (var _db = new SQLiteConnection(_dbPath))
 			{
-				_db.DeleteAll<Recipes>();
+				_db.DeleteAll<Recipe>();
 			}
 		}
 	}

@@ -12,6 +12,6 @@ namespace CourseApp.Core.Models
 
 		public string Name { get; set; }
 
-		public List<Recipes> Recipes { get; set; }
+		public List<Recipe> Recipes { get; set; }
 	}
 }

@@ -12,6 +12,7 @@ using Android.Support.V7.Widget;
 using Android.Views;
 using Android.Widget;
 using CourseApp.Core;
+using CourseApp.Core.ViewModels;
 using CourseApp.Droid.Views.Adapters;
 using MvvmCross.Binding.BindingContext;
 using MvvmCross.Droid.Support.V7.AppCompat;
