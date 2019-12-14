@@ -1,14 +1,8 @@
-﻿using CourseApp.Core.Data;
-using CourseApp.Core.Models;
-using CourseApp.Core.Service;
-using CourseApp.Core.ViewModels;
+﻿using CourseApp.Core.Models;
 using MvvmCross.Commands;
 using MvvmCross.Navigation;
 using MvvmCross.ViewModels;
-using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace CourseApp.Core.ViewModels
