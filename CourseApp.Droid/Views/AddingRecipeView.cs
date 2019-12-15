@@ -15,6 +15,9 @@ namespace CourseApp.Droid.Views
     {
         private const string IMAGE_TYPE = "image/*";
         private const string CREATE_CHOOSER_TITLE = "Select Picture";
+        private const string FAILED_SAVING_MESSAGE = "Рецепт не удалось сохранить";
+        private const string SUCCESFUL_SAVING_MESSAGE_TEMPLATE = "{0} упешно сахранен";
+
         private EditText _recipeTitle;
         private EditText _recipeDescription;
         private AppCompatButton _addImageRecipeButton;
@@ -38,8 +41,9 @@ namespace CourseApp.Droid.Views
             _addImageRecipeButton = FindViewById<AppCompatButton>(Resource.Id.btn_add_image);
             _saveRecipeButton = FindViewById<AppCompatButton>(Resource.Id.btn_save_reciple);
             _recipeImage = FindViewById<ImageView>(Resource.Id.imageView_adding_image);
-            
+
             _addImageRecipeButton.Click += OnAddImageButtonClick;
+            _saveRecipeButton.Click += OnSaveRecipeButtonClick;
 
         }
         private void ApplyBindings()
@@ -51,8 +55,6 @@ namespace CourseApp.Droid.Views
             bindingSet.Bind(_recipeDescription)
                 .For(x => x.Text)
                 .To(vm => vm.RecipeDescription).TwoWay();
-            bindingSet.Bind(_saveRecipeButton)
-                .To(vm => vm.SaveRecipeCamand);
 
             bindingSet.Apply();
         }
@@ -71,6 +73,21 @@ namespace CourseApp.Droid.Views
                 ViewModel.RecipeImagePath = imageUri.ToString();
                 _recipeImage.SetImageURI(imageUri);
             }
+        }
+        private void OnSaveRecipeButtonClick(object sender, EventArgs eventArgs)
+        {
+            var savedRecipe = ViewModel.SaveRecipe();
+
+            if (savedRecipe == null)
+            {
+                Toast.MakeText(this, FAILED_SAVING_MESSAGE, ToastLength.Long).Show();
+                return;
+            }
+
+            Toast.MakeText(this, 
+                string.Format(SUCCESFUL_SAVING_MESSAGE_TEMPLATE, savedRecipe.Title),
+                ToastLength.Long)
+                .Show();
         }
     }
 }

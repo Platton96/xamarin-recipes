@@ -1,54 +1,39 @@
-﻿using CourseApp.Core.Models;
+﻿using CourseApp.Core.Infarstructure;
+using CourseApp.Core.Models;
 using SQLite;
 using System;
-using System.Collections.Generic;
-using System.Text;
+using System.Linq;
 
 namespace CourseApp.Core.Data
 {
-	public class RecipesRepository
+    public class RecipesRepository : IRecipesRepository
 	{
-		private string _dbPath;
+        private SQLiteConnection _db = null;
 
-		public RecipesRepository(string dbPath)
+        public RecipesRepository()
 		{
-			_dbPath = dbPath;
-			using (var _db = new SQLiteConnection(_dbPath))
-			{
-				_db.CreateTable<Recipe>();
-			}
-		}
+            _db = new SQLiteConnection(Defines.DbFilePath);
+            _db.CreateTable<Recipe>();
+        }
 
-		public void Save(Dishes recipes)
-		{
-			using (var _db = new SQLiteConnection(_dbPath))
-			{
-				_db.InsertOrReplace(recipes);
-			}
-		}
 
-		public IEnumerable<Dishes> GetAll()
-		{
-			using (var _db = new SQLiteConnection(_dbPath))
-			{
-				return _db.Table<Dishes>().ToList();
-			}
-		}
+        public IQueryable<Recipe> GetAllRecipe()
+        {
+            return _db.Table<Recipe>().AsQueryable();
+        }
 
-		public void Delete(int id)
-		{
-			using (var _db = new SQLiteConnection(_dbPath))
-			{
-				_db.Delete<Recipe>(id);
-			}
-		}
+        public Recipe AddOrReplaceRecipe(Recipe recipe)
+        {
+            try
+            {
+                _db.InsertOrReplace(recipe);
+                return recipe;
+            }
 
-		public void DeleteAll()
-		{
-			using (var _db = new SQLiteConnection(_dbPath))
-			{
-				_db.DeleteAll<Recipe>();
-			}
-		}
-	}
+            catch (Exception ex)
+            {
+                return null;
+            }
+        }
+    }
 }

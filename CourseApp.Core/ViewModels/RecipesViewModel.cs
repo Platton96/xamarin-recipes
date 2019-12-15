@@ -14,16 +14,16 @@ namespace CourseApp.Core.ViewModels
         private readonly IMvxNavigationService _mvxNavigationService;
         private DishesCategory _dishesCategory;
 
-        public IMvxCommand NavigateToAddingRecipeAsyncCommand => new MvxAsyncCommand<DishesCategory>(DoNavigateToAddingRecipeAsync);
+        public IMvxCommand NavigateToAddingRecipeAsyncCommand => new MvxAsyncCommand(DoNavigateToAddingRecipeAsync);
 
         public RecipesViewModel(IMvxNavigationService mvxNavigationService)
         {
             _mvxNavigationService = mvxNavigationService;
         }
 
-        private async Task DoNavigateToAddingRecipeAsync(DishesCategory dishesCategory)
+        private async Task DoNavigateToAddingRecipeAsync()
         {
-            await _mvxNavigationService.Navigate<AddingRecipeViewModel, DishesCategory>(dishesCategory);
+            await _mvxNavigationService.Navigate<AddingRecipeViewModel, DishesCategory>(_dishesCategory);
         }
         public override void Prepare(DishesCategory parameter)
         {

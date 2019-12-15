@@ -3,10 +3,9 @@ using System.Linq;
 
 namespace CourseApp.Core.Infarstructure
 {
-    public interface IRecipesRepository
+    public interface IRecipesService
     {
-        IQueryable<Recipe> GetAllRecipe();
+        IQueryable<Recipe> GetRecipesByDishesCategoryId(int dishesCategoryId);
         Recipe AddOrReplaceRecipe(Recipe recipe);
-
     }
 }

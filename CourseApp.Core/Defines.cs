@@ -2,33 +2,35 @@
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.IO;
 using System.Text;
 
 namespace CourseApp.Core
 {
     public static class Defines
     {
+        public static readonly string DbFilePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), "myrecipes.db");
         public static ObservableCollection<DishesCategory> GetDishesCategories()
         {
             return new ObservableCollection<DishesCategory>
             {
                 new DishesCategory
                 {
-                    Id = 1,
+                    Id = 0,
                     Name = "Супы",
                     FileName = "soup"
                 },
 
                 new DishesCategory
                 {
-                    Id = 2,
+                    Id = 1,
                     Name = "Напитки",
                     FileName = "drinks"
                 },
 
                 new DishesCategory
                 {
-                    Id = 3,
+                    Id = 2,
                     Name = "Десерты",
                     FileName = "deserts"
                 },
@@ -36,34 +38,34 @@ namespace CourseApp.Core
     
                 new DishesCategory
                 {
-                    Id = 4,
+                    Id = 3,
                     Name = "Закатки",
                     FileName = "jams"
                 },
 
                 new DishesCategory
                 {
-                    Id = 5,
+                    Id = 4,
                     Name = "Салаты",
                     FileName = "salads"
                 },
 
                    new DishesCategory
                 {
-                    Id = 6,
+                    Id = 5,
                     Name = "Соусы",
                     FileName = "sauses"
                 },
 
                    new DishesCategory
                 {
-                    Id = 7,
+                    Id = 6,
                     Name = "Закуски",
                     FileName = "snacks"
                 },
                       new DishesCategory
                 {
-                    Id = 8,
+                    Id = 7,
                     Name = "Cупы",
                     FileName = "soup"
                 }

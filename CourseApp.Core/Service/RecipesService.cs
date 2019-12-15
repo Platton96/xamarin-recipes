@@ -1,51 +1,29 @@
-﻿using CourseApp.Core.Data;
+﻿using CourseApp.Core.Infarstructure;
 using CourseApp.Core.Models;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using System.Linq;
 
 namespace CourseApp.Core.Service
 {
-	public class RecipesService
-	{
+    public class RecipesService : IRecipesService
+    {
 
-		private RecipesRepository _newsLocalRepository;
+        private IRecipesRepository _recipesRepository;
 
-		public RecipesService()
-		{
-			_newsLocalRepository = new RecipesRepository(GetDbPath());
-		}
+        public RecipesService(IRecipesRepository recipesRepository)
+        {
+            _recipesRepository = recipesRepository;
+        }
 
-		public void Save(Dishes recipes)
-		{
-			_newsLocalRepository.Save(recipes);
-		}
 
-		public IEnumerable<Dishes> GetAllSavedForReadLater()
-		{
-			return _newsLocalRepository.GetAll();
-		}
+        public IQueryable<Recipe> GetRecipesByDishesCategoryId(int dishesCategoryId)
+        {
+            return _recipesRepository.GetAllRecipe()
+                .Where(r => r.DishesCategoryId == dishesCategoryId);
+        }
 
-		public void Delete(int id)
-		{
-			_newsLocalRepository.Delete(id);
-		}
-
-		public void Delete(List<int> ids)
-		{
-			ids.ForEach(x => Delete(x));
-		}
-
-		public void DeleteAll()
-		{
-			_newsLocalRepository.DeleteAll();
-		}
-		public static readonly string DbName = "notiXamarinDb.db";
-
-		public static string GetDbPath()
-		{
-			string folder = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
-			return System.IO.Path.Combine(folder, DbName);
-		}
-	}
+        public Recipe AddOrReplaceRecipe(Recipe recipe)
+        {
+            return _recipesRepository.AddOrReplaceRecipe(recipe);
+        }
+    }
 }

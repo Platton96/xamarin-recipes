@@ -1,23 +1,20 @@
-﻿using CourseApp.Core.Models;
-using MvvmCross.Commands;
-using MvvmCross.Navigation;
+﻿using CourseApp.Core.Infarstructure;
+using CourseApp.Core.Models;
 using MvvmCross.ViewModels;
 using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Text;
 
 namespace CourseApp.Core.ViewModels
 {
 
     public class AddingRecipeViewModel : MvxViewModel<DishesCategory>
     {
-        private readonly IMvxNavigationService _mvxNavigationService;
+        private readonly IRecipesService _recipesService;
+
         private DishesCategory _dishesCategory;
         private string _recipeTitle;
         private string _recipeDescription;
-
-        public IMvxCommand SaveRecipeCamand => new MvxCommand(DoSaveRecipe);
+        private string _recipeId;
+        
 
         public string RecipeImagePath { get; set; }
 
@@ -41,15 +38,29 @@ namespace CourseApp.Core.ViewModels
             }
         }
 
-
+        public AddingRecipeViewModel(IRecipesService recipesService)
+        {
+            _recipesService = recipesService;
+        }
         public override void Prepare(DishesCategory parameter)
         {
             _dishesCategory = parameter;
         }
 
-        private void DoSaveRecipe()
+        public Recipe SaveRecipe()
         {
-
+            _recipeId = _recipeId ?? Guid.NewGuid().ToString();
+            var recipe = new Recipe
+            {
+                Id = _recipeId,
+                Title = RecipeTitle,
+                Description = RecipeDescription,
+                Favorite = false,
+                ImagePath = RecipeImagePath,
+                DishesCategoryId = _dishesCategory.Id
+            };
+            
+            return _recipesService.AddOrReplaceRecipe(recipe);
         }
 
     }

@@ -1,9 +1,10 @@
-﻿using CourseApp.Core.ViewModels;
+﻿using CourseApp.Core.Infarstructure;
+using CourseApp.Core.Data;
+using CourseApp.Core.Service;
+using CourseApp.Core.ViewModels;
+using MvvmCross;
 using MvvmCross.IoC;
 using MvvmCross.ViewModels;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace CourseApp.Core
 {
@@ -11,14 +12,11 @@ namespace CourseApp.Core
 	{
 		public override void Initialize()
 		{
-			CreatableTypes()
-				.EndingWith("Service")
-				.AsInterfaces()
-				.RegisterAsLazySingleton();
 
-			RegisterAppStart<HomePageViewModel>();
-			// if you want to use a custom AppStart, you should replace the previous line with this one:
-			// RegisterCustomAppStart<MyCustomAppStart>();
+            Mvx.IoCProvider.LazyConstructAndRegisterSingleton<IRecipesService, RecipesService>();
+            Mvx.IoCProvider.LazyConstructAndRegisterSingleton<IRecipesRepository, RecipesRepository>();   
+
+            RegisterAppStart<HomePageViewModel>();
 		}
 
 	}
