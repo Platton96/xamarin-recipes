@@ -23,8 +23,10 @@ namespace CourseApp.Droid.Views.ViewHolders
         private LinearLayout _recipeItemCell;
         private TextView _recipeTitle;
         private ImageView _recipeImage;
+        private Button _editingRecipeButton;
 
         public event EventHandler RecipeClicked;
+        public event EventHandler EditRecipeClicked;
         public RecipeViewHolder(View itemView, IMvxAndroidBindingContext context) :  base(itemView, context)
         {
             InitComponents(itemView);
@@ -49,12 +51,17 @@ namespace CourseApp.Droid.Views.ViewHolders
             _recipeItemCell = itemView.FindViewById<LinearLayout>(Resource.Id.linear_layout_recipe);
             _recipeTitle = itemView.FindViewById<TextView>(Resource.Id.text_recipe_title);
             _recipeImage = itemView.FindViewById<ImageView>(Resource.Id.image_recipe);
+            _editingRecipeButton = itemView.FindViewById<Button>(Resource.Id.btn_edit_reciple);
 
             _recipeItemCell.Click += (s, e) =>
             {
                 RecipeClicked(DataContext as Recipe, null);
 
             };
+            _editingRecipeButton.Click += (s, e) =>
+              {
+                  EditRecipeClicked(DataContext as Recipe, null);
+              };
 
         }
 

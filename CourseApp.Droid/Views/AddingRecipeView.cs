@@ -4,6 +4,7 @@ using Android.OS;
 using Android.Support.V7.Widget;
 using Android.Widget;
 using CourseApp.Core.ViewModels;
+using CourseApp.Droid.Converters;
 using MvvmCross.Binding.BindingContext;
 using MvvmCross.Droid.Support.V7.AppCompat;
 using System;
@@ -56,6 +57,10 @@ namespace CourseApp.Droid.Views
             bindingSet.Bind(_recipeDescription)
                 .For(x => x.Text)
                 .To(vm => vm.RecipeDescription).TwoWay();
+            bindingSet.Bind(_recipeImage)
+                    .For(x => x.Drawable)
+                    .To(vm => vm.RecipeTitle).WithConversion<NameAssetsImageToImageConverter>()
+                     .OneWay();
 
             bindingSet.Apply();
         }

@@ -20,6 +20,7 @@ namespace CourseApp.Core.ViewModels
         private ObservableCollection<Recipe> _dishesCategoryRecipes;
 
         public IMvxCommand NavigateToAddingRecipeAsyncCommand => new MvxAsyncCommand(DoNavigateToAddingRecipeAsync);
+        public IMvxCommand NavigateToEdingRecipeAsyncCommand => new MvxAsyncCommand<Recipe>(DoNavigateToEditingRecipeAsync);
         public IMvxCommand NavigateToRecipeDetailsAsyncCommand => new MvxAsyncCommand<Recipe>(DoNavigateToRecipeDetailsAsync);
         public ObservableCollection<Recipe> DishesCategoryRecipes
         {
@@ -48,7 +49,22 @@ namespace CourseApp.Core.ViewModels
         }
         private async Task DoNavigateToAddingRecipeAsync()
         {
-            await _mvxNavigationService.Navigate<AddingRecipeViewModel, DishesCategory>(_dishesCategory);
+            var newRecipeModel = new EditRecipeModel
+            {
+                DishesCategory = _dishesCategory
+            };
+
+            await _mvxNavigationService.Navigate<AddingRecipeViewModel, EditRecipeModel>(newRecipeModel);
+        }
+        private async Task DoNavigateToEditingRecipeAsync(Recipe recipe)
+        {
+            var editRecipeModel = new EditRecipeModel
+            {
+                DishesCategory = _dishesCategory,
+                Recipe = recipe
+            };
+
+            await _mvxNavigationService.Navigate<AddingRecipeViewModel, EditRecipeModel>(editRecipeModel);
         }
         public override void Prepare(DishesCategory parameter)
         {

@@ -16,5 +16,12 @@
       android:layout_height="wrap_content"
       android:padding="16dp"
       android:textAppearance="?android:attr/textAppearanceLarge" />
+    	    <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_edit_reciple"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"
+            android:text="ред." />
 
 </LinearLayout>

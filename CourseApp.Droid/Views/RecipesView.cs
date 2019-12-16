@@ -36,6 +36,8 @@ namespace CourseApp.Droid.Views
             bindingSet.Bind(_addingRecipeButton).To(vm => vm.NavigateToAddingRecipeAsyncCommand);
             bindingSet.Bind(_adapter).For(b => b.ItemsSource).To(vm => vm.DishesCategoryRecipes);
             bindingSet.Bind(_adapter).For(b => b.RecipeClick).To(vm => vm.NavigateToRecipeDetailsAsyncCommand);
+            bindingSet.Bind(_adapter).For(b => b.EditRecipeClick).To(vm => vm.NavigateToEdingRecipeAsyncCommand);
+
             bindingSet.Apply();
         }
     }

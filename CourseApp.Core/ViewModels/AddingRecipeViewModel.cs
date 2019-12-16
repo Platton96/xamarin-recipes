@@ -10,18 +10,16 @@ using System.Collections.Generic;
 namespace CourseApp.Core.ViewModels
 {
 
-    public class AddingRecipeViewModel : MvxViewModel<DishesCategory>
+    public class AddingRecipeViewModel : MvxViewModel<EditRecipeModel>
     {
         private readonly IRecipesService _recipesService;
         private readonly IMvxFileStoreAsync _mvxFileStore;
-
+        private EditRecipeModel _editRecipeModel;
         private DishesCategory _dishesCategory;
         private string _recipeTitle;
         private string _recipeDescription;
         private string _recipeId;
 
-
-        public string RecipeImagePath { get; set; }
         public IEnumerable<byte> RecipeImageBytes { get; set; }
 
         public string RecipeTitle
@@ -49,9 +47,16 @@ namespace CourseApp.Core.ViewModels
             _recipesService = recipesService;
             _mvxFileStore = mvxFileStoreAsync;
         }
-        public override void Prepare(DishesCategory parameter)
+        public override void Prepare(EditRecipeModel parameter)
         {
-            _dishesCategory = parameter;
+            _editRecipeModel = parameter;
+            _dishesCategory = _editRecipeModel.DishesCategory;
+            if (_editRecipeModel.Recipe != null)
+            {
+                _recipeId = _editRecipeModel.Recipe.Id;
+                RecipeTitle = _editRecipeModel.Recipe.Title;
+                RecipeDescription = _editRecipeModel.Recipe.Description;
+            }
         }
 
         public async Task<Recipe> SaveRecipeAsync()
@@ -68,7 +73,6 @@ namespace CourseApp.Core.ViewModels
                 Title = RecipeTitle,
                 Description = RecipeDescription,
                 Favorite = false,
-                ImagePath = RecipeImagePath,
                 DishesCategoryId = _dishesCategory.Id
             };
 

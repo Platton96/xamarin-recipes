@@ -19,6 +19,7 @@ namespace CourseApp.Droid.Views.Adapters
     public class RecipeAdapter : MvxRecyclerAdapter
     {
         public ICommand RecipeClick { get; set; }
+        public ICommand EditRecipeClick { get; set; }
 
         public RecipeAdapter(IMvxAndroidBindingContext bindingContext) : base(bindingContext)
         {
@@ -35,6 +36,11 @@ namespace CourseApp.Droid.Views.Adapters
             {
                 RecipeClick.Execute(s);
             };
+
+            viewHolder.EditRecipeClicked += (s, e) =>
+              {
+                  EditRecipeClick.Execute(s);
+              };
 
             return viewHolder;
         }

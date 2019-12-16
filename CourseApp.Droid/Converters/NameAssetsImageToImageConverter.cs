@@ -12,6 +12,7 @@ namespace CourseApp.Droid.Converters
         
         protected override Drawable Convert(string value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
         {
+
             var currentActivity = Mvx.IoCProvider.Resolve<IMvxAndroidCurrentTopActivity>().Activity;
             var decodedByte = BitmapFactory.DecodeFile($"{currentActivity.FilesDir}/{value}");
             var image = new BitmapDrawable(currentActivity.Resources, decodedByte);
