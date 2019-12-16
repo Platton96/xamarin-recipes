@@ -7,6 +7,7 @@ using CourseApp.Core.ViewModels;
 using MvvmCross.Binding.BindingContext;
 using MvvmCross.Droid.Support.V7.AppCompat;
 using System;
+using System.IO;
 
 namespace CourseApp.Droid.Views
 {
@@ -69,14 +70,16 @@ namespace CourseApp.Droid.Views
             if ((requestCode == PickImageId) && (resultCode == Result.Ok) && (imageData != null))
             {
                 var imageUri = imageData.Data;
-                ViewModel.RecipeImagePath = imageUri.ToString();
+                var imageBytes = ConvertImageUriToByte(imageUri);
+
+                ViewModel.RecipeImageBytes = imageBytes;
 
                 _recipeImage.SetImageURI(imageUri);
             }
         }
-        private void OnSaveRecipeButtonClick(object sender, EventArgs eventArgs)
+        private async void OnSaveRecipeButtonClick(object sender, EventArgs eventArgs)
         {
-            var savedRecipe = ViewModel.SaveRecipe();
+            var savedRecipe = await ViewModel.SaveRecipeAsync();
 
             if (savedRecipe == null)
             {
@@ -88,6 +91,19 @@ namespace CourseApp.Droid.Views
                 string.Format(SUCCESFUL_SAVING_MESSAGE_TEMPLATE, savedRecipe.Title),
                 ToastLength.Long)
                 .Show();
+        }
+
+        public byte[] ConvertImageUriToByte(Android.Net.Uri uri)
+        {
+            Stream stream = ContentResolver.OpenInputStream(uri);
+            byte[] byteArray;
+
+            using (var memoryStream = new MemoryStream())
+            {
+                stream.CopyTo(memoryStream);
+                byteArray = memoryStream.ToArray();
+            }
+            return byteArray;
         }
     }
 }

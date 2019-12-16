@@ -10,7 +10,17 @@ namespace CourseApp.Core.ViewModels
     {
         private string _recipeDescription;
         private string _recipeImagePath;
+        private string _recipeTitle;
 
+        public string RecipeTitle
+        {
+            get => _recipeTitle;
+            set
+            {
+                _recipeTitle = value;
+                RaisePropertyChanged(() => RecipeTitle);
+            }
+        }
         public string RecipeImagePath
         {
             get => _recipeImagePath;
@@ -34,6 +44,7 @@ namespace CourseApp.Core.ViewModels
         {
             RecipeDescription = parameter.Description;
             RecipeImagePath = parameter.ImagePath;
+            RecipeTitle = parameter.Title;
         }
     }
 }

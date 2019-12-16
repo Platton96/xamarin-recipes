@@ -10,6 +10,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using CourseApp.Core.Models;
+using CourseApp.Droid.Converters;
 using MvvmCross.Binding.BindingContext;
 using MvvmCross.Droid.Support.V7.RecyclerView;
 using MvvmCross.Platforms.Android.Binding.BindingContext;
@@ -37,6 +38,10 @@ namespace CourseApp.Droid.Views.ViewHolders
                 .For(p => p.Text)
                 .To(vm => vm.Title).
                 OneWay();
+            bindingSet.Bind(_recipeImage)
+                .For(x => x.Drawable)
+                .To(vm => vm.Title).WithConversion<NameAssetsImageToImageConverter>()
+                .OneWay();
             bindingSet.Apply();
         }
         private void InitComponents(View itemView)
@@ -51,23 +56,8 @@ namespace CourseApp.Droid.Views.ViewHolders
 
             };
 
-            _recipeItemCell.ViewAttachedToWindow += (s, e) =>
-            {
-                var recipeImageFilePath = (DataContext as Recipe)?.ImagePath;
-
-                if (!string.IsNullOrEmpty(recipeImageFilePath))
-                {
-                    SetRecipeImage(recipeImageFilePath);
-                }
-            };
         }
 
-        private void SetRecipeImage(string imagePath)
-        {
-            var imageUri = Uri.Parse(imagePath);
-
-            _recipeImage.SetImageURI(imageUri);
-        }
         
     }
 }
