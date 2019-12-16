@@ -1,17 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using Android.App;
-using Android.Content;
-using Android.Graphics.Drawables;
+﻿using Android.App;
 using Android.OS;
-using Android.Runtime;
 using Android.Support.V7.Widget;
-using Android.Views;
-using Android.Widget;
-using CourseApp.Core;
 using CourseApp.Core.ViewModels;
 using CourseApp.Droid.Views.Adapters;
 using MvvmCross.Binding.BindingContext;
@@ -31,8 +20,6 @@ namespace CourseApp.Droid.Views
         {
             base.OnCreate(savedInstanceState);
             _adapter = new DishesCategoryAdapter((IMvxAndroidBindingContext)BindingContext, Resources);
-
-            // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.MainPage);
             InitComponents();
             ApplyBindings();
@@ -40,11 +27,11 @@ namespace CourseApp.Droid.Views
         }
         private void InitComponents()
         {
-            var citiesLayoutManager = new GridLayoutManager(ApplicationContext, 3);        
+            var dishesCategoryLayoutManager = new GridLayoutManager(ApplicationContext, 3);        
         
 
             _recyclerView = FindViewById<MvxRecyclerView>(Resource.Id.dishes_category_list);
-            _recyclerView.SetLayoutManager(citiesLayoutManager);
+            _recyclerView.SetLayoutManager(dishesCategoryLayoutManager);
             _recyclerView.Adapter = _adapter;
         }
         private void ApplyBindings()

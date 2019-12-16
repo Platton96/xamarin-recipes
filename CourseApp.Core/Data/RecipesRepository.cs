@@ -30,7 +30,7 @@ namespace CourseApp.Core.Data
                 return recipe;
             }
 
-            catch (Exception ex)
+            catch 
             {
                 return null;
             }

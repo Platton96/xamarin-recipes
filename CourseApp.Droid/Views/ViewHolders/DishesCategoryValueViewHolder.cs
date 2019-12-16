@@ -1,4 +1,4 @@
-﻿using System;
+﻿    using System;
 using Android.Content.Res;
 using Android.Views;
 using Android.Widget;
@@ -11,6 +11,8 @@ namespace CourseApp.Droid.Views.ViewHolders
 {
     public class DishesCategoryValueViewHolder : MvxRecyclerViewHolder
     {
+        private const string RESURCE_TYPE = "drawable";
+        private const string PACKAGE_NAME = "com.companyname.courseapp.droid";
         private LinearLayout _dishesCategoryItemCell;
         private TextView _dishesCategoryTitle;
         private ImageView _dishesCategoryImage;
@@ -24,7 +26,6 @@ namespace CourseApp.Droid.Views.ViewHolders
             InitComponents(itemView);
             ApplyBindings();
       
-
         }
         private void ApplyBindings()
         {
@@ -32,7 +33,7 @@ namespace CourseApp.Droid.Views.ViewHolders
 
             bindingSet.Bind(_dishesCategoryTitle)
                 .For(p => p.Text)
-                .To(vm => vm.Name ).
+                .To(vm => vm.Name).
                 OneWay();
             bindingSet.Apply();
         }
@@ -63,8 +64,7 @@ namespace CourseApp.Droid.Views.ViewHolders
 
         private void SetImageDishesCategory(string nameImage, Resources resourcesWithImage)
         {
-
-           var resourceImgeId = resourcesWithImage.GetIdentifier(nameImage, "drawable", "com.companyname.courseapp.droid");
+           var resourceImgeId = resourcesWithImage.GetIdentifier(nameImage, RESURCE_TYPE, PACKAGE_NAME);
            _dishesCategoryImage.SetImageResource(resourceImgeId);
         }
     }

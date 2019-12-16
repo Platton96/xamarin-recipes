@@ -68,10 +68,13 @@
     <Compile Include="Service\PhotoPickerService.cs" />
     <Compile Include="SplashScreen.cs" />
     <Compile Include="Views\Adapters\DishesCategoryAdapter.cs" />
+    <Compile Include="Views\Adapters\RecipeAdapter.cs" />
     <Compile Include="Views\AddingRecipeView.cs" />
     <Compile Include="Views\HomePageView.cs" />
+    <Compile Include="Views\RecipeDetailsView.cs" />
     <Compile Include="Views\RecipesView.cs" />
     <Compile Include="Views\ViewHolders\DishesCategoryValueViewHolder.cs" />
+    <Compile Include="Views\ViewHolders\RecipeViewHolder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

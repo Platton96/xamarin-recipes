@@ -69,8 +69,8 @@ namespace CourseApp.Droid.Views
             if ((requestCode == PickImageId) && (resultCode == Result.Ok) && (imageData != null))
             {
                 var imageUri = imageData.Data;
-                //  var uri2 = Android.Net.Uri.Parse(path);
                 ViewModel.RecipeImagePath = imageUri.ToString();
+
                 _recipeImage.SetImageURI(imageUri);
             }
         }

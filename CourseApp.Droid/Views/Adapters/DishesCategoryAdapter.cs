@@ -1,15 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Windows.Input;
-using Android.App;
-using Android.Content;
-using Android.OS;
-using Android.Runtime;
+﻿using System.Windows.Input;
 using Android.Support.V7.Widget;
 using Android.Views;
-using Android.Widget;
 using MvvmCross.Droid.Support.V7.RecyclerView;
 using MvvmCross.Platforms.Android.Binding.BindingContext;
 using CourseApp.Droid.Views.ViewHolders;
@@ -20,7 +11,7 @@ namespace CourseApp.Droid.Views.Adapters
     public class DishesCategoryAdapter : MvxRecyclerAdapter
     {
         public ICommand DishesCategoryClick { get; set; }
-        private Resources _resourceseWithImage;
+        private readonly Resources _resourceseWithImage;
         public DishesCategoryAdapter(IMvxAndroidBindingContext bindingContext, Resources resourseWithImage) : base(bindingContext)
         {
             _resourceseWithImage = resourseWithImage;
@@ -41,7 +32,6 @@ namespace CourseApp.Droid.Views.Adapters
         public override void OnBindViewHolder(RecyclerView.ViewHolder holder, int position)
         {
             base.OnBindViewHolder(holder, position);
-            
         }
     }
 }
